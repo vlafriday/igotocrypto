@@ -10,7 +10,7 @@ const CONFIG = {
   ],
 
   // Левый и правый компоненты области героя поменялись местами
-  HEO_HERO_REVERSE: true,
+  HEO_HERO_REVERSE: false,
   // Левый и правый компоненты области тела блога меняются местами
   HEO_HERO_BODY_REVERSE: true,
 
