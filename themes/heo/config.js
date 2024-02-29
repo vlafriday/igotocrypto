@@ -6,12 +6,12 @@ const CONFIG = {
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
     { title: 'Добро пожаловать в мой блог', url: 'https://vlafriday.space' },
-    { title: 'Добро пожаловать в мой блог', url: 'https://vlafriday.space' }
+    { title: 'Добро пожаловать в мой мир', url: 'https://vlafriday.space' }
   ],
 
-  // 英雄区左右侧组件颠倒位置
+  // Левый и правый компоненты области героя поменялись местами
   HEO_HERO_REVERSE: false,
-  // 博客主体区左右侧组件颠倒位置
+  // Левый и правый компоненты области тела блога меняются местами
   HEO_HERO_BODY_REVERSE: false,
 
   // 英雄区(首页顶部大卡)
@@ -23,18 +23,18 @@ const CONFIG = {
   HEO_HERO_TITLE_LINK: 'https://vlafriday.space',
 
   // 英雄区显示三个置顶分类
-  HEO_HERO_CATEGORY_1: { title: 'Обязательно посмотри подборки', url: '/tag/search' },
-  HEO_HERO_CATEGORY_2: { title: 'популярные статьи', url: '/tag/carefully' },
-  HEO_HERO_CATEGORY_3: { title: 'практическое руководство', url: '/tag/links' },
+  HEO_HERO_CATEGORY_1: { title: 'Поиск', url: '/tag/search' },
+  HEO_HERO_CATEGORY_2: { title: 'Важное', url: '/tag/carefully' },
+  HEO_HERO_CATEGORY_3: { title: 'Ссылки', url: '/tag/links' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
-  HEO_HERO_RECOMMEND_POST_TAG: '推荐',
-  HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // 推荐文章排序，为`true`时将强制按最后修改时间倒序
+  HEO_HERO_RECOMMEND_POST_TAG: 'Отзывы',
+  HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // Предлагаемые статьи сортируются по `true`, чтобы заставить обратный хронологический порядок последней модификации.
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
-  // 右侧个人资料卡牌欢迎语，点击可自动切换
+  // Приветственное сообщение на правой карточке профиля, нажмите для автоматического переключения
   HEO_INFOCARD_GREETINGS: [
-    'Привет！Я',
+    'Мир',
     '🔍 Делимся и помогаем с энтузиазмом',
     '🤝 Специализируемся на взаимодействии и дизайне',
     '🏃 практичный активист',
@@ -42,7 +42,7 @@ const CONFIG = {
     '🤖️ Энтузиаст цифровых технологий',
     '🧱 Механизм группы команд'
   ],
-  HEO_INFO_CARD_URL: 'https://github.com/vlafriday/NotionNext', // Ссылка на кнопку внизу профиля
+  HEO_INFO_CARD_URL: 'https://github.com/vlafriday', // Ссылка на кнопку внизу профиля
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -104,7 +104,7 @@ const CONFIG = {
     }
   ],
 
-  HEO_SOCIAL_CARD: true, // 是否显示右侧，点击加入社群按钮
+  HEO_SOCIAL_CARD: false, // Если отображается правая сторона, нажмите кнопку «Присоединиться к сообществу»
   HEO_SOCIAL_CARD_TITLE_1: 'канал связи',
   HEO_SOCIAL_CARD_TITLE_2: 'Присоединяйтесь к нашему сообществу, чтобы обсуждать и делиться',
   HEO_SOCIAL_CARD_TITLE_3: 'Нажмите, чтобы присоединиться к сообществу',
