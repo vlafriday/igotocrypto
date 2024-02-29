@@ -10,9 +10,9 @@ const CONFIG = {
   ],
 
   // Левый и правый компоненты области героя поменялись местами
-  HEO_HERO_REVERSE: false,
+  HEO_HERO_REVERSE: true,
   // Левый и правый компоненты области тела блога меняются местами
-  HEO_HERO_BODY_REVERSE: false,
+  HEO_HERO_BODY_REVERSE: true,
 
   // Зона героев (большая карта в верхней части главной страницы)
   HEO_HERO_TITLE_1: 'Поделиться программированием',
