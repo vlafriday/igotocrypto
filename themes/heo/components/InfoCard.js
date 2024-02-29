@@ -46,10 +46,7 @@ export function InfoCard(props) {
         </div>
         <div className='bg-indigo-400 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
           <Link href={siteConfig('HEO_INFO_CARD_URL', null, CONFIG)}><i className='fab fa-github text-xl' /></Link>
-        </div>
-        {/* Новая кнопка для Twitter */}
-        <div className='bg-indigo-400 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
-          <Link href={siteConfig('TWITTER_URL', null, CONFIG)}><i className='fab fa-twitter text-xl' /></Link>
+        
         </div>
       </div>
       <MoreButton />
