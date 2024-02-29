@@ -23,9 +23,9 @@ const CONFIG = {
   HEO_HERO_TITLE_LINK: 'https://vlafriday.space/my-impossible-list',
 
   // В разделе "Герои" отображаются три главные категории
-  HEO_HERO_CATEGORY_1: { title: 'Поиск', url: '/tag/search' },
-  HEO_HERO_CATEGORY_2: { title: 'Важное', url: '/tag/carefully' },
-  HEO_HERO_CATEGORY_3: { title: 'Ссылки', url: '/tag/links' },
+  //HEO_HERO_CATEGORY_1: { title: 'Поиск', url: '/tag/search' },
+//  HEO_HERO_CATEGORY_2: { title: 'Важное', url: '/tag/carefully' },
+ // HEO_HERO_CATEGORY_3: { title: 'Ссылки', url: '/tag/links' },
 
   // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
   HEO_HERO_RECOMMEND_POST_TAG: 'Отзывы',
