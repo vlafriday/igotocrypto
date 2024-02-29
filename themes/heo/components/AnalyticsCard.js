@@ -24,7 +24,7 @@ export function AnalyticsCard(props) {
             <div className='inline'>
                 <div className='flex justify-between'>
                     <div>Время жизни сайта:</div>
-                    <div>{diffDays} 天</div>
+                    <div>{diffDays} дней</div>
                 </div>
             </div>
             <div className='hidden busuanzi_container_page_pv'>
@@ -35,7 +35,7 @@ export function AnalyticsCard(props) {
             </div>
             <div className='hidden busuanzi_container_site_uv'>
                 <div className='flex justify-between'>
-                    <div>Посетителей:</div>
+                    <div>Посетители:</div>
                     <div className='busuanzi_value_site_uv' />
                 </div>
             </div>
