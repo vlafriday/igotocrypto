@@ -373,7 +373,7 @@ function TodayCard({ cRef, siteInfo }) {
               className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'}
             />
             <div id="more" className="select-none">
-              Дополнительные рекомендации
+              ЕЩЕ
             </div>
           </div>
         </div>
