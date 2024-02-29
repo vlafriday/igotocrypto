@@ -28,7 +28,7 @@ const CONFIG = {
   HEO_HERO_CATEGORY_3: { title: 'Ссылки', url: '/tag/links' },
 
   // Тег рекомендуемых статей в правой части области героя, например [Recommended], до шести статей; если оставить пустым '', то рекомендуются недавно обновленные статьи
-  HEO_HERO_RECOMMEND_POST_TAG: '',
+  HEO_HERO_RECOMMEND_POST_TAG: 'Video',
   HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: true, // Предлагаемые статьи сортируются по `true`, чтобы заставить обратный хронологический порядок последней модификации.
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
