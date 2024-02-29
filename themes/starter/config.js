@@ -46,61 +46,61 @@ const CONFIG = {
   STARTER_FEATURE_3_BUTTON_TEXT: 'Узнать больше', // Характеристика 3
   STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // Характеристика 3
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // Характеристика 4
+  STARTER_FEATURE_4_TITLE_1: 'Удобный опыт написания', // Характеристика 4
   STARTER_FEATURE_4_TEXT_1: 'Просто редактируйте в заметках Notion и автоматически синхронизируйте их с сайтом!', // Характеристика 4
   STARTER_FEATURE_4_BUTTON_TEXT: 'Узнать больше', // Характеристика 4
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // Характеристика 4
 
-  // 首页ABOUT区块
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
-  STARTER_ABOUT_TEXT: 'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
-  STARTER_ABOUT_BUTTON_TEXT: '了解更多',
+  // Главный блок ABOUT
+  STARTER_ABOUT_TITLE: 'Легкое и практичное решение для создания веб-сайтов',
+  STARTER_ABOUT_TEXT: 'Цель NotionNext - помочь нетехническим хакерам создать свой собственный сайт с наименьшими затратами и максимально быстро, помогая вам эффективно доносить свои продукты и истории до мира. <br /> <br /> Мощные Notion Notes, простая и быстрая хостинговая платформа Vercel - создайте простой сайт!',
+  STARTER_ABOUT_BUTTON_TEXT: 'Узнать больше',
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
   STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_TIPS_2: 'Блог сайта',
+  STARTER_ABOUT_TIPS_3: 'Он работает на линии.',
 
-  // 首页价格区块
-  STARTER_PRICING_TITLE: '价格表',
-  STARTER_PRICING_TEXT_1: '很棒的定价计划',
-  STARTER_PRICING_TEXT_2: '我们制定了灵活的付费模式，您可以按需选择。（NotionNext免费开源，这里仅演示产品订阅付费功能，请勿下单购买！）',
+  // Блок цен на главной странице
+  STARTER_PRICING_TITLE: 'прайс-лист',
+  STARTER_PRICING_TEXT_1: 'Отличный тарифный план.',
+  STARTER_PRICING_TEXT_2: 'Мы разработали гибкую модель оплаты, которую вы можете выбрать по своему желанию. (NotionNext является бесплатным и с открытым исходным кодом, здесь представлена только демонстрация функции оплаты подписки на продукт, пожалуйста, не размещайте заказ на покупку!)',
 
-  STARTER_PRICING_1_TITLE: '入门版',
+  STARTER_PRICING_1_TITLE: 'ознакомительная версия',
   STARTER_PRICING_1_PRICE: '19.9',
   STARTER_PRICING_1_PRICE_CURRENCY: '$',
-  STARTER_PRICING_1_PRICE_PERIOD: '每月',
-  STARTER_PRICING_1_HEADER: '功能点',
-  STARTER_PRICING_1_FEATURES: '所有的主题,免费更新,帮助手册', // 英文逗号隔开
-  STARTER_PRICING_1_BUTTON_TEXT: '立即购买',
+  STARTER_PRICING_1_PRICE_PERIOD: 'каждый месяц',
+  STARTER_PRICING_1_HEADER: 'функциональная точка',
+  STARTER_PRICING_1_FEATURES: 'Все темы, бесплатные обновления, справочные руководства', // разделенные запятыми
+  STARTER_PRICING_1_BUTTON_TEXT: 'Купить сейчас',
   STARTER_PRICING_1_BUTTON_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/c1a38a65-362e-44c5-8065-733fee39eb54',
 
-  STARTER_PRICING_2_TAG: '推荐',
-  STARTER_PRICING_2_TITLE: '基础版',
+  STARTER_PRICING_2_TAG: 'отзывы',
+  STARTER_PRICING_2_TITLE: 'базовая версия',
   STARTER_PRICING_2_PRICE: '39.9',
   STARTER_PRICING_2_PRICE_CURRENCY: '$',
-  STARTER_PRICING_2_PRICE_PERIOD: '每月',
-  STARTER_PRICING_2_HEADER: '功能点',
-  STARTER_PRICING_2_FEATURES: '包含入门版,项目源码,内部社群,技术咨询,SEO优化', // 英文逗号隔开
+  STARTER_PRICING_2_PRICE_PERIOD: 'каждый месяц',
+  STARTER_PRICING_2_HEADER: 'функциональная точка',
+  STARTER_PRICING_2_FEATURES: 'Включает в себя стартовую версию, исходный код проекта, внутреннее сообщество, технические консультации, SEO-оптимизацию.', // разделенные запятыми
   STARTER_PRICING_2_BUTTON_TEXT: '立即购买',
   STARTER_PRICING_2_BUTTON_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/590ad70a-c3b7-4caf-94ec-9ca27bde06d4',
 
-  STARTER_PRICING_3_TITLE: '高级版',
+  STARTER_PRICING_3_TITLE: 'премиум-версия',
   STARTER_PRICING_3_PRICE: '59.9',
   STARTER_PRICING_3_PRICE_CURRENCY: '$',
-  STARTER_PRICING_3_PRICE_PERIOD: '每月',
-  STARTER_PRICING_3_HEADER: '功能点',
-  STARTER_PRICING_3_FEATURES: '包含基础版,功能定制开发', // 英文逗号隔开
-  STARTER_PRICING_3_BUTTON_TEXT: '立即购买',
+  STARTER_PRICING_3_PRICE_PERIOD: 'каждый месяц',
+  STARTER_PRICING_3_HEADER: 'функциональная точка',
+  STARTER_PRICING_3_FEATURES: 'Включает в себя базовую версию, разработку индивидуальных функций', // разделенные запятыми
+  STARTER_PRICING_3_BUTTON_TEXT: 'Купить сейчас',
   STARTER_PRICING_3_BUTTON_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
 
-  STARTER_TESTIMONIALS_TITLE: '用户反馈',
-  STARTER_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
-  STARTER_TESTIMONIALS_TEXT_2: '数千位站长选择用NotionNext搭建他们的网站,通过帮助手册、交流社群以及技术咨询，大家成功上线了自己的网站',
-  STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // 评分图标
+  STARTER_TESTIMONIALS_TITLE: 'Отзывы пользователей',
+  STARTER_TESTIMONIALS_TEXT_1: 'Что говорят наши пользователи',
+  STARTER_TESTIMONIALS_TEXT_2: 'Тысячи веб-мастеров выбрали NotionNext для создания своих сайтов, и благодаря справочным руководствам, сообществам и техническим советам они успешно запустили свои сайты.',
+  STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // Значки рейтинга
 
-  // 这里不支持CONFIG和环境变量，需要一一修改此处代码。
+  //CONFIG и переменные окружения здесь не поддерживаются, вам необходимо изменить код по очереди.
   STARTER_TESTIMONIALS_ITEMS: [
     {
       STARTER_TESTIMONIALS_ITEM_TEXT: '感谢大佬的方法。之前尝试过Super、Potion等国外的第三方平台，实现效果一般，个性化程度远不如这个方法，已经用起来了！ ',
