@@ -107,7 +107,7 @@ function Banner(props) {
         }
       >
         <div className="ml-12 -translate-x-32 group-hover:translate-x-0 duration-300 transition-all ease-in">
-          <div className="text-7xl text-white font-extrabold">随便逛逛</div>
+          <div className="text-7xl text-white font-extrabold">Осмотритесь</div>
           <div className="-ml-3 text-gray-300">
             <ArrowSmallRight className={'w-24 h-24 stroke-2'} />
           </div>
@@ -195,7 +195,7 @@ function GroupMenu() {
           <i className="fa-solid fa-fire-flame-curved text-4xl"></i>
         </div>
       </Link>
-      {/* 第三个标签在小屏上不显示 */}
+      {/* Третья вкладка не отображается на маленьком экране */}
       <Link
         href={siteConfig('HEO_HERO_CATEGORY_3', null, CONFIG)?.url}
         className="group relative overflow-hidden bg-gradient-to-r from-teal-300 to-cyan-300 hidden h-20 xl:flex justify-start items-center text-white rounded-xl xl:hover:w-1/2 xl:w-1/3 transition-all duration-500 ease-in"
@@ -231,7 +231,7 @@ function TopGroup(props) {
       onMouseLeave={handleMouseLeave}
       className="flex-1 relative w-full"
     >
-      {/* 置顶推荐文章 */}
+      {/* Лучшие статьи */}
       <div
         id="top-group"
         className="w-full flex space-x-3 xl:space-x-0 xl:grid xl:grid-cols-3 xl:gap-3 xl:h-[342px]"
@@ -251,7 +251,7 @@ function TopGroup(props) {
                 </div>
                 {/* hover 悬浮的 ‘荐’ 字 */}
                 <div className="opacity-0 group-hover:opacity-100 -translate-x-4 group-hover:translate-x-0 duration-200 transition-all absolute -top-2 -left-2 bg-indigo-600 dark:bg-yellow-600  text-white rounded-xl overflow-hidden pr-2 pb-2 pl-4 pt-4 text-xs">
-                  荐
+                  рекомендовать
                 </div>
               </div>
             </Link>
@@ -308,11 +308,11 @@ function getTopPosts({ latestPosts, allNavPages }) {
  */
 function TodayCard({ cRef, siteInfo }) {
   const router = useRouter()
-  // 卡牌是否盖住下层
+  // Закрывает ли карта нижний слой
   const [isCoverUp, setIsCoverUp] = useState(true)
 
   /**
-   * 外部可以调用此方法
+   * Этот метод может быть вызван извне
    */
   useImperativeHandle(cRef, () => {
     return {
@@ -323,7 +323,7 @@ function TodayCard({ cRef, siteInfo }) {
   })
 
   /**
-   * 点击更多
+   * нажмите, чтобы узнать больше
    * @param {*} e
    */
   function handleClickMore(e) {
@@ -332,7 +332,7 @@ function TodayCard({ cRef, siteInfo }) {
   }
 
   /**
-   * 点击卡片跳转的链接
+   * Нажмите на карточку, чтобы перейти по ссылке
    * @param {*} e
    */
   function handleCardClick(e) {
@@ -373,7 +373,7 @@ function TodayCard({ cRef, siteInfo }) {
               className={'w-6 h-6 mr-2 bg-white rounded-full stroke-indigo-400'}
             />
             <div id="more" className="select-none">
-              更多推荐
+              Дополнительные рекомендации
             </div>
           </div>
         </div>
