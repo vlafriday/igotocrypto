@@ -27,14 +27,13 @@ const CONFIG = {
 //  HEO_HERO_CATEGORY_2: { title: 'Важное', url: '/tag/carefully' },
  // HEO_HERO_CATEGORY_3: { title: 'Ссылки', url: '/tag/links' },
 
-  // 英雄区右侧推荐文章标签, 例如 [推荐] , 最多六篇文章; 若留空白''，则推荐最近更新文章
+  // Тег рекомендуемых статей в правой части области героя, например [Recommended], до шести статей; если оставить пустым '', то рекомендуются недавно обновленные статьи
   HEO_HERO_RECOMMEND_POST_TAG: 'Отзывы',
-  HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: false, // Предлагаемые статьи сортируются по `true`, чтобы заставить обратный хронологический порядок последней модификации.
+  HEO_HERO_RECOMMEND_POST_SORT_BY_UPDATE_TIME: true, // Предлагаемые статьи сортируются по `true`, чтобы заставить обратный хронологический порядок последней модификации.
   //   HERO_RECOMMEND_COVER: 'https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg', // 英雄区右侧图片
 
   // Приветственное сообщение на правой карточке профиля, нажмите для автоматического переключения
   HEO_INFOCARD_GREETINGS: [
-    'Мир',
     '🔍 Делимся и помогаем с энтузиазмом',
     '🤝 Специализируемся на взаимодействии и дизайне',
     '🏃 практичный активист',
@@ -113,28 +112,28 @@ const CONFIG = {
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置
   HEO_MENU_INDEX: false, // 显示首页
-  HEO_MENU_CATEGORY: true, // 显示分类
+  HEO_MENU_CATEGORY: false, // 显示分类
   HEO_MENU_TAG: true, // 显示标签
   HEO_MENU_ARCHIVE: false, // 显示归档
   HEO_MENU_SEARCH: false, // 显示搜索
 
-  HEO_POST_LIST_COVER: true, // 列表显示文章封面
-  HEO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
+  HEO_POST_LIST_COVER: true, // Показать обложки статей в списке
+  HEO_POST_LIST_COVER_HOVER_ENLARGE: false, // Наведение курсора мыши на список для увеличения
 
-  HEO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
-  HEO_POST_LIST_SUMMARY: true, // 文章摘要
-  HEO_POST_LIST_PREVIEW: false, // 读取文章预览
-  HEO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
+  HEO_POST_LIST_COVER_DEFAULT: true, // Обложка по умолчанию с фоном сайта, когда обложка пуста
+  HEO_POST_LIST_SUMMARY: true, // Краткое содержание статьи
+  HEO_POST_LIST_PREVIEW: false, // Читать статью предварительно
+  HEO_POST_LIST_IMG_CROSSOVER: true, // Изображения в блогролле расположены в шахматном порядке слева и справа
 
-  HEO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
-  HEO_ARTICLE_COPYRIGHT: false, // 显示文章版权声明
-  HEO_ARTICLE_RECOMMEND: true, // 文章关联推荐
+  HEO_ARTICLE_ADJACENT: true, // Показать Предыдущая Следующая статья Рекомендации
+  HEO_ARTICLE_COPYRIGHT: false, // Показать уведомление об авторских правах на статью
+  HEO_ARTICLE_RECOMMEND: true, // Рекомендации по работе со статьями
 
-  HEO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
-  HEO_WIDGET_ANALYTICS: false, // 显示统计卡
+  HEO_WIDGET_LATEST_POSTS: true, // Показать карточку последней статьи
+  HEO_WIDGET_ANALYTICS: false, // Отображение статистической карты
   HEO_WIDGET_TO_TOP: true,
-  HEO_WIDGET_TO_COMMENT: true, // 跳到评论区
-  HEO_WIDGET_DARK_MODE: true, // 夜间模式
-  HEO_WIDGET_TOC: true // 移动端悬浮目录
+  HEO_WIDGET_TO_COMMENT: true, // Перейти к разделу комментариев
+  HEO_WIDGET_DARK_MODE: true, // Ночной режим
+  HEO_WIDGET_TOC: true // Каталог мобильных устройств
 }
 export default CONFIG
