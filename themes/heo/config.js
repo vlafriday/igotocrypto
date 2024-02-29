@@ -14,15 +14,15 @@ const CONFIG = {
   // Левый и правый компоненты области тела блога меняются местами
   HEO_HERO_BODY_REVERSE: false,
 
-  // 英雄区(首页顶部大卡)
+  // Зона героев (большая карта в верхней части главной страницы)
   HEO_HERO_TITLE_1: 'Поделиться программированием',
   HEO_HERO_TITLE_2: 'и мышление познания',
   HEO_HERO_TITLE_3: 'vlafriday.space',
-  HEO_HERO_TITLE_4: 'Новая версия онлайн',
-  HEO_HERO_TITLE_5: 'NotionNext4.0 легко настраивать темы',
-  HEO_HERO_TITLE_LINK: 'https://vlafriday.space',
+  HEO_HERO_TITLE_4: 'Тут я показываю',
+  HEO_HERO_TITLE_5: 'Просто мой путь',
+  HEO_HERO_TITLE_LINK: 'https://vlafriday.space/my-impossible-list',
 
-  // 英雄区显示三个置顶分类
+  // В разделе "Герои" отображаются три главные категории
   HEO_HERO_CATEGORY_1: { title: 'Поиск', url: '/tag/search' },
   HEO_HERO_CATEGORY_2: { title: 'Важное', url: '/tag/carefully' },
   HEO_HERO_CATEGORY_3: { title: 'Ссылки', url: '/tag/links' },
