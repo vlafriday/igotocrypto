@@ -10,7 +10,7 @@ const CONFIG = {
   HEXO_SHOW_START_READING: true,
 
   // 菜单配置
-  HEXO_MENU_INDEX: false, // 显示首页
+  HEXO_MENU_INDEX: true, // 显示首页
   HEXO_MENU_CATEGORY: true, // 显示分类
   HEXO_MENU_TAG: true, // 显示标签
   HEXO_MENU_ARCHIVE: false, // 显示归档
