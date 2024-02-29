@@ -10,14 +10,14 @@ const CONFIG = {
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
 
   // 英雄区块导航
-  STARTER_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  STARTER_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
-  STARTER_HERO_TITLE_3: '使用最新技术构建', // 英雄区文字
-  STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
-  STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
+  STARTER_HERO_TITLE_1: 'Бесплатный конструктор сайтов с открытым исходным кодом, основанный на Notion notes', // Зона Героев текст
+  STARTER_HERO_TITLE_2: 'Умножьте свою ценность, создав сайт без восприятия через заметки.', // Зона Героев текст
+  STARTER_HERO_TITLE_3: 'Создан по последнему слову техники', // Зона Героев текст
+  STARTER_HERO_BUTTON_1_TEXT: 'Начало работы', // Кнопка зоны героя
+  STARTER_HERO_BUTTON_1_URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // Кнопка зоны героя
+  STARTER_HERO_BUTTON_2_TEXT: 'Следите за сайтом Github', // Кнопка зоны героя
+  STARTER_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // Кнопка зоны героя
+  STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // Изображение предварительного просмотра продукта, по умолчанию читается публичная директория изображения
 
   // 顶部右侧导航暗流
   STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
@@ -27,29 +27,29 @@ const CONFIG = {
   STARTER_NAV_BUTTON_2_URL: '/signup',
 
   // 特性区块
-  STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
-  STARTER_FEATURE_TEXT_2: 'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
+  STARTER_FEATURE_TITLE: 'Характеристика', // характеристика
+  STARTER_FEATURE_TEXT_1: 'Ключевые особенности NotionNext', // характеристика
+  STARTER_FEATURE_TEXT_2: 'Концепция NotionNext заключается в том, чтобы помочь вам создать свой собственный веб-сайт простым, не требующим особого восприятия и стабильным способом, который повысит ценность вашего бренда.', // характеристика
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
-  STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
+  STARTER_FEATURE_1_TITLE_1: 'Бесплатно и с открытым исходным кодом', // Характеристика 1
+  STARTER_FEATURE_1_TEXT_1: 'Исходный код проекта находится в открытом доступе на Github и соответствует протоколу MIT', // Характеристика 1
+  STARTER_FEATURE_1_BUTTON_TEXT: 'Узнать больше', // Характеристика 1
+  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // Характеристика 1
 
-  STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
-  STARTER_FEATURE_2_BUTTON_TEXT: '了解更多', // 特性2
-  STARTER_FEATURE_2_BUTTON_URL: 'https://docs.tangly1024.com/article/notion-next-themes', // 特性2
+  STARTER_FEATURE_2_TITLE_1: 'Многочисленные настройки тем', // Характеристика 2
+  STARTER_FEATURE_2_TEXT_1: 'Десятки тем, подходящих для разных сцен, всегда найдут подходящую для вас!', // Характеристика 2
+  STARTER_FEATURE_2_BUTTON_TEXT: 'Узнать больше', // Характеристика 2
+  STARTER_FEATURE_2_BUTTON_URL: 'https://docs.tangly1024.com/article/notion-next-themes', // Характеристика 2
 
-  STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
-  STARTER_FEATURE_3_BUTTON_TEXT: '了解更多', // 特性3
-  STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // 特性3
+  STARTER_FEATURE_3_TITLE_1: 'Отличная производительность', // Характеристика 3
+  STARTER_FEATURE_3_TEXT_1: 'Разработка на основе NextJS, более быстрое время отклика, лучшее SEO', // Характеристика 3
+  STARTER_FEATURE_3_BUTTON_TEXT: 'Узнать больше', // Характеристика 3
+  STARTER_FEATURE_3_BUTTON_URL: 'https://docs.tangly1024.com/article/next-js', // Характеристика 3
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
-  STARTER_FEATURE_4_BUTTON_TEXT: '了解更多', // 特性4
-  STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // 特性4
+  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // Характеристика 4
+  STARTER_FEATURE_4_TEXT_1: 'Просто редактируйте в заметках Notion и автоматически синхронизируйте их с сайтом!', // Характеристика 4
+  STARTER_FEATURE_4_BUTTON_TEXT: 'Узнать больше', // Характеристика 4
+  STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // Характеристика 4
 
   // 首页ABOUT区块
   STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
