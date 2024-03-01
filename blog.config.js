@@ -115,16 +115,16 @@ const BLOG = {
     '/signup': 'LayoutSignUp'
   },
 
-  CAN_COPY: process.env.NEXT_PUBLIC_CAN_COPY || true, // Разрешено ли копирование содержимого страницы по умолчанию. Если установлено значение false, копирование содержимого запрещено во всем стеке.
+  CAN_COPY: process.env.NEXT_PUBLIC_CAN_COPY || false, // Разрешено ли копирование содержимого страницы по умолчанию. Если установлено значение false, копирование содержимого запрещено во всем стеке.
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU: process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU || true, // Настройте контекстное меню и переопределите системное меню.
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH: process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH || false, // Позволяет ли контекстное меню переключать темы
 
 
-  // 自定义外部脚本，外部样式
+  // Пользовательские внешние скрипты, внешние стили
   CUSTOM_EXTERNAL_JS: [''], // e.g. ['http://xx.com/script.js','http://xx.com/script.js']
   CUSTOM_EXTERNAL_CSS: [''], // e.g. ['http://xx.com/style.css','http://xx.com/style.css']
 
-  // 侧栏布局 是否反转(左变右,右变左) 已支持主题: hexo next medium fukasawa example
+  // Макет боковой панели. Следует ли переворачивать (слева направо, справа налево). Поддерживаемые темы: пример hexo next medium fukasawa.
   LAYOUT_SIDEBAR_REVERSE: process.env.NEXT_PUBLIC_LAYOUT_SIDEBAR_REVERSE || false,
 
   // 一个小插件展示你的facebook fan page~ @see https://tw.andys.pro/article/add-facebook-fanpage-notionnext
