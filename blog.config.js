@@ -4,7 +4,7 @@ const BLOG = {
   NOTION_PAGE_ID:
         process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5',
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // Псевдостатический путь: после его включения все URL-адреса статей будут заканчиваться на .html.
-  NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 1, // Единица интервала кэширования контента (секунды); то есть каждая страница имеет чистый статический период в 5 секунд, в течение которого данные уведомлений не будут захватываться независимо от того, сколько раз к ней обращаются; увеличение этого значения поможет сэкономить ресурсы Vercel и увеличить скорость доступа., но это также приведет к задержке обновления статьи.
+  NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 2, // Единица интервала кэширования контента (секунды); то есть каждая страница имеет чистый статический период в 5 секунд, в течение которого данные уведомлений не будут захватываться независимо от того, сколько раз к ней обращаются; увеличение этого значения поможет сэкономить ресурсы Vercel и увеличить скорость доступа., но это также приведет к задержке обновления статьи.
   THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // Текущая тема, все поддерживаемые темы можно найти в папке тем; например, именем темы является имя папки. example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // Отображать ли кнопку переключения темы
   LANG: process.env.NEXT_PUBLIC_LANG || 'en-US', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
@@ -444,7 +444,7 @@ const BLOG = {
   // Фотографии сайта
   IMG_LAZY_LOAD_PLACEHOLDER: process.env.NEXT_PUBLIC_IMG_LAZY_LOAD_PLACEHOLDER || 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==', // 懒加载占位图片地址，支持base64或url
   IMG_URL_TYPE: process.env.NEXT_PUBLIC_IMG_TYPE || 'Notion', // 此配置已失效，请勿使用；AMAZON方案不再支持，仅支持Notion方案。 ['Notion','AMAZON'] 站点图片前缀 默认 Notion:(https://notion.so/images/xx) ， AMAZON(https://s3.us-west-2.amazonaws.com/xxx)
-  IMG_SHADOW: process.env.NEXT_PUBLIC_IMG_SHADOW || false, // Добавлять ли автоматически тени к изображениям статей
+  IMG_SHADOW: process.env.NEXT_PUBLIC_IMG_SHADOW || true, // Добавлять ли автоматически тени к изображениям статей
   IMG_COMPRESS_WIDTH: process.env.NEXT_PUBLIC_IMG_COMPRESS_WIDTH || 800, // Ширина сжатия изображения понятия notion
 
   // связанные с развитием
