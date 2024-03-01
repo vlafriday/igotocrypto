@@ -435,7 +435,7 @@ const BLOG = {
 
   // Устаревшая конфигурация
   AVATAR: process.env.NEXT_PUBLIC_AVATAR || '/avatar.svg', // 作者头像，被notion中的ICON覆盖。若无ICON则取public目录下的avatar.png
-  TITLE: process.env.NEXT_PUBLIC_TITLE || 'vlafriday BLOG', // Заголовок сайта, который перезаписывается заголовком страницы в уведомлениях; не оставляйте это поле пустым, иначе сервер не сможет его скомпилировать.
+  TITLE: process.env.NEXT_PUBLIC_TITLE || 'vlafriday', // Заголовок сайта, который перезаписывается заголовком страницы в уведомлениях; не оставляйте это поле пустым, иначе сервер не сможет его скомпилировать.
   HOME_BANNER_IMAGE:
         process.env.NEXT_PUBLIC_HOME_BANNER_IMAGE || '/bg_image.jpg', // 首页背景大图, 会被notion中的封面图覆盖，若无封面图则会使用代码中的 /public/bg_image.jpg 文件
   DESCRIPTION:
@@ -444,16 +444,16 @@ const BLOG = {
   // Фотографии сайта
   IMG_LAZY_LOAD_PLACEHOLDER: process.env.NEXT_PUBLIC_IMG_LAZY_LOAD_PLACEHOLDER || 'data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==', // 懒加载占位图片地址，支持base64或url
   IMG_URL_TYPE: process.env.NEXT_PUBLIC_IMG_TYPE || 'Notion', // 此配置已失效，请勿使用；AMAZON方案不再支持，仅支持Notion方案。 ['Notion','AMAZON'] 站点图片前缀 默认 Notion:(https://notion.so/images/xx) ， AMAZON(https://s3.us-west-2.amazonaws.com/xxx)
-  IMG_SHADOW: process.env.NEXT_PUBLIC_IMG_SHADOW || true, // Добавлять ли автоматически тени к изображениям статей
+  IMG_SHADOW: process.env.NEXT_PUBLIC_IMG_SHADOW || false, // Добавлять ли автоматически тени к изображениям статей
   IMG_COMPRESS_WIDTH: process.env.NEXT_PUBLIC_IMG_COMPRESS_WIDTH || 800, // Ширина сжатия изображения понятия notion
 
   // связанные с развитием
-  NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Useful if you prefer not to make your database public
-  DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // 是否显示调试按钮
-  ENABLE_CACHE: process.env.ENABLE_CACHE || process.env.npm_lifecycle_event === 'build' || process.env.npm_lifecycle_event === 'export', // 在打包过程中默认开启缓存，开发或运行时开启此功能意义不大。
+  NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Полезно, если вы предпочитаете не делать свою базу данных общедоступной
+  DEBUG: process.env.NEXT_PUBLIC_DEBUG || false, // Следует ли отображать кнопку отладки
+  ENABLE_CACHE: process.env.ENABLE_CACHE || process.env.npm_lifecycle_event === 'build' || process.env.npm_lifecycle_event === 'export', // Кэширование включается по умолчанию в процессе упаковки, и не имеет смысла включать его во время разработки или выполнения.
   isProd: process.env.VERCEL_ENV === 'production', // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)  isProd: process.env.VERCEL_ENV === 'production' // distinguish between development and production environment (ref: https://vercel.com/docs/environment-variables#system-environment-variables)
-  BUNDLE_ANALYZER: process.env.ANALYZE === 'true' || false, // 是否展示编译依赖内容与大小
-  VERSION: process.env.NEXT_PUBLIC_VERSION // 版本号
+  BUNDLE_ANALYZER: process.env.ANALYZE === 'true' || false, // Отображать ли содержимое и размер зависимостей компиляции
+  VERSION: process.env.NEXT_PUBLIC_VERSION // номер версии
 }
 
 module.exports = BLOG
