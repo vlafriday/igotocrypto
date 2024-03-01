@@ -1,5 +1,5 @@
 const CONFIG = {
-  HEO_HOME_BANNER_ENABLE: true,
+  HEO_HOME_BANNER_ENABLE: false,
 
   HEO_SITE_CREATE_TIME: '2019-10-06', // Дата создания веб-сайта. Используется для расчета количества дней, в течение которых веб-сайт работает.
 
