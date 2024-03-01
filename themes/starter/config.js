@@ -110,32 +110,31 @@ const CONFIG = {
       STARTER_TESTIMONIALS_ITEM_URL: 'https://blog.gaoran.xyz/'
     },
     {
-      STARTER_TESTIMONIALS_ITEM_TEXT: 'Очень нравится эта тема, этот код белый с тремя днями тайфун праздник построить из, но и в соответствии с учебниками старшего брата, чтобы получить пользовательское доменное имя, большое спасибо, пригласил пить кофе ~!',
+      STARTER_TESTIMONIALS_ITEM_TEXT: 'Очень нравится эта тема',
       STARTER_TESTIMONIALS_ITEM_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2F0d33d169-f932-41ff-ac6b-88a923c08e02%2F%25E5%25A4%25B4%25E5%2583%258F.jfif?table=collection&id=7787658d-d5c0-4f34-8e32-60c523dfaba3&width=400',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Asenkits',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Веб-мастер "Мешок сокровищ Сэма',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Веб-мастер',
       STARTER_TESTIMONIALS_ITEM_URL: 'https://asenkits.top/'
     },
     {
-      STARTER_TESTIMONIALS_ITEM_TEXT: 'Уууу, после полудня напряженной работы я наконец развернул блог. Я очень благодарен Tangly1024 за его структуру и учебные пособия. Это лучшая платформа для ведения блога, которую я когда-либо использовал в своей жизни┭┮﹏┭┮. С этого момента я могу bb в своем блоге, ( •̀ ω •́ )y
-',
+      STARTER_TESTIMONIALS_ITEM_TEXT: 'ТОП',
       STARTER_TESTIMONIALS_ITEM_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F6c096b44-beb9-48ee-8f92-1efdde47f3a3%2F338962f1-d352-49c7-9a1b-746e35a7005c%2Fhf.png?table=block&id=ce5a48a9-d77a-4843-a3d9-a78cd4f794ce&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'DWIND',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '  Слушайте ветер и прислушивайтесь к его шуму.  ',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: '  Слушайте ветер и прислушивайтесь к его шуму',
       STARTER_TESTIMONIALS_ITEM_URL: 'https://www.dwind.top/'
     },
     {
-      STARTER_TESTIMONIALS_ITEM_TEXT: 'Спасибо за предоставление такого хорошего проекта, ха-ха. Я никогда раньше не знал, как его развернуть (другие проекты сложны и сложны). Этот относительно прост и очень удобен для новичков.',
+      STARTER_TESTIMONIALS_ITEM_TEXT: 'Спасибо',
       STARTER_TESTIMONIALS_ITEM_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fd52f6766-3e32-4c3d-8529-46e1f214360f%2Ffavicon.svg?table=collection&id=7d76aad5-a2c4-4d9a-887c-c7913fae4eed&width=400',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'Дишенг ',
       STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Совместное использование ресурсов ИИ Blog',
       STARTER_TESTIMONIALS_ITEM_URL: 'https://blog.disheng.org/'
     },
     {
-      STARTER_TESTIMONIALS_ITEM_TEXT: 'Хуэй очень благодарен своему боссу за его проект блога, который может сочетать ведение блога и уведомление. Я всегда с нетерпением ждал этой модели ведения блога.',
+      STARTER_TESTIMONIALS_ITEM_TEXT: 'очень',
       STARTER_TESTIMONIALS_ITEM_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fafb21381-f51b-4fd0-9998-800dbeb64dbe%2Favatar.png?table=block&id=195935d2-0d8d-49fc-bd81-1db42ee50840&spaceId=6c096b44-beb9-48ee-8f92-1efdde47f3a3&width=100&userId=27074aef-7216-41ed-baef-d9b53addd870&cache=v2',
       STARTER_TESTIMONIALS_ITEM_NICKNAME: 'AnJhon',
-      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon`s Blog веб-мастер',
+      STARTER_TESTIMONIALS_ITEM_DESCRIPTION: 'Anjhon Blog веб-мастер',
       STARTER_TESTIMONIALS_ITEM_URL: 'https://www.anjhon.top'
     },
     {
