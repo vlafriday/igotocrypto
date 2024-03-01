@@ -48,10 +48,6 @@ export function InfoCard(props) {
           <Link href={siteConfig('HEO_INFO_CARD_URL', null, CONFIG)}><i className='fab fa-youtube text-xl' /></Link>
         
         </div>
-        <div className='bg-indigo-400 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
-                  <Link href={siteConfig('HEO_INFO_CARD_URL', null, CONFIG)}><i className='fab fa-youtube text-xl' /></Link>
-
-                </div>
       </div>
       <MoreButton />
     </div>
@@ -81,10 +77,10 @@ function GreetingsWords() {
  * @returns
  */
 function MoreButton() {
-  return <Link href='/about'>
+  return <Link href='/HP26'>
         <div className={'group bg-indigo-400 dark:bg-yellow-500 hover:bg-white dark:hover:bg-black hover:text-black dark:hover:text-white flex items-center transition-colors duration-200 py-2 px-3 rounded-full space-x-1'}>
             <ArrowRightCircle className={'group-hover:stroke-black dark:group-hover:stroke-white w-6 h-6 transition-all duration-100'} />
-            <div className='font-bold'>Больше</div>
+            <div className='font-bold'>Смотреть</div>
         </div>
     </Link>
 }
