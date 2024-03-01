@@ -3,26 +3,26 @@ const BLOG = {
   // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_PAGE_ID:
         process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5',
-  PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // 伪静态路径，开启后所有文章URL都以 .html 结尾。
-  NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 5, // 更新内容缓存间隔 单位(秒)；即每个页面有5秒的纯静态期、此期间无论多少次访问都不会抓取notion数据；调大该值有助于节省Vercel资源、同时提升访问速率，但也会使文章更新有延迟。
-  THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // 当前主题，在themes文件夹下可找到所有支持的主题；主题名称就是文件夹名，例如 example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
-  THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // 是否显示切换主题按钮
+  PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // Псевдостатический путь: после его включения все URL-адреса статей будут заканчиваться на .html.
+  NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 5, // Единица интервала кэширования контента (секунды); то есть каждая страница имеет чистый статический период в 5 секунд, в течение которого данные уведомлений не будут захватываться независимо от того, сколько раз к ней обращаются; увеличение этого значения поможет сэкономить ресурсы Vercel и увеличить скорость доступа., но это также приведет к задержке обновления статьи.
+  THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // Текущая тема, все поддерживаемые темы можно найти в папке тем; например, именем темы является имя папки. example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
+  THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // Отображать ли кнопку переключения темы
   LANG: process.env.NEXT_PUBLIC_LANG || 'en-US', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: process.env.NEXT_SINCE || 2019, // e.g if leave this empty, current year will be used.
-  APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light 日间模式 ， dark夜间模式， auto根据时间和主题自动夜间模式
-  APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // 夜间模式起至时间，false时关闭根据时间自动切换夜间模式
+  APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light mode ， dark mode， auto автоматический ночной режим в зависимости от времени и темы
+  APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // Время начала и окончания ночного режима，false Автоматическое переключение в ночной режим в зависимости от времени
 
-  // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
+  // После версии 3.14.1 здесь настраивается приветственное сообщение, разделенное английскими запятыми, для поддержки нескольких эффектов ввода приветственного сообщения.
   GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Привет，я тестировщик, Привет，я исследователь, Привет，я энтузиаст, Привет，я инвестор, Просто добро пожаловать в мой мир...',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // Поддержка типа меню, начиная с версии 3.12.0, темы будут постепенно поддерживать гибкую конфигурацию вторичного меню, вместо оригинального типа страницы, эта конфигурация является тестовой функцией, по умолчанию выключена.
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'vlafriday', // 您的昵称 例如 tangly1024
-  BIO: process.env.NEXT_PUBLIC_BIO || 'Тот самый Фрайдей', // 作者简介
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://vlafriday.space', // 网站地址
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'vlafriday, блог, Владислав Пятница, Тот самый Фрайдей', // 网站关键词 英文逗号隔开
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'vlafriday', // Ваш никнейм, например vlafriday.
+  BIO: process.env.NEXT_PUBLIC_BIO || 'Тот самый Фрайдей', // об авторе
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://vlafriday.space', // адрес веб-сайта
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'vlafriday, блог, Владислав Пятница, Тот самый Фрайдей', // Ключевые слова сайта, разделенные английскими запятыми
 
-  // 社交链接，不需要可留空白，例如 CONTACT_WEIBO:''
+  // Социальная ссылка. Если она не требуется, оставьте ее пустой, например CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // 邮箱地址 例如mail@tangly1024.com
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '', // 你的微博个人主页
   CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || 'https://twitter.com/vlafriday', // 你的twitter个人主页
@@ -37,14 +37,14 @@ const BLOG = {
 
   BLOG_FAVICON: process.env.NEXT_PUBLIC_FAVICON || '/favicon.ico', // blog favicon 配置, 默认使用 /public/favicon.ico，支持在线图片，如 https://img.imesong.com/favicon.png
 
-  IMAGE_COMPRESS_WIDTH: process.env.NEXT_PUBLIC_IMAGE_COMPRESS_WIDTH || 800, // 图片压缩宽度默认值，作用于博客封面和文章内容 越小加载图片越快
-  IMAGE_ZOOM_IN_WIDTH: process.env.NEXT_PUBLIC_IMAGE_ZOOM_IN_WIDTH || 1200, // 文章图片点击放大后的画质宽度，不代表在网页中的实际展示宽度
-  RANDOM_IMAGE_URL: process.env.NEXT_PUBLIC_RANDOM_IMAGE_URL || '', // 随机图片API,如果未配置下面的关键字，主页封面，头像，文章封面图都会被替换为随机图片
+  IMAGE_COMPRESS_WIDTH: process.env.NEXT_PUBLIC_IMAGE_COMPRESS_WIDTH || 800, // Значение ширины сжатия изображения по умолчанию, которое используется для обложки блога и содержания статьи. Чем меньше ширина, тем быстрее будет загружаться изображение.
+  IMAGE_ZOOM_IN_WIDTH: process.env.NEXT_PUBLIC_IMAGE_ZOOM_IN_WIDTH || 1200, // Ширина качества изображения после нажатия на изображение статьи для его увеличения не соответствует фактической ширине отображения на веб-странице.
+  RANDOM_IMAGE_URL: process.env.NEXT_PUBLIC_RANDOM_IMAGE_URL || '', // API случайных изображений. Если следующие ключевые слова не настроены, обложка домашней страницы, аватар и изображение обложки статьи будут заменены случайными изображениями.
   RANDOM_IMAGE_REPLACE_TEXT: process.env.NEXT_PUBLIC_RANDOM_IMAGE_NOT_REPLACE_TEXT || 'images.unsplash.com', // 触发替换图片的 url 关键字(多个支持用英文逗号分开)，只有图片地址中包含此关键字才会替换为上方随机图片url
   // eg: images.unsplash.com(notion图床的所有图片都会替换),如果你在 notion 里已经添加了一个随机图片 url，恰巧那个服务跑路或者挂掉，想一键切换所有配图可以将该 url 配置在这里
   // 默认下会将你上传到 notion的主页封面图和头像也给替换，建议将主页封面图和头像放在其他图床，在 notion 里配置 link 即可。
 
-  // START ************网站字体*****************
+  // START ************шрифт сайта*****************
   // ['font-serif','font-sans'] 两种可选，分别是衬线和无衬线: 参考 https://www.jianshu.com/p/55e410bd2115
   // 后面空格隔开的font-light的字体粗细，留空是默认粗细；参考 https://www.tailwindcss.cn/docs/font-weight
   FONT_STYLE: process.env.NEXT_PUBLIC_FONT_STYLE || 'font-sans font-light',
@@ -92,7 +92,7 @@ const BLOG = {
 
   // END ************网站字体*****************
 
-  // 路径和组件映射，不同路径分别展示主题的什么组件
+  // Сопоставление путей и компонентов: разные пути отображают компоненты темы соответственно.
   LAYOUT_MAPPINGS: {
     '-1': 'LayoutBase',
     '/': 'LayoutIndex',
@@ -115,7 +115,7 @@ const BLOG = {
     '/signup': 'LayoutSignUp'
   },
 
-  CAN_COPY: process.env.NEXT_PUBLIC_CAN_COPY || true, // 是否允许复制页面内容 默认允许，如果设置为false、则全栈禁止复制内容。
+  CAN_COPY: process.env.NEXT_PUBLIC_CAN_COPY || true, // Разрешено ли копирование содержимого страницы по умолчанию. Если установлено значение false, копирование содержимого запрещено во всем стеке.
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU: process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU || true, // Настройте контекстное меню и переопределите системное меню.
   CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH: process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH || false, // Позволяет ли контекстное меню переключать темы
 
