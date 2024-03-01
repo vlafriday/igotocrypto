@@ -48,6 +48,10 @@ export function InfoCard(props) {
           <Link href={siteConfig('HEO_INFO_CARD_URL', null, CONFIG)}><i className='fab fa-youtube text-xl' /></Link>
         
         </div>
+        <div className='bg-indigo-400 p-2 rounded-full w-10 items-center flex justify-center transition-colors duration-200 dark:bg-yellow-500 dark:hover:bg-black hover:bg-white'>
+                  <Link href={siteConfig('HEO_INFO_CARD_URL', null, CONFIG)}><i className='fab fa-youtube text-xl' /></Link>
+
+                </div>
       </div>
       <MoreButton />
     </div>
