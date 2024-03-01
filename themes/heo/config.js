@@ -42,7 +42,7 @@ const CONFIG = {
     '🤖️ Инвестор'
   ],
   HEO_INFO_CARD_URL: 'https://www.youtube.com/@vlafriday', // Ссылка на кнопку внизу профиля
-  HEO_INFO_CARD_URL2: 'https://www.youtube.com/@vlafriday2', // Ссылка на кнопку внизу профиля
+  HEO_INFO_CARD_URL2: 'https://www.instagram.com/vlafriday', // Ссылка на кнопку внизу профиля
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
