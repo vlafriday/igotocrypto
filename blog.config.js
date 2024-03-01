@@ -163,17 +163,17 @@ const BLOG = {
   SUB_PATH: '', // leave this empty unless you want to deploy in a folder
 
   POST_SHARE_BAR_ENABLE: process.env.NEXT_PUBLIC_POST_SHARE_BAR || 'true', // Функция обмена статьями, внизу будет отображаться панель обмена.
-  POSTS_SHARE_SERVICES: process.env.NEXT_PUBLIC_POST_SHARE_SERVICES || 'link,vkshare,okshare,viber,mailru,email,facebook,twitter,telegram,messenger,reddit,whatsapp,linkedin', // Общие службы, отображаются по порядку, через запятую.
+  POSTS_SHARE_SERVICES: process.env.NEXT_PUBLIC_POST_SHARE_SERVICES || 'link,email,vkshare,okshare,mailru,viber,whatsapp,twitter,telegram,facebook,messenger,linkedin', // Общие службы, отображаются по порядку, через запятую.
   // Все поддерживаемые службы обмена：link(копировать ссылку),wechat(微信),qq,weibo(微博),email(почта),facebook,twitter,telegram,messenger,line,reddit,whatsapp,linkedin,vkshare,okshare,tumblr,livejournal,mailru,viber,workplace,pocket,instapaper,hatena
 
   POST_URL_PREFIX: process.env.NEXT_PUBLIC_POST_URL_PREFIX || '',
-  // POST类型文章的默认路径前缀，例如默认POST类型的路径是  /article/[slug]
-  // 如果此项配置为 '' 空， 则文章将没有前缀路径，使用场景： 希望文章前缀路径为 /post 的情况 支持多级
-  // 支援類似 WP 可自訂文章連結格式的功能：https://wordpress.org/documentation/article/customize-permalinks/，目前只先實作 %year%/%month%/%day%
-  // 例：如想連結改成前綴 article + 時間戳記，可變更為： 'article/%year%/%month%/%day%'
+  // Префикс пути по умолчанию для статей типа POST, например, путь типа POST по умолчанию:  /article/[slug]
+  // Если этот элемент настроен как '' пустой, статья не будет иметь пути префикса. Сценарий использования: Если вы хотите, чтобы путь префикса статьи был /post, поддерживается многоуровневая поддержка.
+  // Поддерживает функции, аналогичные настраиваемому формату ссылок на статьи WP: https://wordpress.org/documentation/article/customize-permalinks/. В настоящее время сначала реализуется только %year%/%month%/%day%.
+  // Например: если вы хотите изменить ссылку на префикс статьи + метку времени, вы можете изменить ее на: 'article/%year%/%month%/%day%'
 
-  POST_LIST_STYLE: process.env.NEXT_PUBLIC_POST_LIST_STYLE || 'page', // ['page','scroll] 文章列表样式:页码分页、单页滚动加载
-  POST_LIST_PREVIEW: process.env.NEXT_PUBLIC_POST_PREVIEW || 'false', //  是否在列表加载文章预览
+  POST_LIST_STYLE: process.env.NEXT_PUBLIC_POST_LIST_STYLE || 'scroll', // ['page','scroll] Стиль списка статей: пагинация по номерам страниц, одностраничная загрузка с прокруткой
+  POST_LIST_PREVIEW: process.env.NEXT_PUBLIC_POST_PREVIEW || 'true', //  Загружать ли предварительный просмотр статьи в списке
   POST_PREVIEW_LINES: 12, // 预览博客行数
   POST_RECOMMEND_COUNT: 6, // 推荐文章数量
   POSTS_PER_PAGE: 12, // post counts per page
