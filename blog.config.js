@@ -190,12 +190,12 @@ const BLOG = {
   PREVIEW_CATEGORY_COUNT: 16, // Максимальное количество категорий, отображаемых на главной странице, 0 не ограничено
   PREVIEW_TAG_COUNT: 16, // Максимальное количество тегов, отображаемых на главной странице, 0 не ограничено
 
-  POST_DISABLE_GALLERY_CLICK: process.env.NEXT_PUBLIC_POST_DISABLE_GALLERY_CLICK || true, // Щелчок запрещен в режиме просмотра фотоальбома, что упрощает вставку ссылок в фотоальбом на странице ссылок друзей.
+  POST_DISABLE_GALLERY_CLICK: process.env.NEXT_PUBLIC_POST_DISABLE_GALLERY_CLICK || false, // Щелчок запрещен в режиме просмотра фотоальбома, что упрощает вставку ссылок в фотоальбом на странице ссылок друзей.
 
-  //   ********动态特效相关********
-  // 鼠标点击烟花特效
-  FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, // 开关
-  // 烟花色彩，感谢 https://github.com/Vixcity 提交的色彩
+  //   ********Связанные с динамическими спецэффектами********
+  // Специальные эффекты фейерверка при щелчке мыши
+  FIREWORKS: process.env.NEXT_PUBLIC_FIREWORKS || false, // выключатель
+  // Цвет фейерверка, спасибо https://github.com/Vixcity Отправленный цвет
   FIREWORKS_COLOR: [
     '255, 20, 97',
     '24, 255, 146',
