@@ -174,7 +174,7 @@ const BLOG = {
 
   POST_LIST_STYLE: process.env.NEXT_PUBLIC_POST_LIST_STYLE || 'scroll', // ['page','scroll] Стиль списка статей: пагинация по номерам страниц, одностраничная загрузка с прокруткой
   POST_LIST_PREVIEW: process.env.NEXT_PUBLIC_POST_PREVIEW || 'true', //  Загружать ли предварительный просмотр статьи в списке
-  POST_PREVIEW_LINES: 1, // Предварительный просмотр количества строк в блоге
+  POST_PREVIEW_LINES: 120, // Предварительный просмотр количества строк в блоге
   POST_RECOMMEND_COUNT: 3, // Количество рекомендованных статей
   POSTS_PER_PAGE: 12, // Количество записей на странице
   POSTS_SORT_BY: process.env.NEXT_PUBLIC_POST_SORT_BY || 'notion', // Сортировать по 'date' по времени,'notion' под контролем NOTION
