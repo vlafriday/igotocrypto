@@ -3,9 +3,9 @@
  */
 const CONFIG = {
 
-  // 默认只展示Logo文字，如果设置了logo图片，会在文字左侧显示图标
-  STARTER_LOGO: '', // 普通logo图片 示例：/images/starter/logo/logo.svg
-  STARTER_LOGO_WHITE: '', // 透明底浅色logo 示例： /images/starter/logo/logo-white.svg
+  // По умолчанию отображается только текст логотипа, если задано изображение логотипа, то слева от текста будет отображаться иконка.
+  STARTER_LOGO: '', // Пример обычного изображения логотипа：/images/starter/logo/logo.svg
+  STARTER_LOGO_WHITE: '', // Пример светлого логотипа на прозрачном фоне： /images/starter/logo/logo-white.svg
 
   // MENU ， 菜单部分不在此处配置，请在Notion数据库中添加MENU
 
@@ -19,7 +19,7 @@ const CONFIG = {
   STARTER_HERO_BUTTON_2_URL: 'https://youtube.com/@vlafriday', // Кнопка зоны героя
   STARTER_HERO_PREVIEW_IMAGE: 'https://file.notion.so/f/f/552435b8-f15d-41bf-b8a2-713cf6d238c5/dc1c0db2-adaf-4efa-a228-e47c062029d8/G3o8RUTBg2o.jpg?id=2d739e23-0da8-43b7-a58f-e51939645a5d&table=block&spaceId=552435b8-f15d-41bf-b8a2-713cf6d238c5&expirationTimestamp=1709445600000&signature=EabaRgYKNAs_rHGqUPJZaECjuwsMFDbrk48gZkhXUWI&downloadName=G3o8RUTBg2o.jpg', // Изображение предварительного просмотра продукта, по умолчанию читается публичная директория изображения
 
-  // 顶部右侧导航暗流
+  // Верхняя правая навигация
   STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
   STARTER_NAV_BUTTON_1_URL: '/signin',
 
@@ -89,14 +89,14 @@ const CONFIG = {
   STARTER_PRICING_3_TITLE: 'Менторство',
   STARTER_PRICING_3_PRICE: '799.9',
   STARTER_PRICING_3_PRICE_CURRENCY: '$',
-  STARTER_PRICING_3_PRICE_PERIOD: 'каждый месяц',
+  STARTER_PRICING_3_PRICE_PERIOD: '',
   STARTER_PRICING_3_HEADER: '',
   STARTER_PRICING_3_FEATURES: 'Включает в себя базовую версию, разработку индивидуальных функций', // разделенные запятыми
   STARTER_PRICING_3_BUTTON_TEXT: 'Купить сейчас',
   STARTER_PRICING_3_BUTTON_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
 
-  STARTER_TESTIMONIALS_TITLE: 'Отзывы пользователей',
-  STARTER_TESTIMONIALS_TEXT_1: 'Что говорят наши пользователи',
+  STARTER_TESTIMONIALS_TITLE: '',
+  STARTER_TESTIMONIALS_TEXT_1: 'Что говорят наши ученики',
   STARTER_TESTIMONIALS_TEXT_2: 'Тысячи веб-мастеров выбрали NotionNext для создания своих сайтов, и благодаря справочным руководствам, сообществам и техническим советам они успешно запустили свои сайты.',
   STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // Значки рейтинга
 
