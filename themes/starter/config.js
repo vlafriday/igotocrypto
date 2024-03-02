@@ -174,11 +174,11 @@ const CONFIG = {
       STARTER_TEAM_ITEM_NICKNAME: 'vlafriday',
       STARTER_TEAM_ITEM_DESCRIPTION: 'Developer'
     },
-    {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Melissa Tatcher',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert'
-    },
+//    {
+//      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
+//      STARTER_TEAM_ITEM_NICKNAME: 'Melissa Tatcher',
+//      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert'
+//    },
     {
       STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
       STARTER_TEAM_ITEM_NICKNAME: 'Stuard Ferrel',
@@ -193,15 +193,15 @@ const CONFIG = {
 
   // Блок постов в блоге
   STARTER_BLOG_TITLE: 'Наш блог',
-  STARTER_BLOG_COUNT: 3, // Блок сообщений блога на главной странице по умолчанию отображает первые 3 статьи.
+  STARTER_BLOG_COUNT: 6, // Блок сообщений блога на главной странице по умолчанию отображает первые 3 статьи.
   STARTER_BLOG_TEXT_1: 'Последние новости',
   STARTER_BLOG_TEXT_2: 'Здесь мы будем публиковать некоторые последние новости о NotionNext, включая новые тенденции, новые планы на будущее и новые функции.',
 
   // контактный модуль
-  STARTER_CONTACT_TITLE: 'связаться с нами',
+  STARTER_CONTACT_TITLE: 'Связаться с нами',
   STARTER_CONTACT_TEXT: 'Расскажите нам о проблеме, с которой вы столкнулись',
-  STARTER_CONTACT_LOCATION_TITLE: 'наша позиция',
-  STARTER_CONTACT_LOCATION_TEXT: 'Фуцзянь Китай',
+  STARTER_CONTACT_LOCATION_TITLE: 'Наша позиция',
+  STARTER_CONTACT_LOCATION_TEXT: 'Дубай',
   STARTER_CONTACT_EMAIL_TITLE: 'Как мы можем вам помочь?',
   STARTER_CONTACT_EMAIL_TEXT: 'mail@vlafriday.space',
 
@@ -298,7 +298,7 @@ const CONFIG = {
   STARTER_404_BACK: 'Вернуться на главную страницу',
 
   STARTER_POST_REDIRECT_ENABLE: true, // Перенаправление включено по умолчанию
-  STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // Перенаправить доменное имя
+  STARTER_POST_REDIRECT_URL: 'https://vlafriday.space', // Перенаправить доменное имя
   STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
 }
 export default CONFIG
