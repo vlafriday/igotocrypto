@@ -58,9 +58,9 @@ const CONFIG = {
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: 'Блог сайта',
-  STARTER_ABOUT_TIPS_3: 'Он работает на линии.',
+  STARTER_ABOUT_TIPS_1: '100+',
+  STARTER_ABOUT_TIPS_2: 'Учеников',
+  STARTER_ABOUT_TIPS_3: 'кто зарабатывает на трейдинге',
 
   // Блок цен на главной странице
   STARTER_PRICING_TITLE: 'прайс-лист',
