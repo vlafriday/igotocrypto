@@ -20,15 +20,15 @@ const CONFIG = {
   HEXO_POST_LIST_COVER_HOVER_ENLARGE: false, // Наведите курсор мыши на список, чтобы увеличить масштаб
 
   HEXO_POST_LIST_COVER_DEFAULT: true, // Когда обложка пуста, фон сайта используется в качестве обложки по умолчанию.
-  HEXO_POST_LIST_SUMMARY: false, // Краткое содержание статьи
-  HEXO_POST_LIST_PREVIEW: false, // Читать статью предварительно\Прочитать превью статьи
+  HEXO_POST_LIST_SUMMARY: true, // Краткое содержание статьи
+  HEXO_POST_LIST_PREVIEW: true, // Читать статью предварительно\Прочитать превью статьи
   HEXO_POST_LIST_IMG_CROSSOVER: true, // Изображения списка блогов расположены в шахматном порядке слева и справа.
 
   HEXO_ARTICLE_ADJACENT: true, //  Показать Предыдущая Следующая статья Рекомендации\Показать предыдущую статью рекомендация к следующей статье
-  HEXO_ARTICLE_COPYRIGHT: false, // 显示文章版权声明
-  HEXO_ARTICLE_RECOMMEND: true, // 文章关联推荐
+  HEXO_ARTICLE_COPYRIGHT: false, // Показать уведомление об авторских правах на статью
+  HEXO_ARTICLE_RECOMMEND: true, // Рекомендации по статье\Рекомендация, связанная со статьей
 
-  HEXO_WIDGET_LATEST_POSTS: true, // 显示最新文章卡
+  HEXO_WIDGET_LATEST_POSTS: true, // Показать блок с последними статьями
   HEXO_WIDGET_ANALYTICS: false, // 显示统计卡
   HEXO_WIDGET_TO_TOP: true,
   HEXO_WIDGET_TO_COMMENT: true, // 跳到评论区
