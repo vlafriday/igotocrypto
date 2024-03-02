@@ -163,7 +163,7 @@ const BLOG = {
   SUB_PATH: '', // leave this empty unless you want to deploy in a folder
 
   POST_SHARE_BAR_ENABLE: process.env.NEXT_PUBLIC_POST_SHARE_BAR || 'true', // Функция обмена статьями, внизу будет отображаться панель обмена.
-  POSTS_SHARE_SERVICES: process.env.NEXT_PUBLIC_POST_SHARE_SERVICES || 'link,email,vkshare,okshare,mailru,viber,whatsapp,twitter,telegram,facebook,messenger,linkedin', // Общие службы, отображаются по порядку, через запятую.
+  POSTS_SHARE_SERVICES: process.env.NEXT_PUBLIC_POST_SHARE_SERVICES || 'link,vkshare,okshare,mailru,viber,whatsapp,twitter,telegram,facebook,messenger,linkedin', // Общие службы, отображаются по порядку, через запятую.
   // Все поддерживаемые службы обмена：link(копировать ссылку),wechat(微信),qq,weibo(微博),email(почта),facebook,twitter,telegram,messenger,line,reddit,whatsapp,linkedin,vkshare,okshare,tumblr,livejournal,mailru,viber,workplace,pocket,instapaper,hatena
 
   POST_URL_PREFIX: process.env.NEXT_PUBLIC_POST_URL_PREFIX || '',
@@ -175,7 +175,7 @@ const BLOG = {
   POST_LIST_STYLE: process.env.NEXT_PUBLIC_POST_LIST_STYLE || 'scroll', // ['page','scroll] Стиль списка статей: пагинация по номерам страниц, одностраничная загрузка с прокруткой
   POST_LIST_PREVIEW: process.env.NEXT_PUBLIC_POST_PREVIEW || 'true', //  Загружать ли предварительный просмотр статьи в списке
   POST_PREVIEW_LINES: 12, // Предварительный просмотр количества строк в блоге
-  POST_RECOMMEND_COUNT: 6, // Количество рекомендованных статей
+  POST_RECOMMEND_COUNT: 3, // Количество рекомендованных статей
   POSTS_PER_PAGE: 12, // Количество записей на странице
   POSTS_SORT_BY: process.env.NEXT_PUBLIC_POST_SORT_BY || 'notion', // Сортировать по 'date' по времени,'notion' под контролем NOTION
 
