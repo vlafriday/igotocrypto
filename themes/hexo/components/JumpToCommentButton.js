@@ -15,7 +15,7 @@ const JumpToCommentButton = () => {
     if (document.getElementById('comment')) {
       window.scrollTo({ top: document.getElementById('comment').offsetTop, behavior: 'smooth' })
     }
-    // 兼容性不好
+    // Плохая совместимость
     // const commentElement = document.getElementById('comment')
     // if (commentElement) {
     // commentElement?.scrollIntoView({ behavior: 'smooth', block: 'start', inline: 'nearest' })
