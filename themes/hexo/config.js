@@ -29,7 +29,7 @@ const CONFIG = {
   HEXO_ARTICLE_RECOMMEND: true, // Рекомендации по статье\Рекомендация, связанная со статьей
 
   HEXO_WIDGET_LATEST_POSTS: true, // Показать блок с последними статьями
-  HEXO_WIDGET_ANALYTICS: true, // Показать карточку статистики
+  HEXO_WIDGET_ANALYTICS: false, // Показать карточку статистики
   HEXO_WIDGET_TO_TOP: true, // Виджет наверх
   HEXO_WIDGET_TO_COMMENT: false, // Виджет перейти к коментариям
   HEXO_WIDGET_DARK_MODE: true, // Виджет сменить тему
