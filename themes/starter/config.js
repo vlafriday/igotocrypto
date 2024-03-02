@@ -95,8 +95,8 @@ const CONFIG = {
   STARTER_PRICING_3_BUTTON_TEXT: 'Купить сейчас',
   STARTER_PRICING_3_BUTTON_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
 
-  STARTER_TESTIMONIALS_TITLE: 'Отзывы пользователей',
-  STARTER_TESTIMONIALS_TEXT_1: 'Что говорят наши пользователи',
+  STARTER_TESTIMONIALS_TITLE: '',
+  STARTER_TESTIMONIALS_TEXT_1: 'Что говорят наши ученики',
   STARTER_TESTIMONIALS_TEXT_2: 'Тысячи веб-мастеров выбрали NotionNext для создания своих сайтов, и благодаря справочным руководствам, сообществам и техническим советам они успешно запустили свои сайты.',
   STARTER_TESTIMONIALS_STAR_ICON: '/images/starter/testimonials/icon-star.svg', // Значки рейтинга
 
