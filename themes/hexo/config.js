@@ -16,12 +16,12 @@ const CONFIG = {
   HEXO_MENU_ARCHIVE: false, // Показать архив
   HEXO_MENU_SEARCH: false, // Показать поиск
 
-  HEXO_POST_LIST_COVER: false, // Показать обложки статей в списке
-  HEXO_POST_LIST_COVER_HOVER_ENLARGE: false, // Наведите курсор мыши на список, чтобы увеличить масштаб
+  HEXO_POST_LIST_COVER: true, // Показать обложки статей в списке
+  HEXO_POST_LIST_COVER_HOVER_ENLARGE: true, // Наведите курсор мыши на список, чтобы увеличить масштаб
 
-  HEXO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
-  HEXO_POST_LIST_SUMMARY: true, // 文章摘要
-  HEXO_POST_LIST_PREVIEW: false, // 读取文章预览
+  HEXO_POST_LIST_COVER_DEFAULT: true, // Когда обложка пуста, фон сайта используется в качестве обложки по умолчанию.
+  HEXO_POST_LIST_SUMMARY: true, // Краткое содержание статьи
+  HEXO_POST_LIST_PREVIEW: false, // Читать статью предварительно\Прочитать превью статьи
   HEXO_POST_LIST_IMG_CROSSOVER: true, // 博客列表图片左右交错
 
   HEXO_ARTICLE_ADJACENT: true, // 显示上一篇下一篇文章推荐
