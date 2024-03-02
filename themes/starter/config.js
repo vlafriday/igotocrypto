@@ -76,7 +76,7 @@ const CONFIG = {
   STARTER_PRICING_1_BUTTON_TEXT: 'Купить сейчас',
   STARTER_PRICING_1_BUTTON_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/c1a38a65-362e-44c5-8065-733fee39eb54',
 
-  STARTER_PRICING_2_TAG: 'отзывы',
+  STARTER_PRICING_2_TAG: 'Лучший выбор',
   STARTER_PRICING_2_TITLE: 'базовая версия',
   STARTER_PRICING_2_PRICE: '39.9',
   STARTER_PRICING_2_PRICE_CURRENCY: '$',
@@ -170,7 +170,7 @@ const CONFIG = {
   // Переменные CONFIG и среды здесь не поддерживаются, и код здесь необходимо изменять поочередно.
   STARTER_TEAM_ITEMS: [
     {
-      STARTER_TEAM_ITEM_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F552435b8-f15d-41bf-b8a2-713cf6d238c5%2F768328da-b823-4c95-a7ae-c9c8ea399109%2Favatar.png?id=6759dcbc-020c-4e68-a98f-b8d5c898467e&table=collection&spaceId=552435b8-f15d-41bf-b8a2-713cf6d238c5&width=60&userId=f5667942-6c3d-4497-9587-e0922c2d686b&cache=v2',
+      STARTER_TEAM_ITEM_AVATAR: 'https://file.notion.so/f/f/552435b8-f15d-41bf-b8a2-713cf6d238c5/dc1c0db2-adaf-4efa-a228-e47c062029d8/G3o8RUTBg2o.jpg?id=2d739e23-0da8-43b7-a58f-e51939645a5d&table=block&spaceId=552435b8-f15d-41bf-b8a2-713cf6d238c5&expirationTimestamp=1709445600000&signature=EabaRgYKNAs_rHGqUPJZaECjuwsMFDbrk48gZkhXUWI&downloadName=G3o8RUTBg2o.jpg',
       STARTER_TEAM_ITEM_NICKNAME: 'vlafriday',
       STARTER_TEAM_ITEM_DESCRIPTION: 'Творец'
     },
