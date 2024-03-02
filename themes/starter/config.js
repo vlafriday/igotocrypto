@@ -56,11 +56,11 @@ const CONFIG = {
   STARTER_ABOUT_TEXT: 'Цель NotionNext - помочь нетехническим хакерам создать свой собственный сайт с наименьшими затратами и максимально быстро, помогая вам эффективно доносить свои продукты и истории до мира. <br /> <br /> Мощные Notion Notes, простая и быстрая хостинговая платформа Vercel - создайте простой сайт!',
   STARTER_ABOUT_BUTTON_TEXT: 'Узнать больше',
   STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
-  STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
-  STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
+  STARTER_ABOUT_IMAGE_1: 'https://rukminim2.flixcart.com/image/850/1000/xif0q/poster/m/z/c/medium-classic-chart-pattern-poster-trading-candlestick-patterns-original-imagd7nsrchvmhet.jpeg?q=90&crop=false',
+  STARTER_ABOUT_IMAGE_2: 'https://www.schwab.com/learn/sites/g/files/eyrktu1246/files/Getty_500706310_3x2.jpg',
   STARTER_ABOUT_TIPS_1: '100+',
-  STARTER_ABOUT_TIPS_2: 'Учеников',
-  STARTER_ABOUT_TIPS_3: 'кто зарабатывает на трейдинге',
+  STARTER_ABOUT_TIPS_2: 'Учеников,',
+  STARTER_ABOUT_TIPS_3: 'кто зарабатывает в криптовалюте',
 
   // Блок цен на главной странице
   STARTER_PRICING_TITLE: 'прайс-лист',
