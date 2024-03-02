@@ -1,23 +1,23 @@
 const CONFIG = {
   HEXO_HOME_BANNER_ENABLE: true,
-  // 3.14.1以后的版本中，欢迎语在blog.config.js中配置，用英文逗号','隔开多个。
+  // В версии 3.14.1 и далее приветственное сообщение настраивается в файле blog.config.js путем разделения нескольких сообщений английскими запятыми ','.
   HEXO_HOME_BANNER_GREETINGS: ['Привет, я тестировщик', 'Привет, я исследователь', 'Привет, я энтузиаст', 'Привет, я инвестор', 'Просто добро пождаловать в мой мир...'], // 首页大图标语文字
 
-  HEXO_HOME_NAV_BUTTONS: true, // 首页是否显示分类大图标按钮
-  // 已知未修复bug, 在移动端开启true后会加载不出图片； 暂时建议设置为false。
-  HEXO_HOME_NAV_BACKGROUND_IMG_FIXED: false, // 首页背景图滚动时是否固定，true 则滚动时图片不懂动； false则随鼠标滚动 ;
-  // 是否显示开始阅读按钮
+  HEXO_HOME_NAV_BUTTONS: true, // Отображать или нет кнопку с большим значком категории на главной странице
+  // Известно, что ошибка не исправлена, и картинка не будет загружаться после включения true на мобильном терминале; временно рекомендуется установить для нее значение false.
+  HEXO_HOME_NAV_BACKGROUND_IMG_FIXED: false, // Фиксируется ли фоновое изображение главной страницы при прокрутке; true означает, что изображение не будет перемещаться при прокрутке; false означает, что оно будет прокручиваться с помощью мыши.
+  // Отображать ли кнопку "Начать чтение"
   HEXO_SHOW_START_READING: true,
 
-  // 菜单配置
-  HEXO_MENU_INDEX: false, // 显示首页
-  HEXO_MENU_CATEGORY: false, // 显示分类
-  HEXO_MENU_TAG: false, // 显示标签
-  HEXO_MENU_ARCHIVE: false, // 显示归档
-  HEXO_MENU_SEARCH: false, // 显示搜索
+  // Конфигурация меню
+  HEXO_MENU_INDEX: false, // Показать главную страницу Домой
+  HEXO_MENU_CATEGORY: false, // Показать классификацию
+  HEXO_MENU_TAG: false, // Показывать ярлыки
+  HEXO_MENU_ARCHIVE: false, // Показать архив
+  HEXO_MENU_SEARCH: false, // Показать поиск
 
-  HEXO_POST_LIST_COVER: true, // 列表显示文章封面
-  HEXO_POST_LIST_COVER_HOVER_ENLARGE: false, // 列表鼠标悬停放大
+  HEXO_POST_LIST_COVER: false, // Показать обложки статей в списке
+  HEXO_POST_LIST_COVER_HOVER_ENLARGE: false, // Наведите курсор мыши на список, чтобы увеличить масштаб
 
   HEXO_POST_LIST_COVER_DEFAULT: true, // 封面为空时用站点背景做默认封面
   HEXO_POST_LIST_SUMMARY: true, // 文章摘要
