@@ -170,25 +170,25 @@ const CONFIG = {
   // Переменные CONFIG и среды здесь не поддерживаются, и код здесь необходимо изменять поочередно.
   STARTER_TEAM_ITEMS: [
     {
-      STARTER_TEAM_ITEM_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa06c61bb-980e-4180-bc18-c15f92c78bb4%2Ftangly1024.jpg?table=collection&id=8e7acf17-de09-4fa1-abde-b5b80ad4a813&t=8e7acf17-de09-4fa1-abde-b5b80ad4a813&width=100&cache=v2',
+      STARTER_TEAM_ITEM_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F552435b8-f15d-41bf-b8a2-713cf6d238c5%2F768328da-b823-4c95-a7ae-c9c8ea399109%2Favatar.png?id=6759dcbc-020c-4e68-a98f-b8d5c898467e&table=collection&spaceId=552435b8-f15d-41bf-b8a2-713cf6d238c5&width=60&userId=f5667942-6c3d-4497-9587-e0922c2d686b&cache=v2',
       STARTER_TEAM_ITEM_NICKNAME: 'vlafriday',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Developer'
+      STARTER_TEAM_ITEM_DESCRIPTION: 'Творец'
     },
 //    {
 //      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
 //      STARTER_TEAM_ITEM_NICKNAME: 'Melissa Tatcher',
 //      STARTER_TEAM_ITEM_DESCRIPTION: 'Marketing Expert'
 //    },
-    {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Stuard Ferrel',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Digital Marketer'
-    },
-    {
-      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
-      STARTER_TEAM_ITEM_NICKNAME: 'Eva Hudson',
-      STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
-    }
+//    {
+//      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-02.png',
+//      STARTER_TEAM_ITEM_NICKNAME: 'Stuard Ferrel',
+//      STARTER_TEAM_ITEM_DESCRIPTION: 'Digital Marketer'
+//    },
+//    {
+//      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-03.png',
+//      STARTER_TEAM_ITEM_NICKNAME: 'Eva Hudson',
+//      STARTER_TEAM_ITEM_DESCRIPTION: 'Creative Designer'
+//    }
   ],
 
   // Блок постов в блоге
