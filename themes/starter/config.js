@@ -13,7 +13,7 @@ const CONFIG = {
   STARTER_HERO_TITLE_1: 'Бесплатный конструктор сайтов с открытым исходным кодом, основанный на Notion notes', // Зона Героев текст
   STARTER_HERO_TITLE_2: 'Умножьте свою ценность, создав сайт без восприятия через заметки.', // Зона Героев текст
   STARTER_HERO_TITLE_3: 'Создан по последнему слову техники', // Зона Героев текст
-  STARTER_HERO_BUTTON_1_TEXT: 'Каков мой путь?', // Кнопка зоны героя
+  STARTER_HERO_BUTTON_1_TEXT: 'Мой путь', // Кнопка зоны героя
   STARTER_HERO_BUTTON_1_URL: 'https://www.vlafriday.space/category/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE', // Кнопка зоны героя
   STARTER_HERO_BUTTON_2_TEXT: 'Youtube канал', // Кнопка зоны героя
   STARTER_HERO_BUTTON_2_URL: 'https://youtube.com/@vlafriday', // Кнопка зоны героя
