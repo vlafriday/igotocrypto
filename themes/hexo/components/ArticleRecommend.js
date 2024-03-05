@@ -50,7 +50,7 @@ export default function ArticleRecommend({ recommendPosts, siteInfo }) {
                                         {post.title}
                                     </div>
                                 </div>
-                                <LazyImage src={headerImage} className='absolute top-0 w-full h-full object-cover object-center group-hover:scale-110 group-hover:brightness-50 transform duration-200' />
+                                <LazyImage src={headerImage} className='brightness-200 absolute top-0 w-full h-full object-cover object-center group-hover:scale-110 group-hover:brightness-50 transform duration-200' />
                             </div>
 
                         </Link>)
