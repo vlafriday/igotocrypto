@@ -172,11 +172,11 @@ const CONFIG = {
     STARTER_FAQ_4_QUESTION: 'Статьи не синхронизируются в реальном времени?',
     STARTER_FAQ_4_ANSWER: 'Сначала проверьте, правильно ли настроен Notion_Page_ID.Во-вторых, поскольку каждая страница блога имеет независимый кеш, решить эту проблему можно после обновления веб-страницы.',
 
-  // 团队成员区块
-  STARTER_TEAM_ENABLE: true, // 团队成员区块开关
-  STARTER_TEAM_TITLE: 'Участники команды',
-    STARTER_TEAM_TEXT_1: 'Наша команда разработчиков',
-    STARTER_TEAM_TEXT_2: 'NotionNext– это результат сотрудничества многих энтузиастов технологий с открытым исходным кодом. Благодарим каждого <a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">участника</a>.',
+   // 团队成员区块
+    STARTER_TEAM_ENABLE: true, // 团队成员区块开关
+    STARTER_TEAM_TITLE: '团队成员',
+    STARTER_TEAM_TEXT_1: '我们的开发者团队',
+    STARTER_TEAM_TEXT_2: 'NotionNext 由众多开源技术爱好者们共同合作完成，感谢每一位<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
 
   // Переменные CONFIG и среды здесь не поддерживаются, и код здесь необходимо изменять поочередно.
   STARTER_TEAM_ITEMS: [
