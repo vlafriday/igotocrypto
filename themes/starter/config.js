@@ -11,34 +11,34 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '开源且免费的基于 Notion 笔记的网站构建工具', // 英雄区文字
-  STARTER_HERO_TITLE_2: '通过笔记无感知地建站、成倍放大您的价值', // 英雄区文字
+  STARTER_HERO_TITLE_1: 'Бесплатный конструктор сайтов с открытым исходным кодом, основанный на Notion notes', // Зона Героев текст
+  STARTER_HERO_TITLE_2: 'Умножьте свою ценность, создав сайт без восприятия через заметки.', // Зона Героев текст
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
-  STARTER_HERO_BUTTON_1_TEXT: '开始体验', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_TEXT: '在Github上关注', // 英雄区按钮
-  STARTER_HERO_BUTTON_2_URL: 'https://github.com/tangly1024/NotionNext', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_TEXT: 'Мой путь', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_URL: 'https://www.vlafriday.space/category/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_TEXT: 'YouTube канал', // 英雄区按钮
+  STARTER_HERO_BUTTON_2_URL: 'https://youtube.com/@vlafriday', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
 
   STARTER_HERO_PREVIEW_IMAGE: '/images/starter/hero/hero-image.webp', // 产品预览图 ，默认读取public目录下图片
 
   // 顶部右侧导航暗流
-  STARTER_NAV_BUTTON_1_TEXT: 'Sign In',
+  STARTER_NAV_BUTTON_1_TEXT: 'Войти',
   STARTER_NAV_BUTTON_1_URL: '/signin',
 
-  STARTER_NAV_BUTTON_2_TEXT: 'Sign Up',
+  STARTER_NAV_BUTTON_2_TEXT: 'Регистрация',
   STARTER_NAV_BUTTON_2_URL: '/signup',
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
-  STARTER_FEATURE_TEXT_2: 'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
+  STARTER_FEATURE_TITLE: 'Характеристика', // характеристика
+  STARTER_FEATURE_TEXT_1: 'Ключевые особенности NotionNext', // характеристика
+  STARTER_FEATURE_TEXT_2: 'Концепция NotionNext заключается в том, чтобы помочь вам создать свой собственный веб-сайт простым, не требующим особого восприятия и стабильным способом, который повысит ценность вашего бренда.', // характеристика
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
-  STARTER_FEATURE_1_BUTTON_TEXT: '了解更多', // 特性1
-  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // 特性1
+  STARTER_FEATURE_1_TITLE_1: 'Бесплатно и с открытым исходным кодом', // Характеристика 1
+  STARTER_FEATURE_1_TEXT_1: 'Исходный код проекта находится в открытом доступе на Github и соответствует протоколу MIT', // Характеристика 1
+  STARTER_FEATURE_1_BUTTON_TEXT: 'Узнать больше', // Характеристика 1
+  STARTER_FEATURE_1_BUTTON_URL: 'https://github.com/tangly1024/NotionNext', // Характеристика 1
 
   STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
   STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
