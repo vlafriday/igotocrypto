@@ -181,9 +181,9 @@ const CONFIG = {
   // Переменные CONFIG и среды здесь не поддерживаются, и код здесь необходимо изменять поочередно.
   STARTER_TEAM_ITEMS: [
       {
-        STARTER_TEAM_ITEM_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fs3-us-west-2.amazonaws.com%2Fsecure.notion-static.com%2Fa06c61bb-980e-4180-bc18-c15f92c78bb4%2Ftangly1024.jpg?table=collection&id=8e7acf17-de09-4fa1-abde-b5b80ad4a813&t=8e7acf17-de09-4fa1-abde-b5b80ad4a813&width=100&cache=v2',
-        STARTER_TEAM_ITEM_NICKNAME: 'Tangly',
-        STARTER_TEAM_ITEM_DESCRIPTION: 'Developer'
+        STARTER_TEAM_ITEM_AVATAR: 'https://file.notion.so/f/f/552435b8-f15d-41bf-b8a2-713cf6d238c5/dc1c0db2-adaf-4efa-a228-e47c062029d8/G3o8RUTBg2o.jpg?id=2d739e23-0da8-43b7-a58f-e51939645a5d&table=block&spaceId=552435b8-f15d-41bf-b8a2-713cf6d238c5&expirationTimestamp=1709445600000&signature=EabaRgYKNAs_rHGqUPJZaECjuwsMFDbrk48gZkhXUWI&downloadName=G3o8RUTBg2o.jpg',
+                STARTER_TEAM_ITEM_NICKNAME: 'vlafriday',
+                STARTER_TEAM_ITEM_DESCRIPTION: 'Творец'
       },
       {
         STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
