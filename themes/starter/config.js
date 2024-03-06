@@ -182,7 +182,7 @@ const CONFIG = {
   STARTER_TEAM_ITEM_AVATAR: 'https://file.notion.so/f/f/552435b8-f15d-41bf-b8a2-713cf6d238c5/dc1c0db2-adaf-4efa-a228-e47c062029d8/G3o8RUTBg2o.jpg?id=2d739e23-0da8-43b7-a58f-e51939645a5d&table=block&spaceId=552435b8-f15d-41bf-b8a2-713cf6d238c5&expirationTimestamp=1709445600000&signature=EabaRgYKNAs_rHGqUPJZaECjuwsMFDbrk48gZkhXUWI&downloadName=G3o8RUTBg2o.jpg',
         STARTER_TEAM_ITEM_NICKNAME: 'vlafriday',
         STARTER_TEAM_ITEM_DESCRIPTION: 'Творец'
-      },
+      }
   //    {
   //      STARTER_TEAM_ITEM_AVATAR: '/images/starter/team/team-01.png',
   //      STARTER_TEAM_ITEM_NICKNAME: 'Melissa Tatcher',
