@@ -55,6 +55,7 @@ const CONFIG = {
   STARTER_FEATURE_4_BUTTON_URL: 'https://docs.tangly1024.com/about', // Характеристика 4
 
   // Главный блок ABOUT
+  STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
   STARTER_ABOUT_TITLE: 'Легкое и практичное решение для создания веб-сайтов',
   STARTER_ABOUT_TEXT: 'Цель NotionNext - помочь нетехническим хакерам создать свой собственный сайт с наименьшими затратами и максимально быстро, помогая вам эффективно доносить свои продукты и истории до мира. <br /> <br /> Мощные Notion Notes, простая и быстрая хостинговая платформа Vercel - создайте простой сайт!',
   STARTER_ABOUT_BUTTON_TEXT: 'Узнать больше',
@@ -151,6 +152,7 @@ const CONFIG = {
   ],
 
   //   Модуль часто задаваемых вопросов
+  STARTER_FAQ_ENABLE: true, // 常见问题模块开关
   STARTER_FAQ_TITLE: 'Часто задаваемые вопросы',
   STARTER_FAQ_TEXT_1: 'Есть вопросы? Пожалуйста, посмотрите здесь',
   STARTER_FAQ_TEXT_2: 'Мы собрали распространенные вопросы пользователей',
