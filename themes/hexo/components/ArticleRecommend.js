@@ -42,7 +42,7 @@ export default function ArticleRecommend({ recommendPosts, siteInfo }) {
                             title={post.title}
                             href={url}
                             passHref
-                            className="flex h-40 cursor-pointer overflow-hidden">
+                            className="shadow-xl flex h-40 cursor-pointer overflow-hidden">
 
                             <div className="h-full w-full relative group">
                                 <div className="flex items-center justify-center w-full h-full duration-300 ">
