@@ -80,8 +80,8 @@ const LayoutIndex = (props) => {
     : []
   return (
         <>
-        {/* 英雄区123 */}
-        <Hero/>
+        {/* 英雄区 */}
+        {siteConfig('STARTER_HERO_ENABLE', null, CONFIG) && <Hero/>}
         {/* 产品特性 */}
         {siteConfig('STARTER_FEATURE_ENABLE', null, CONFIG) && <Features/>}
         {/* 关于 */}
