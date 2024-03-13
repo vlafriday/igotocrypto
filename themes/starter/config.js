@@ -43,7 +43,7 @@ const CONFIG = {
   STARTER_FEATURE_2_TITLE_1: 'Многочисленные настройки тем', // Характеристика 2
   STARTER_FEATURE_2_TEXT_1: 'Десятки тем, подходящих для разных сцен, всегда найдут подходящую для вас!', // Характеристика 2
   STARTER_FEATURE_2_BUTTON_TEXT: 'Узнать больше', // Характеристика 2
-  STARTER_FEATURE_2_BUTTON_URL: 'https://vlafriday.space', // Характеристика 2
+  STARTER_FEATURE_2_BUTTON_URL: 'https://www.vlafriday.space', // Характеристика 2
 
   STARTER_FEATURE_3_TITLE_1: 'Отличная производительность', // Характеристика 3
   STARTER_FEATURE_3_TEXT_1: 'Разработка на основе NextJS, более быстрое время отклика, лучшее SEO', // Характеристика 3
@@ -60,7 +60,7 @@ const CONFIG = {
   STARTER_ABOUT_TITLE: 'Легкое и практичное решение для создания веб-сайтов',
   STARTER_ABOUT_TEXT: 'Цель NotionNext - помочь нетехническим хакерам создать свой собственный сайт с наименьшими затратами и максимально быстро, помогая вам эффективно доносить свои продукты и истории до мира. <br /> <br /> Мощные Notion Notes, простая и быстрая хостинговая платформа Vercel - создайте простой сайт!',
   STARTER_ABOUT_BUTTON_TEXT: 'Узнать больше',
-  STARTER_ABOUT_BUTTON_URL: 'https://vlafriday.space/about',
+  STARTER_ABOUT_BUTTON_URL: 'https://www.vlafriday.space/about',
   STARTER_ABOUT_IMAGE_1: 'https://i.pinimg.com/736x/c5/5c/43/c55c433333665e754ae17393b9dba800.jpg',
   STARTER_ABOUT_IMAGE_2: 'https://www.schwab.com/learn/sites/g/files/eyrktu1246/files/Getty_500706310_3x2.jpg',
   STARTER_ABOUT_TIPS_1: '100+',
@@ -312,7 +312,7 @@ const CONFIG = {
     STARTER_404_BACK: 'Вернуться на главную страницу',
 
     STARTER_POST_REDIRECT_ENABLE: true, // Перенаправление включено по умолчанию
-    STARTER_POST_REDIRECT_URL: 'https://vlafriday.space', // Перенаправить доменное имя
+    STARTER_POST_REDIRECT_URL: 'https://www.vlafriday.space', // Перенаправить доменное имя
     STARTER_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_STARTER_NEWSLETTER || false // 是否开启邮件订阅 请先配置mailchimp功能 https://docs.tangly1024.com/article/notion-next-mailchimp
   }
 export default CONFIG
