@@ -15,7 +15,7 @@ const BLOG = {
   IS_TAG_COLOR_DISTINGUISHED: process.env.NEXT_PUBLIC_IS_TAG_COLOR_DISTINGUISHED === 'true' || true, // 对于名称相同的tag是否区分tag的颜色
 
   // После версии 3.14.1 здесь настраивается приветственное сообщение, разделенное английскими запятыми, для поддержки нескольких эффектов ввода приветственного сообщения.
-  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Привет，я тестировщик, Привет，я исследователь, Привет，я энтузиаст, Привет，я инвестор, Просто добро пожаловать в мой мир...',
+  GREETING_WORDS: process.env.NEXT_PUBLIC_GREETING_WORDS || 'Привет，я исследователь, Привет，я энтузиаст, Привет，я инвестор, Это просто мой путь к крипте, Я — идущий к крипте...',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // Поддержка типа меню, начиная с версии 3.12.0, темы будут постепенно поддерживать гибкую конфигурацию вторичного меню, вместо оригинального типа страницы, эта конфигурация является тестовой функцией, по умолчанию выключена.
 
@@ -120,7 +120,7 @@ const BLOG = {
     CAN_COPY: process.env.NEXT_PUBLIC_CAN_COPY || true, // Разрешено ли копирование содержимого страницы по умолчанию. Если установлено значение false, копирование содержимого запрещено во всем стеке.
     // 自定义右键菜单
     CUSTOM_RIGHT_CLICK_CONTEXT_MENU: process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU || true, // Настройте контекстное меню и переопределите системное меню.
-    CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH: process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH || false, // Позволяет ли контекстное меню переключать темы
+    CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH: process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_THEME_SWITCH || true, // Позволяет ли контекстное меню переключать темы
     CUSTOM_RIGHT_CLICK_CONTEXT_MENU_DARK_MODE: process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_DARK_MODE || true, // 是否显示深色模式
     CUSTOM_RIGHT_CLICK_CONTEXT_MENU_SHARE_LINK: process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_SHARE_LINK || true, // 是否显示分享链接
     CUSTOM_RIGHT_CLICK_CONTEXT_MENU_RANDOM_POST: process.env.NEXT_PUBLIC_CUSTOM_RIGHT_CLICK_CONTEXT_MENU_RANDOM_POST || true, // 是否显示随机博客
