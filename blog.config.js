@@ -451,11 +451,11 @@ const BLOG = {
 
   // Устаревшая конфигурация
   AVATAR: process.env.NEXT_PUBLIC_AVATAR || '/avatar.svg', // 作者头像，被notion中的ICON覆盖。若无ICON则取public目录下的avatar.png
-  TITLE: process.env.NEXT_PUBLIC_TITLE || 'vlafriday', // Заголовок сайта, который перезаписывается заголовком страницы в уведомлениях; не оставляйте это поле пустым, иначе сервер не сможет его скомпилировать.
+  TITLE: process.env.NEXT_PUBLIC_TITLE || 'igotocrypto', // Заголовок сайта, который перезаписывается заголовком страницы в уведомлениях; не оставляйте это поле пустым, иначе сервер не сможет его скомпилировать.
   HOME_BANNER_IMAGE:
         process.env.NEXT_PUBLIC_HOME_BANNER_IMAGE || '/bg_image.jpg', // 首页背景大图, 会被notion中的封面图覆盖，若无封面图则会使用代码中的 /public/bg_image.jpg 文件
   DESCRIPTION:
-        process.env.NEXT_PUBLIC_DESCRIPTION || 'Тот самый Фрайдей', // Описание сайта, перезаписываемое описанием страницы в понятии notion
+        process.env.NEXT_PUBLIC_DESCRIPTION || 'igotocrypto, блог, Идущий к крипте, криптовалюта, инвестиции, заработок', // Описание сайта, перезаписываемое описанием страницы в понятии notion
 
   // связанные с развитием
   NOTION_ACCESS_TOKEN: process.env.NOTION_ACCESS_TOKEN || '', // Полезно, если вы предпочитаете не делать свою базу данных общедоступной
