@@ -2,7 +2,7 @@
 const BLOG = {
   // Important page_id！！！Duplicate Template from  https://www.notion.so/tanghh/02ab3b8678004aa69e9e415905ef32a5
   NOTION_PAGE_ID:
-        process.env.NOTION_PAGE_ID || '02ab3b8678004aa69e9e415905ef32a5',
+        process.env.NOTION_PAGE_ID || '0fe107bee3174a7b95e399db246f86ee',
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || false, // Псевдостатический путь: после его включения все URL-адреса статей будут заканчиваться на .html.
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 3, // Единица интервала кэширования контента (секунды); то есть каждая страница имеет чистый статический период в 5 секунд, в течение которого данные уведомлений не будут захватываться независимо от того, сколько раз к ней обращаются; увеличение этого значения поможет сэкономить ресурсы Vercel и увеличить скорость доступа., но это также приведет к задержке обновления статьи.
   THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // Текущая тема, все поддерживаемые темы можно найти в папке тем; например, именем темы является имя папки. example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
@@ -19,21 +19,21 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // Поддержка типа меню, начиная с версии 3.12.0, темы будут постепенно поддерживать гибкую конфигурацию вторичного меню, вместо оригинального типа страницы, эта конфигурация является тестовой функцией, по умолчанию выключена.
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'vlafriday', // Ваш никнейм, например vlafriday.
-  BIO: process.env.NEXT_PUBLIC_BIO || 'Тот самый Фрайдей', // об авторе
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://www.vlafriday.space/', // адрес веб-сайта
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'vlafriday, блог, Владислав Пятница, Тот самый Фрайдей', // Ключевые слова сайта, разделенные английскими запятыми
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'igotocrypto', // Ваш никнейм, например vlafriday.
+  BIO: process.env.NEXT_PUBLIC_BIO || 'Идущий к крипте', // об авторе
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://igotocrypto.vercel.app/', // адрес веб-сайта
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'igotocrypto, блог, Идущий к крипте, криптовалюта, инвестиции, заработок', // Ключевые слова сайта, разделенные английскими запятыми
 
   // Социальная ссылка. Если она не требуется, оставьте ее пустой, например CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // Адрес электронной почты mail@tangly1024.com
   CONTACT_WEIBO: process.env.NEXT_PUBLIC_CONTACT_WEIBO || '', // 你的微博个人主页
-  CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || 'https://twitter.com/vlafriday', // 你的twitter个人主页
+  CONTACT_TWITTER: process.env.NEXT_PUBLIC_CONTACT_TWITTER || 'https://twitter.com/igotocrypto', // 你的twitter个人主页
   CONTACT_GITHUB: process.env.NEXT_PUBLIC_CONTACT_GITHUB || '', // 你的github个人主页 例如 https://github.com/tangly1024
-  CONTACT_TELEGRAM: process.env.NEXT_PUBLIC_CONTACT_TELEGRAM || 'https://t.me/vlafriday', // 你的telegram 地址 例如 https://t.me/tangly_1024
-  CONTACT_LINKEDIN: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN || 'https://www.linkedin.com/in/vlafriday/', // 你的linkedIn 首页
-  CONTACT_INSTAGRAM: process.env.NEXT_PUBLIC_CONTACT_INSTAGRAM || 'https://www.instagram.com/vlafriday', // 您的instagram地址
+  CONTACT_TELEGRAM: process.env.NEXT_PUBLIC_CONTACT_TELEGRAM || 'https://t.me/igotocrypto', // 你的telegram 地址 例如 https://t.me/tangly_1024
+  //CONTACT_LINKEDIN: process.env.NEXT_PUBLIC_CONTACT_LINKEDIN || 'https://www.linkedin.com/in/vlafriday/', // 你的linkedIn 首页
+  CONTACT_INSTAGRAM: process.env.NEXT_PUBLIC_CONTACT_INSTAGRAM || 'https://www.instagram.com/igotocrypto', // 您的instagram地址
   CONTACT_BILIBILI: process.env.NEXT_PUBLIC_CONTACT_BILIBILI || '', // B站主页
-  CONTACT_YOUTUBE: process.env.NEXT_PUBLIC_CONTACT_YOUTUBE || 'https://www.youtube.com/@vlafriday', // Youtube主页
+  CONTACT_YOUTUBE: process.env.NEXT_PUBLIC_CONTACT_YOUTUBE || 'https://www.youtube.com/@igotocrypto', // Youtube主页
 
   NOTION_HOST: process.env.NEXT_PUBLIC_NOTION_HOST || 'https://www.notion.so', // Notion域名，您可以选择用自己的域名进行反向代理，如果不懂得什么是反向代理，请勿修改此项
 
