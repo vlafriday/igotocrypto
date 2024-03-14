@@ -1,6 +1,6 @@
 const CONFIG = {
 
-  GITBOOK_INDEX_PAGE: '', // Для статей, отображаемых на главной странице документа, убедитесь, что этот путь включен в вашу базу данных понятий.
+  GITBOOK_INDEX_PAGE: ' ', // Для статей, отображаемых на главной странице документа, убедитесь, что этот путь включен в вашу базу данных понятий.
 
   GITBOOK_AUTO_SORT: process.env.NEXT_PUBLIC_GITBOOK_AUTO_SORT || true, // Нужно ли автоматически сортировать статьи по названию категории; автоматическая группировка может нарушить порядок статей в вашем понятии.
 
@@ -13,7 +13,7 @@ const CONFIG = {
   GITBOOK_MENU_SEARCH: true, // 显示搜索
 
   // Widget
-  GITBOOK_WIDGET_REVOLVER_MAPS: process.env.NEXT_PUBLIC_WIDGET_REVOLVER_MAPS || 'true', // Картографический плагин
+  GITBOOK_WIDGET_REVOLVER_MAPS: process.env.NEXT_PUBLIC_WIDGET_REVOLVER_MAPS || 'false', // Картографический плагин
   GITBOOK_WIDGET_TO_TOP: true // вернуться к началу
 }
 export default CONFIG
