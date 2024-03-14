@@ -8,7 +8,7 @@ const BLOG = {
   THEME: process.env.NEXT_PUBLIC_THEME || 'hexo', // Текущая тема, все поддерживаемые темы можно найти в папке тем; например, именем темы является имя папки. example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // Отображать ли кнопку переключения темы
   LANG: process.env.NEXT_PUBLIC_LANG || 'en-US', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
-  SINCE: process.env.NEXT_SINCE || 2019, // e.g if leave this empty, current year will be used.
+  SINCE: process.env.NEXT_SINCE || 2020, // e.g if leave this empty, current year will be used.
   APPEARANCE: process.env.NEXT_PUBLIC_APPEARANCE || 'light', // ['light', 'dark', 'auto'], // light mode ， dark mode， auto автоматический ночной режим в зависимости от времени и темы
   APPEARANCE_DARK_TIME: process.env.NEXT_PUBLIC_APPEARANCE_DARK_TIME || [18, 6], // Время начала и окончания ночного режима，false Автоматическое переключение в ночной режим в зависимости от времени
 
