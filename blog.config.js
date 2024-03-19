@@ -22,7 +22,7 @@ const BLOG = {
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'igotocrypto', // Ваш никнейм, например vlafriday.
   BIO: process.env.NEXT_PUBLIC_BIO || 'Идущий к крипте', // об авторе
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://igotocrypto.vercel.app/', // адрес веб-сайта
-  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'igotocrypto, блог, Идущий к крипте, криптовалюта, инвестиции, заработок', // Ключевые слова сайта, разделенные английскими запятыми
+  KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'igotocrypto, блог, Идущий к крипте, криптовалюта, инвестиции, заработок, крипта', // Ключевые слова сайта, разделенные английскими запятыми
 
   // Социальная ссылка. Если она не требуется, оставьте ее пустой, например CONTACT_WEIBO:''
   CONTACT_EMAIL: process.env.NEXT_PUBLIC_CONTACT_EMAIL || '', // Адрес электронной почты mail@tangly1024.com
