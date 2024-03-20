@@ -5,7 +5,7 @@ const BLOG = {
         process.env.NOTION_PAGE_ID || '0fe107bee3174a7b95e399db246f86ee',
   PSEUDO_STATIC: process.env.NEXT_PUBLIC_PSEUDO_STATIC || true, // Псевдостатический путь: после его включения все URL-адреса статей будут заканчиваться на .html.
   NEXT_REVALIDATE_SECOND: process.env.NEXT_PUBLIC_REVALIDATE_SECOND || 3, // Единица интервала кэширования контента (секунды); то есть каждая страница имеет чистый статический период в 5 секунд, в течение которого данные уведомлений не будут захватываться независимо от того, сколько раз к ней обращаются; увеличение этого значения поможет сэкономить ресурсы Vercel и увеличить скорость доступа., но это также приведет к задержке обновления статьи.
-  THEME: process.env.NEXT_PUBLIC_THEME || 'fukasawa', // Текущая тема, все поддерживаемые темы можно найти в папке тем; например, именем темы является имя папки. example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
+  THEME: process.env.NEXT_PUBLIC_THEME || 'heo', // Текущая тема, все поддерживаемые темы можно найти в папке тем; например, именем темы является имя папки. example,fukasawa,gitbook,heo,hexo,landing,matery,medium,next,nobelium,plog,simple
   THEME_SWITCH: process.env.NEXT_PUBLIC_THEME_SWITCH || false, // Отображать ли кнопку переключения темы
   LANG: process.env.NEXT_PUBLIC_LANG || 'en-US', // e.g 'zh-CN','en-US'  see /lib/lang.js for more.
   SINCE: process.env.NEXT_SINCE || 2020, // e.g if leave this empty, current year will be used.
