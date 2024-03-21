@@ -3,7 +3,7 @@ const CONFIG = {
   LANDING_HEADER_BUTTON_1_TITLE: 'Github开源',
   LANDING_HEADER_BUTTON_1_URL: 'https://github.com/tangly1024/NotionNext',
 
-  LANDING_HEADER_BUTTON_2_TITLE: '作者博客',
+  LANDING_HEADER_BUTTON_2_TITLE: 'Blog',
   LANDING_HEADER_BUTTON_2_URL: 'https://blog.tangly1024.com/',
 
   // 首页大图英雄板块
@@ -13,9 +13,9 @@ const CONFIG = {
   LANDING_HERO_BUTTON_1_LINK: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
   LANDING_HERO_BUTTON_2_TEXT: 'Узнать больше',
   LANDING_HERO_BUTTON_2_LINK: 'https://docs.tangly1024.com/about',
-  LANDING_HERO_VIDEO_IMAGE: '/images/home.png',
+  LANDING_HERO_VIDEO_IMAGE: 'https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800',
   //   HERO_VIDEO_URL: '/videos/video.mp4',
-  LANDING_HERO_VIDEO_IFRAME: '//player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1',
+  LANDING_HERO_VIDEO_IFRAME: 'https://www.youtube.com/watch?v=D8aGQW7ynsg', ////player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1
   LANDING_HERO_VIDEO_TIPS: 'Watch the full video (2 min)',
 
   // 特性介绍

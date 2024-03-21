@@ -11,11 +11,11 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: 'Бесплатный конструктор сайтов с открытым исходным кодом, основанный на Notion notes', // Зона Героев текст
-  STARTER_HERO_TITLE_2: 'Умножьте свою ценность, создав сайт без восприятия через заметки.', // Зона Героев текст
+  STARTER_HERO_TITLE_1: 'Лучшее обучение криптовалюте с нуля от профессионалов', // Зона Героев текст
+  STARTER_HERO_TITLE_2: 'Начни стабильно зарабатывать в крипте', // Зона Героев текст
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: 'Мой путь', // 英雄区按钮
-  STARTER_HERO_BUTTON_1_URL: 'https://www.vlafriday.space/category/%D0%92%D0%B8%D0%B4%D0%B5%D0%BE', // 英雄区按钮
+  STARTER_HERO_BUTTON_1_URL: 'https://www.иblog.igotocrypto.online', // 英雄区按钮
   STARTER_HERO_BUTTON_2_TEXT: 'YouTube канал', // 英雄区按钮
   STARTER_HERO_BUTTON_2_URL: 'https://youtube.com/@vlafriday', // 英雄区按钮
   STARTER_HERO_BUTTON_2_ICON: '/images/starter/github.svg', // 英雄区按钮2的图标，不需要则留空
@@ -172,8 +172,8 @@ const CONFIG = {
     STARTER_FAQ_4_QUESTION: 'Статьи не синхронизируются в реальном времени?',
     STARTER_FAQ_4_ANSWER: 'Сначала проверьте, правильно ли настроен Notion_Page_ID.Во-вторых, поскольку каждая страница блога имеет независимый кеш, решить эту проблему можно после обновления веб-страницы.',
 
-   // 团队成员区块
-    STARTER_TEAM_ENABLE: true, // Переключатель блокировки члена команды
+   // Узнайте больше о блоках для членов команды
+    STARTER_TEAM_ENABLE: false, // Переключатель блокировки члена команды
     STARTER_TEAM_TITLE: 'Команда',
     STARTER_TEAM_TEXT_1: 'Команда 1',
     STARTER_TEAM_TEXT_2: 'NotionNext команда<a className="underline" href="https://github.com/tangly1024/NotionNext/graphs/contributors">贡献者</a>',
