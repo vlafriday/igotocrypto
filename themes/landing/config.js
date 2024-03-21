@@ -15,7 +15,7 @@ const CONFIG = {
   LANDING_HERO_BUTTON_2_LINK: 'https://docs.tangly1024.com/about',
   LANDING_HERO_VIDEO_IMAGE: 'https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800',
   //   HERO_VIDEO_URL: '/videos/video.mp4',
-  LANDING_HERO_VIDEO_IFRAME: '<iframe width="560" height="315" src="https://www.youtube.com/embed/D8aGQW7ynsg?si=yo0oRgJ9v8cn-GcA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>, ////player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1
+  LANDING_HERO_VIDEO_IFRAME: 'https://www.youtube.com/embed/D8aGQW7ynsg?si=yo0oRgJ9v8cn-GcA', ////player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1
   LANDING_HERO_VIDEO_TIPS: 'Watch the full video (2 min)',
 
   // 特性介绍
