@@ -1,6 +1,6 @@
 const CONFIG = {
 
-  LANDING_HEADER_BUTTON_1_TITLE: 'Github开源',
+  LANDING_HEADER_BUTTON_1_TITLE: 'Github Open Source',
   LANDING_HEADER_BUTTON_1_URL: 'https://github.com/tangly1024/NotionNext',
 
   LANDING_HEADER_BUTTON_2_TITLE: 'Blog',
@@ -9,18 +9,18 @@ const CONFIG = {
   // 首页大图英雄板块
   LANDING_HERO_TITLE_1: 'Идущий к крипте',
   LANDING_HERO_P_1: 'Начни зарабатывать в крипте',
-  LANDING_HERO_BUTTON_1_TEXT: '开始体验',
+  LANDING_HERO_BUTTON_1_TEXT: 'Начало работы',
   LANDING_HERO_BUTTON_1_LINK: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
   LANDING_HERO_BUTTON_2_TEXT: 'Узнать больше',
   LANDING_HERO_BUTTON_2_LINK: 'https://docs.tangly1024.com/about',
-  LANDING_HERO_VIDEO_IMAGE: 'https://images.unsplash.com/photo-1634704784915-aacf363b021f?ixlib=rb-4.0.3&q=85&fm=jpg&crop=entropy&cs=srgb&w=4800',
+  LANDING_HERO_VIDEO_IMAGE: 'https://img.youtube.com/vi/D8aGQW7ynsg/maxresdefault.jpg',
      HERO_VIDEO_URL: 'https://www.youtube.com/watch?v=D8aGQW7ynsg',
   LANDING_HERO_VIDEO_IFRAME: 'https://www.youtube.com/embed/D8aGQW7ynsg?si=yo0oRgJ9v8cn-GcA', ////player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1
-  LANDING_HERO_VIDEO_TIPS: 'Watch the full video (2 min)',
+  LANDING_HERO_VIDEO_TIPS: 'Смотреть полное видео (2 минуты)',
 
   // 特性介绍
-  LANDING_FEATURES_HEADER_1: '探索的过程',
-  LANDING_FEATURES_HEADER_1_P: "如何搭建自己的门户网站，塑造一个品牌展示中心？<br/>曾经，它是系统<strong class='font-bold text-red-500'>繁重</strong>的Wordpress、是操作<strong class='font-bold  text-red-500'>复杂</strong>的Hexo、是<strong class='font-bold text-red-500'>昂贵</strong>且<strong class='font-bold text-red-500'>不稳定</strong>的技术团队;<br/>现在，只要一个Notion笔记就够了",
+  LANDING_FEATURES_HEADER_1: 'процесс открытия',
+  LANDING_FEATURES_HEADER_1_P: "Как создать собственный портал и сформировать брендинговую витрину？<br/>曾经，它是系统<strong class='font-bold text-red-500'>繁重</strong>的Wordpress、是操作<strong class='font-bold  text-red-500'>复杂</strong>的Hexo、是<strong class='font-bold text-red-500'>昂贵</strong>且<strong class='font-bold text-red-500'>不稳定</strong>的技术团队;<br/>现在，只要一个Notion笔记就够了",
   LANDING_FEATURES_HEADER_2: 'Notion+NextJs组合方案',
   LANDING_FEATURES_HEADER_2_P: '在Notion笔记中管理文章数据，NextJs将其渲染成网页排版，通过Vercel等第三方平台将您的网站发布到全球。',
   LANDING_FEATURES_CARD_1_TITLE: '简单快速的系统',
