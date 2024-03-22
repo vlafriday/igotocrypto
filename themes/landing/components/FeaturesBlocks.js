@@ -5,8 +5,8 @@ export default function FeaturesBlocks() {
   return <>
                 {/* <!-- ====== Pricing Section Start --> */}
                 <section
-               id="pricing"
-               className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
+               id="features"
+               className="relative z-20 overflow-hidden bg-white pb-12 pt-10 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
              >
               (
       <section className="relative">
@@ -137,7 +137,7 @@ export default function FeaturesBlocks() {
         </div>
       </section>
   )
-      </section>
+  </section>
 
   </>
 }
