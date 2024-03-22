@@ -43,7 +43,7 @@ export default function Hero() {
                                     </a>
                                 </div>
                                 <div>
-                                    <a target='_blank' className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
+                                    <a target='_self' className="btn text-white bg-gray-900 hover:bg-gray-800 w-full sm:w-auto sm:ml-4"
                                         href={siteConfig('LANDING_HERO_BUTTON_2_LINK', null, CONFIG)} rel="noreferrer">
                                         {siteConfig('LANDING_HERO_BUTTON_2_TEXT', null, CONFIG)}
                                     </a>

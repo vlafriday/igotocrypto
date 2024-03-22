@@ -6,7 +6,7 @@ export default function FeaturesBlocks() {
                 {/* <!-- ====== Pricing Section Start --> */}
                 <section
                id="features"
-               className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[60px]"
+               className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[20px]"
              >
               (
       <section className="relative">
