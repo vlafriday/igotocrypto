@@ -107,7 +107,7 @@ export default function Footer() {
                                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Ценности компании</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#price" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">цены</a>
+                                <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">цены</a>
                             </li>
                             <li className="mb-2">
                                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">политика конфиденциальности</a>
