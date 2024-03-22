@@ -4,7 +4,7 @@ const CONFIG = {
   LANDING_HEADER_BUTTON_1_URL: 'https://github.com/tangly1024/NotionNext',
 
   LANDING_HEADER_BUTTON_2_TITLE: 'Blog',
-  LANDING_HEADER_BUTTON_2_URL: 'https://blog.tangly1024.com/',
+  LANDING_HEADER_BUTTON_2_URL: 'https://blog.igotocrypto.com/',
 
   // 首页大图英雄板块
   LANDING_HERO_TITLE_1: 'Идущий к крипте',
