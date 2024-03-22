@@ -6,7 +6,7 @@ import Link from 'next/link'
  * 价格收费表
  */
 export const Pricing = (props) => {
-  return <div className="w-full mx-auto bg-white dark:bg-black px-5 py-10 text-gray-800 mb-10">
+  return <div id="pricing" className="w-full mx-auto bg-white dark:bg-black px-5 py-10 text-gray-800 mb-10">
     <div className="text-center max-w-xl mx-auto">
         <h1 className="text-5xl md:text-5xl font-bold mb-5 dark:text-white">{siteConfig('LANDING_PRICING_TITLE', null, CONFIG)}</h1>
         <h3 className="text-xl font-medium mb-10 dark:text-gray-400">{siteConfig('LANDING_PRICING_P', null, CONFIG)}</h3>
