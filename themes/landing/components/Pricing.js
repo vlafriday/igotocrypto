@@ -60,4 +60,6 @@ export const Pricing = (props) => {
         </div>
     </div>
 </div>
+    </section>
+</>
 }
