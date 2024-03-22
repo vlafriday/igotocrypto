@@ -10,7 +10,7 @@ export const Pricing = (props) => {
                 {/* <!-- ====== Pricing Section Start --> */}
                 <section
                id="pricing"
-               className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
+               className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]" // отступы при якорении
              >
 
   <div className="w-full mx-auto bg-white dark:bg-black px-5 py-10 text-gray-800 mb-10">

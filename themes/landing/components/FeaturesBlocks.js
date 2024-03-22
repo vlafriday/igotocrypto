@@ -36,9 +36,18 @@ export default function FeaturesBlocks() {
                     </g>
                   </svg>
                 </a>
-                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"> <a href="https://www.youtube.com/@igotocrypto" target="_blank" rel="noopener noreferrer"> {siteConfig('LANDING_FEATURES_BLOCK_1_TITLE', null, CONFIG)}</a> </h4>
-                <p className="text-gray-600 text-center"><a href="https://www.youtube.com/@igotocrypto" target="_blank" rel="noopener noreferrer">{siteConfig('LANDING_FEATURES_BLOCK_1_P', null, CONFIG)}</a></p>
+                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
+                  <a href="https://www.youtube.com/@igotocrypto" target="_blank" rel="noopener noreferrer">
+                    {siteConfig('LANDING_FEATURES_BLOCK_1_TITLE', null, CONFIG)}
+                  </a>
+                </h4>
+                <p className="text-gray-600 text-center">
+                  <a href="https://www.youtube.com/@igotocrypto" target="_blank" rel="noopener noreferrer">
+                    {siteConfig('LANDING_FEATURES_BLOCK_1_P', null, CONFIG)}
+                  </a>
+                </p>
               </div>
+
 
 
               {/* 2nd item */}
