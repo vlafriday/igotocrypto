@@ -1,7 +1,7 @@
 const CONFIG = {
 
   LANDING_HEADER_BUTTON_1_TITLE: 'Блог',
-  LANDING_HEADER_BUTTON_1_URL: 'https://blog.igotocrypto.online/',
+  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.online/about?theme=gitbook',
 
   LANDING_HEADER_BUTTON_2_TITLE: 'Сообщество',
   LANDING_HEADER_BUTTON_2_URL: 'https://t.me/igotocrypto',
@@ -65,19 +65,19 @@ const CONFIG = {
 
   LANDING_PRICING_1_TITLE: 'Полная база',
   LANDING_PRICING_1_PRICE: 'БЕСПЛАТНО',
-  LANDING_PRICING_1_CONTENT: 'Все мои материалы, учебники по развертыванию, время от времени технические вопросы и ответы',
-  LANDING_PRICING_1_BUTTON: 'Начало работы',
-  LANDING_PRICING_1_URL: 'https://docs.tangly1024.com/about',
+  LANDING_PRICING_1_CONTENT: 'Все мои материалы, Статьи, Видео, Книги, Открытый телеграм канал',
+  LANDING_PRICING_1_BUTTON: 'Начало',
+  LANDING_PRICING_1_URL: 'https://igotocrypto.online/about?theme=gitbook',
 
-  LANDING_PRICING_2_TITLE: 'Курс криптовалюта с нуля',
-  LANDING_PRICING_2_PRICE: '99.9$',
+  LANDING_PRICING_2_TITLE: 'Криптовалюта с нуля',
+  LANDING_PRICING_2_PRICE: '90$',
   LANDING_PRICING_2_CONTENT: 'Обущающие видео, Графика, Методички, Закрытое сообщество',
   LANDING_PRICING_2_BUTTON: 'Хочу учиться',
   LANDING_PRICING_2_URL: 'https://igotocrypto.online/payment',
 
   LANDING_PRICING_3_TITLE: 'Менторство',
   LANDING_PRICING_3_PRICE: '590$',
-  LANDING_PRICING_3_CONTENT: 'Еженедельные созвоны, Обзор рынка, Личное ведение до результата, Создание инвест портфеля, Сигналы',
+  LANDING_PRICING_3_CONTENT: 'Еженедельные созвоны, Обзор рынка, Личное ведение, Создание инвест портфеля, Сигналы',
   LANDING_PRICING_3_BUTTON: 'Красная таблетка',
   LANDING_PRICING_3_URL: 'https://igotocrypto.online/vip',
 
