@@ -151,7 +151,7 @@ export default function Footer() {
                     <ul className="flex mb-4 md:order-1 md:ml-4 md:mb-0">
                         <li>
                           <div className='h-full flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100'>
-                             Социальные сети <a href='https://www.youtube.com/@igotocrypto' className='mx-1 hover:underline font-semibold'>YouTube </a>
+                             Социальные сети <a href='https://www.youtube.com/@igotocrypto' className='mx-1 hover:underline font-semibold'></a>
                           </div>
                         </li>
                         { <li>

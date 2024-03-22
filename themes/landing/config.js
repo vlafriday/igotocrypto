@@ -71,7 +71,7 @@ const CONFIG = {
 
   LANDING_PRICING_2_TITLE: 'Криптовалюта с нуля',
   LANDING_PRICING_2_PRICE: '90$',
-  LANDING_PRICING_2_CONTENT: 'Обущающие эфиры, Графика, Методички, Закрытое сообщество',
+  LANDING_PRICING_2_CONTENT: 'Обущающие эфиры, Графика, Методички, Закрытое сообщество (позже)',
   LANDING_PRICING_2_BUTTON: 'Хочу учиться',
   LANDING_PRICING_2_URL: 'https://igotocrypto.online/payment',
 
