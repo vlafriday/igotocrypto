@@ -51,11 +51,11 @@ const CONFIG = {
   LANDING_TESTIMONIALS_P: 'Сайт охватывает широкий спектр отраслей, включая недвижимость, образование, архитектуру, медицину, машиностроение, IT, электронику, программное обеспечение, собственные СМИ, цифровых кочевников, короткие видеоролики, электронную коммерцию, студентов, любителей фотографии, путешествий и так далее.',
 
   LANDING_TESTIMONIALS_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F552435b8-f15d-41bf-b8a2-713cf6d238c5%2F768328da-b823-4c95-a7ae-c9c8ea399109%2Favatar.png?table=collection&id=6759dcbc-020c-4e68-a98f-b8d5c898467e&t=6759dcbc-020c-4e68-a98f-b8d5c898467e&width=800&cache=v2',
-  LANDING_TESTIMONIALS_NICKNAME: 'Тот Самый Фрайдей',
+  LANDING_TESTIMONIALS_NICKNAME: '',
   LANDING_TESTIMONIALS_ID: 'Тот самый Фрайдей',
   LANDING_TESTIMONIALS_SOCIAL_NAME: '@vlafriday',
   LANDING_TESTIMONIALS_SOCIAL_URL: 'https://vlafriday.space',
-  LANDING_TESTIMONIALS_WORD: 'Спасибо за метод старшего брата. Я уже пробовал Super, Potion и другие зарубежные сторонние платформы, и реализация была средней и гораздо менее персонализированной, чем этот метод, который я уже использовал!',
+  LANDING_TESTIMONIALS_WORD: 'Самое сложное - это решение начать. Когда решил - дальше только действовать',
 
   LANDING_POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
   LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.tangly1024.com', // 重定向网站地址
