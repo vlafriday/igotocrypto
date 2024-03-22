@@ -42,7 +42,7 @@ const CONFIG = {
   LANDING_FEATURES_BLOCK_4_TITLE: 'Создайте свой личный бренд',
   LANDING_FEATURES_BLOCK_4_P: 'следовать за Маском、После Стива Джобса，Вы станете следующей легендой.',
   LANDING_FEATURES_BLOCK_5_TITLE: 'Выразительность письма - основной навык',
-  LANDING_FEATURES_BLOCK_5_P: 'Чем просто читать вводные данные，更重要的是反思和输出',
+  LANDING_FEATURES_BLOCK_5_P: 'Чем просто читать вводные данные，Что еще более важно, отражение и вывод',
   LANDING_FEATURES_BLOCK_6_TITLE: 'Начните вести блог.',
   LANDING_FEATURES_BLOCK_6_P: 'NotionNext，Поможет вам легко начать писать',
 
@@ -55,7 +55,7 @@ const CONFIG = {
   LANDING_TESTIMONIALS_ID: 'Тот самый Фрайдей',
   LANDING_TESTIMONIALS_SOCIAL_NAME: '@vlafriday',
   LANDING_TESTIMONIALS_SOCIAL_URL: 'https://vlafriday.space',
-  LANDING_TESTIMONIALS_WORD: 'Самое сложное - это решение начать. Когда решил - дальше только действовать',
+  LANDING_TESTIMONIALS_WORD: 'Самое сложное - это решение начать. Когда решил - дальше остается только действовать.',
 
   LANDING_POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
   LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.tangly1024.com', // 重定向网站地址
