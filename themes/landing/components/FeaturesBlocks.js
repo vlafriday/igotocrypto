@@ -22,8 +22,9 @@ export default function FeaturesBlocks() {
             <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-3 items-start md:max-w-2xl lg:max-w-none">
 
               {/* 1st item */}
-              <a href="https://www.youtube.com/@igotocrypto" target="_blank" rel="noopener noreferrer">
-                <div className="relative flex flex-col items-center p-6 bg-white rounded-md shadow-xl border">
+             <a href="https://igotocrypto.online/tag/%D0%A2%D1%80%D0%B5%D0%B9%D0%B4%D0%B8%D0%BD%D0%B3?theme=hexo" target="_blank" rel="noopener noreferrer">
+              <div className="relative flex flex-col items-center p-6 bg-white rounded-md shadow-xl border">
+                <a href="https://www.youtube.com/@igotocrypto" target="_blank" rel="noopener noreferrer">
                   <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fillRule="evenodd">
                       <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
@@ -35,14 +36,11 @@ export default function FeaturesBlocks() {
                       </g>
                     </g>
                   </svg>
-                  <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                    {siteConfig('LANDING_FEATURES_BLOCK_1_TITLE', null, CONFIG)}
-                  </h4>
-                  <p className="text-gray-600 text-center">
-                    {siteConfig('LANDING_FEATURES_BLOCK_1_P', null, CONFIG)}
-                  </p>
-                </div>
-              </a>
+                </a>
+                <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"> <a href="https://www.youtube.com/@igotocrypto" target="_blank" rel="noopener noreferrer"> {siteConfig('LANDING_FEATURES_BLOCK_1_TITLE', null, CONFIG)}</a> </h4>
+                <p className="text-gray-600 text-center"><a href="https://www.youtube.com/@igotocrypto" target="_blank" rel="noopener noreferrer">{siteConfig('LANDING_FEATURES_BLOCK_1_P', null, CONFIG)}</a></p>
+              </div>
+             </a>
 
 
 
