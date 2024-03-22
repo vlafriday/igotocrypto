@@ -31,7 +31,7 @@ const CONFIG = {
   LANDING_FEATURES_CARD_3_P: 'Несколько тем на выбор, вы можете создавать различные стили и роли сайта, добавляются новые темы.',
 
   // 特性介绍2
-  LANDING_FEATURES_BLOCK_HEADER: 'Рецепт',
+  LANDING_FEATURES_BLOCK_HEADER: 'Процесс исследования',
   LANDING_FEATURES_BLOCK_P: 'В эпоху всеобщей саморекламы веб-сайт поможет вам установить связь с большим количеством людей и принесет вам неограниченные возможности и клиентов.<br/>Чего вы ждете?？',
   LANDING_FEATURES_BLOCK_1_TITLE: 'Используйте свой сайт для демонстрации своего бренда',
   LANDING_FEATURES_BLOCK_1_P: 'По сравнению с офлайн-каналами、Общедоступное имя и веб-сайт более убедительны.',
@@ -69,15 +69,15 @@ const CONFIG = {
   LANDING_PRICING_1_BUTTON: 'Начало работы',
   LANDING_PRICING_1_URL: 'https://docs.tangly1024.com/about',
 
-  LANDING_PRICING_2_TITLE: 'Издание для доноров',
-  LANDING_PRICING_2_PRICE: '9.9$',
-  LANDING_PRICING_2_CONTENT: 'Исходный код проекта, учебники по развертыванию, долгосрочные технические вопросы и ответы, обновление и объединение кода, внутреннее сообщество',
-  LANDING_PRICING_2_BUTTON: 'Купить сейчас',
+  LANDING_PRICING_2_TITLE: 'Криптовалюта от А до Я',
+  LANDING_PRICING_2_PRICE: '99.9$',
+  LANDING_PRICING_2_CONTENT: 'Обущающие видео, графика, методички, сигналы, внутреннее сообщество',
+  LANDING_PRICING_2_BUTTON: 'Хочу учиться',
   LANDING_PRICING_2_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/0adb9153-0799-4f51-91aa-1f06391ea4e0',
 
-  LANDING_PRICING_3_TITLE: 'Enterprise Edition',
-  LANDING_PRICING_3_PRICE: '59$',
-  LANDING_PRICING_3_CONTENT: 'Исходный код проекта, учебники по внедрению, VIP-технический консалтинг, объединение для обновления кода, внутреннее сообщество, разработка пользовательских функций, SEO-оптимизация',
+  LANDING_PRICING_3_TITLE: 'Менторство',
+  LANDING_PRICING_3_PRICE: '590$',
+  LANDING_PRICING_3_CONTENT: 'Еженедельные созвоны, Обзор рынка, Личное ведение до результата, Создание инвест портфеля, внутреннее сообщество',
   LANDING_PRICING_3_BUTTON: 'Купить сейчас',
   LANDING_PRICING_3_URL: 'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
 
