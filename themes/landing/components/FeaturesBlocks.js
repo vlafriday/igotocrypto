@@ -2,7 +2,13 @@ import CONFIG from '../config'
 import { siteConfig } from '@/lib/config'
 
 export default function FeaturesBlocks() {
-  return (
+  return <>
+                {/* <!-- ====== Pricing Section Start --> */}
+                <section
+               id="pricing"
+               className="relative z-20 overflow-hidden bg-white pb-12 pt-20 dark:bg-dark lg:pb-[90px] lg:pt-[120px]"
+             >
+              (
       <section className="relative">
 
         {/* Section background (needs .relative class on parent and next sibling elements) */}
@@ -24,7 +30,7 @@ export default function FeaturesBlocks() {
               {/* 1st item */}
              <a href="https://igotocrypto.online/tag/%D0%A2%D1%80%D0%B5%D0%B9%D0%B4%D0%B8%D0%BD%D0%B3?theme=hexo" target="_blank" rel="noopener noreferrer">
               <div className="relative flex flex-col items-center p-6 bg-white rounded-md shadow-xl border">
-                <a href="https://www.youtube.com/@igotocrypto" target="_blank" rel="noopener noreferrer">
+                <a href="https://igotocrypto.online/tag/%D0%A2%D1%80%D0%B5%D0%B9%D0%B4%D0%B8%D0%BD%D0%B3?theme=hexo" target="_blank" rel="noopener noreferrer">
                   <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                     <g fill="none" fillRule="evenodd">
                       <rect className="fill-current text-blue-600" width="64" height="64" rx="32" />
@@ -38,7 +44,7 @@ export default function FeaturesBlocks() {
                   </svg>
                 </a>
                 <h4 className="text-xl font-bold leading-snug tracking-tight mb-1"> <a href="https://www.youtube.com/@igotocrypto" target="_blank" rel="noopener noreferrer"> {siteConfig('LANDING_FEATURES_BLOCK_1_TITLE', null, CONFIG)}</a> </h4>
-                <p className="text-gray-600 text-center"><a href="https://www.youtube.com/@igotocrypto" target="_blank" rel="noopener noreferrer">{siteConfig('LANDING_FEATURES_BLOCK_1_P', null, CONFIG)}</a></p>
+                <p className="text-gray-600 text-center"><a href="https://igotocrypto.online/tag/%D0%A2%D1%80%D0%B5%D0%B9%D0%B4%D0%B8%D0%BD%D0%B3?theme=hexo" target="_blank" rel="noopener noreferrer">{siteConfig('LANDING_FEATURES_BLOCK_1_P', null, CONFIG)}</a></p>
               </div>
              </a>
 
@@ -131,4 +137,7 @@ export default function FeaturesBlocks() {
         </div>
       </section>
   )
+      </section>
+
+  </>
 }

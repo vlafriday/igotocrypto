@@ -1,7 +1,7 @@
 const CONFIG = {
 
   LANDING_HEADER_BUTTON_1_TITLE: 'Блог',
-  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.online/about?theme=gitbook',
+  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.online/?theme=hexo',
 
   LANDING_HEADER_BUTTON_2_TITLE: 'Сообщество',
   LANDING_HEADER_BUTTON_2_URL: 'https://t.me/igotocrypto',
@@ -9,10 +9,10 @@ const CONFIG = {
   // 首页大图英雄板块
   LANDING_HERO_TITLE_1: 'Идущий к крипте',
   LANDING_HERO_P_1: 'Твой путь к заработку в крипте',
-  LANDING_HERO_BUTTON_1_TEXT: 'Начало работы',
-  LANDING_HERO_BUTTON_1_LINK: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
+  LANDING_HERO_BUTTON_1_TEXT: 'База знаний',
+  LANDING_HERO_BUTTON_1_LINK: '#pricing',
   LANDING_HERO_BUTTON_2_TEXT: 'Узнать больше',
-  LANDING_HERO_BUTTON_2_LINK: 'https://igotocrypto.online/about',
+  LANDING_HERO_BUTTON_2_LINK: '#',
   LANDING_HERO_VIDEO_IMAGE: 'https://img.youtube.com/vi/D8aGQW7ynsg/maxresdefault.jpg',
      HERO_VIDEO_URL: 'https://www.youtube.com/watch?v=D8aGQW7ynsg',
   LANDING_HERO_VIDEO_IFRAME: 'https://www.youtube.com/embed/D8aGQW7ynsg?si=yo0oRgJ9v8cn-GcA', ////player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1
@@ -32,9 +32,9 @@ const CONFIG = {
 
   // 特性介绍2
   LANDING_FEATURES_BLOCK_HEADER: 'Что же ты найдешь тут',
-  LANDING_FEATURES_BLOCK_P: 'Тем очень много, поэтому я разбил их на блоки',
+  LANDING_FEATURES_BLOCK_P: 'Тем очень много, поэтому я разбил их на тематические блоки',
   LANDING_FEATURES_BLOCK_1_TITLE: 'Трейдинг',
-  LANDING_FEATURES_BLOCK_1_P: 'По сравнению с офлайн-каналами、Общедоступное имя и веб-сайт более убедительны.',
+  LANDING_FEATURES_BLOCK_1_P: 'Общедоступное имя и веб-сайт более убедительны',
   LANDING_FEATURES_BLOCK_2_TITLE: 'Скальпинг',
   LANDING_FEATURES_BLOCK_2_P: 'Что это такое и как там заработать',
   LANDING_FEATURES_BLOCK_3_TITLE: 'IDO и ICO',
