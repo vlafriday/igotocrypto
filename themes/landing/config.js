@@ -41,7 +41,7 @@ const CONFIG = {
   LANDING_FEATURES_BLOCK_3_P: 'Как купить монеты раньше других',
   LANDING_FEATURES_BLOCK_4_TITLE: 'Лаунчпады и лаунчпулы',
   LANDING_FEATURES_BLOCK_4_P: 'Подводные камни?',
-  LANDING_FEATURES_BLOCK_5_TITLE: 'Долгосрочное инвестирование',
+  LANDING_FEATURES_BLOCK_5_TITLE: 'Инвестирование',
   LANDING_FEATURES_BLOCK_5_P: 'Купил и забыл?',
   LANDING_FEATURES_BLOCK_6_TITLE: 'P2E. Airdrop',
   LANDING_FEATURES_BLOCK_6_P: 'И многое другое тут',
@@ -61,7 +61,7 @@ const CONFIG = {
   LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.tangly1024.com', // 重定向网站地址
 
   LANDING_PRICING_TITLE: 'Цены',
-  LANDING_PRICING_P: 'С моих бесплатных материалов уже можно зарабатывать в крипте, но самый настойчивых есть другие предложения',
+  LANDING_PRICING_P: 'С моих бесплатных материалов уже можно зарабатывать в крипте, но для самый настойчивых есть предложения',
 
   LANDING_PRICING_1_TITLE: 'Полная база',
   LANDING_PRICING_1_PRICE: 'БЕСПЛАТНО',
@@ -71,7 +71,7 @@ const CONFIG = {
 
   LANDING_PRICING_2_TITLE: 'Криптовалюта с нуля',
   LANDING_PRICING_2_PRICE: '90$',
-  LANDING_PRICING_2_CONTENT: 'Обущающие видео, Графика, Методички, Закрытое сообщество',
+  LANDING_PRICING_2_CONTENT: 'Обущающие эфиры, Графика, Методички, Закрытое сообщество',
   LANDING_PRICING_2_BUTTON: 'Хочу учиться',
   LANDING_PRICING_2_URL: 'https://igotocrypto.online/payment',
 
