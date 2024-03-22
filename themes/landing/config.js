@@ -3,12 +3,12 @@ const CONFIG = {
   LANDING_HEADER_BUTTON_1_TITLE: 'Github Open Source',
   LANDING_HEADER_BUTTON_1_URL: 'https://github.com/tangly1024/NotionNext',
 
-  LANDING_HEADER_BUTTON_2_TITLE: 'Blog',
-  LANDING_HEADER_BUTTON_2_URL: 'https://blog.igotocrypto.com/',
+  LANDING_HEADER_BUTTON_2_TITLE: 'БАЗА',
+  LANDING_HEADER_BUTTON_2_URL: 'https://blog.igotocrypto.online/',
 
   // 首页大图英雄板块
   LANDING_HERO_TITLE_1: 'Идущий к крипте',
-  LANDING_HERO_P_1: 'Начни зарабатывать в крипте',
+  LANDING_HERO_P_1: 'Твой путь к заработку в крипте',
   LANDING_HERO_BUTTON_1_TEXT: 'Начало работы',
   LANDING_HERO_BUTTON_1_LINK: 'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
   LANDING_HERO_BUTTON_2_TEXT: 'Узнать больше',
@@ -19,8 +19,8 @@ const CONFIG = {
   LANDING_HERO_VIDEO_TIPS: 'Смотреть полное видео (2 минуты)',
 
   // 特性介绍
-  LANDING_FEATURES_HEADER_1: 'процесс открытия',
-  LANDING_FEATURES_HEADER_1_P: "Как создать собственный портал и сформировать брендинговую витрину? <br/>В свое время это была система <strong class='font-bold text-red-500'>обременительный</strong>Wordpress、операция<strong class='font-bold  text-red-500'>затейливые</strong>Hexo、быть<strong class='font-bold text-red-500'>непомерно</strong>оба<strong class='font-bold text-red-500'>нестабильность</strong>техническая команда;<br/>настоящее，Все, что вам нужно, - это записка Notion.",
+  LANDING_FEATURES_HEADER_1: 'Почему я занимаюсь этм?',
+  LANDING_FEATURES_HEADER_1_P: "Я всегда хотел делиться пользой, помогать людям. Сейчас я сам прохожу этот путь от <strong class='font-bold text-red-500'>0 к 1 млн $.</strong> И я обязательно дойду. Другой вопрос: ты со мной или будешь просто смотреть? <br/>В свое время это была система <strong class='font-bold text-red-500'>обременительный</strong>Wordpress、операция<strong class='font-bold  text-red-500'>затейливые</strong>Hexo、быть<strong class='font-bold text-red-500'>непомерно</strong>оба<strong class='font-bold text-red-500'>нестабильность</strong>техническая команда;<br/>настоящее，Все",
   LANDING_FEATURES_HEADER_2: 'Комбинированное решение Notion+NextJs',
   LANDING_FEATURES_HEADER_2_P: 'Управляйте данными о статьях в заметках Notion, NextJs преобразует их в веб-типографию и опубликует ваш сайт во всем мире с помощью сторонних платформ, таких как Vercel.',
   LANDING_FEATURES_CARD_1_TITLE: 'Простая и быстрая система',
