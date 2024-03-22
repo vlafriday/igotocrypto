@@ -1,7 +1,7 @@
 const CONFIG = {
 
   LANDING_HEADER_BUTTON_1_TITLE: 'Блог',
-  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.online/?theme=hexo',
+  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.online/category/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8?theme=hexo',
 
   LANDING_HEADER_BUTTON_2_TITLE: 'Сообщество',
   LANDING_HEADER_BUTTON_2_URL: 'https://t.me/igotocrypto',
