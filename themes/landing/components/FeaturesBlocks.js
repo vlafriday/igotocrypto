@@ -69,6 +69,7 @@ export default function FeaturesBlocks() {
               </a>
 
               {/* 3rd item */}
+              <a href="https://igotocrypto.online/tag/%D0%A1%D0%BA%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%BD%D0%B3?theme=hexo" target="_blank" rel="noopener noreferrer">
               <div className="relative flex flex-col items-center p-6 bg-white rounded-md shadow-xl border">
                 <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <g fill="none" fillRule="evenodd">
@@ -84,8 +85,10 @@ export default function FeaturesBlocks() {
                 <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{siteConfig('LANDING_FEATURES_BLOCK_3_TITLE', null, CONFIG)}</h4>
                 <p className="text-gray-600 text-center">{siteConfig('LANDING_FEATURES_BLOCK_3_P', null, CONFIG)}</p>
               </div>
+              </a>
 
               {/* 4th item */}
+              <a href="https://igotocrypto.online/tag/%D0%A1%D0%BA%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%BD%D0%B3?theme=hexo" target="_blank" rel="noopener noreferrer">
               <div className="relative flex flex-col items-center p-6 bg-white rounded-md shadow-xl border">
                 <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <g fill="none" fillRule="evenodd">
@@ -101,8 +104,10 @@ export default function FeaturesBlocks() {
                 <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{siteConfig('LANDING_FEATURES_BLOCK_4_TITLE', null, CONFIG)}</h4>
                 <p className="text-gray-600 text-center">{siteConfig('LANDING_FEATURES_BLOCK_4_P', null, CONFIG)}</p>
               </div>
+              </a>
 
               {/* 5th item */}
+              <a href="https://igotocrypto.online/tag/%D0%A1%D0%BA%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%BD%D0%B3?theme=hexo" target="_blank" rel="noopener noreferrer">
               <div className="relative flex flex-col items-center p-6 bg-white rounded-md shadow-xl border">
                 <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <g fill="none" fillRule="evenodd">
@@ -117,8 +122,10 @@ export default function FeaturesBlocks() {
                 <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{siteConfig('LANDING_FEATURES_BLOCK_5_TITLE', null, CONFIG)}</h4>
                 <p className="text-gray-600 text-center">{siteConfig('LANDING_FEATURES_BLOCK_5_P', null, CONFIG)}</p>
               </div>
+              </a>
 
               {/* 6th item */}
+              <a href="https://igotocrypto.online/tag/%D0%A1%D0%BA%D0%B0%D0%BB%D1%8C%D0%BF%D0%B8%D0%BD%D0%B3?theme=hexo" target="_blank" rel="noopener noreferrer">
               <div className="relative flex flex-col items-center p-6 bg-white rounded-md shadow-xl border">
                 <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <g fill="none" fillRule="evenodd">
@@ -132,6 +139,7 @@ export default function FeaturesBlocks() {
                 <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">{siteConfig('LANDING_FEATURES_BLOCK_6_TITLE', null, CONFIG)}</h4>
                 <p className="text-gray-600 text-center">{siteConfig('LANDING_FEATURES_BLOCK_6_P', null, CONFIG)}</p>
               </div>
+              </a>
 
             </div>
 
