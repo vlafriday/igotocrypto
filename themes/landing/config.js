@@ -10,13 +10,13 @@ const CONFIG = {
   LANDING_HERO_TITLE_1: 'Идущий к крипте',
   LANDING_HERO_P_1: 'Твой путь к заработку в крипте',
   LANDING_HERO_BUTTON_1_TEXT: 'База знаний',
-  LANDING_HERO_BUTTON_1_LINK: '#pricing',
+  LANDING_HERO_BUTTON_1_LINK: '#features',
   LANDING_HERO_BUTTON_2_TEXT: 'Узнать больше',
-  LANDING_HERO_BUTTON_2_LINK: '#features',
-  LANDING_HERO_VIDEO_IMAGE: 'https://img.youtube.com/vi/D8aGQW7ynsg/maxresdefault.jpg',
+  LANDING_HERO_BUTTON_2_LINK: '#pricing',
+  LANDING_HERO_VIDEO_IMAGE: 'https://i.ytimg.com/vi/t-K8ZTuj7e0/maxresdefault.jpg',
      HERO_VIDEO_URL: 'https://www.youtube.com/watch?v=D8aGQW7ynsg',
-  LANDING_HERO_VIDEO_IFRAME: 'https://www.youtube.com/embed/D8aGQW7ynsg?si=yo0oRgJ9v8cn-GcA', ////player.bilibili.com/player.html?aid=913088616&bvid=BV1fM4y1L7Qi&cid=1187218697&page=1&&high_quality=1
-  LANDING_HERO_VIDEO_TIPS: 'Смотреть полное видео (2 минуты)',
+  LANDING_HERO_VIDEO_IFRAME: 'https://www.youtube.com/embed/D8aGQW7ynsg?si=yo0oRgJ9v8cn-GcA',
+  LANDING_HERO_VIDEO_TIPS: 'Смотреть полное видео',
 
   // 特性介绍
   LANDING_FEATURES_HEADER_1: 'Почему я занимаюсь этим?',
