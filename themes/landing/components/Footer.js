@@ -45,7 +45,8 @@ export default function Footer() {
                             <Logo />
                         </div>
                         <div className="text-sm text-gray-600">
-                            <Link href="/terms-of-use" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Условия предоставления услуг</Link>  <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Политика конфиденциальности</Link>
+                        	<Link href="/terms-of-use" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Отказ от ответственности</Link>
+                        	{/* <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Политика конфиденциальности</Link> */}
                         </div>
                     </div>
 
@@ -60,13 +61,13 @@ export default function Footer() {
                                 {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Vercel</a> */}
                             </li>
                             <li className="mb-2">
-                                { <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Github</a> }
+                                {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Github</a> */}
                             </li>
                             <li className="mb-2">
-                                { <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Notion</a> }
+                                {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Notion</a> */}
                             </li>
                             <li className="mb-2">
-                                { <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">NextJs</a> }
+                                {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">NextJs</a> */}
                             </li>
                         </ul>
                     </div>
@@ -101,16 +102,16 @@ export default function Footer() {
                                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Домашняя страница</a>
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">О нас</a>
+                               {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">О нас</a> */}
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Ценности компании</a>
+                               {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Ценности компании</a> */}
                             </li>
                             <li className="mb-2">
-                                <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Цены</a>
+                               {/* <a href="#pricing" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Цены</a> */}
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Политика конфиденциальности</a>
+                               {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Политика конфиденциальности</a> */}
                             </li>
                         </ul>
                     </div>
