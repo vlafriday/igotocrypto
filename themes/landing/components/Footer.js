@@ -172,9 +172,14 @@ export default function Footer() {
                         <a href="https://www.instagram.com/igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Facebook">
                           <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                             <path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z" />
-                          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="500" height="500" viewBox="0 0 50 50">
-                          <path d="M 44.898438 14.5 C 44.5 12.300781 42.601563 10.699219 40.398438 10.199219 C 37.101563 9.5 31 9 24.398438 9 C 17.800781 9 11.601563 9.5 8.300781 10.199219 C 6.101563 10.699219 4.199219 12.199219 3.800781 14.5 C 3.398438 17 3 20.5 3 25 C 3 29.5 3.398438 33 3.898438 35.5 C 4.300781 37.699219 6.199219 39.300781 8.398438 39.800781 C 11.898438 40.5 17.898438 41 24.5 41 C 31.101563 41 37.101563 40.5 40.601563 39.800781 C 42.800781 39.300781 44.699219 37.800781 45.101563 35.5 C 45.5 33 46 29.398438 46.101563 25 C 45.898438 20.5 45.398438 17 44.898438 14.5 Z M 19 32 L 19 18 L 31.199219 25 Z"></path>
                           </svg>
+                        </a>
+                      </li>
+                       <li className="ml-4">
+                         <a href="https://www.youtube.com/@igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="YouTube">
+                           <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M29.4,7.2C29.4,7.2,29.4,7.2,29.4,7.2c-0.2-0.9-0.9-1.6-1.8-1.8c-2-0.5-10-0.5-10-0.5s-8,0-10,0.5c-0.9,0.2-1.6,0.9-1.8,1.8C5,9.2,5,16,5,16s0,6.8,0.8,8.8c0.2,0.9,0.9,1.6,1.8,1.8c2,0.5,10,0.5,10,0.5s8,0,10-0.5c0.9-0.2,1.6-0.9,1.8-1.8c0.8-2,0.8-8.8,0.8-8.8S30.2,9.2,29.4,7.2z M12.6,20.4V11.6l8.7,4.4L12.6,20.4z" />
+                           </svg>
                          </a>
                        </li>
                       <li className="ml-4">
