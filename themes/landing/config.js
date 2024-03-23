@@ -55,13 +55,13 @@ const CONFIG = {
   LANDING_TESTIMONIALS_ID: 'Тот самый Фрайдей',
   LANDING_TESTIMONIALS_SOCIAL_NAME: '@vlafriday',
   LANDING_TESTIMONIALS_SOCIAL_URL: 'https://vlafriday.space',
-  LANDING_TESTIMONIALS_WORD: 'Самое сложное - это решение начать. Когда решил - дальше остается только действовать.',
+  LANDING_TESTIMONIALS_WORD: 'Слова не имеют никакой ценности, самое главное - действия. Только они меняют нашу реальность и позволяют двигаться вперёд',
 
   LANDING_POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
   LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.tangly1024.com', // 重定向网站地址
 
   LANDING_PRICING_TITLE: 'Что выберешь ты?',
-  LANDING_PRICING_P: 'Примешь синюю таблетку — и сказке конец.<br/>Ты проснешься в своей постели и поверишь, что это был сон.<br/>Примешь красную таблетку — войдешь в страну чудес.<br/>Я покажу тебе, глубока ли кроличья нора.<br/>',
+  LANDING_PRICING_P: 'Примешь синюю таблетку — и сказке конец.<br/>Ты проснешься в своей постели и поверишь, что это был сон.<br/>Примешь красную таблетку — войдешь в страну чудес.<br/>Я покажу тебе, глубока ли кроличья нора.<br/> ',
 
   LANDING_PRICING_1_TITLE: 'Полная база',
   LANDING_PRICING_1_PRICE: 'БЕСПЛАТНО',
