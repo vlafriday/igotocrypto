@@ -45,8 +45,7 @@ export const Pricing = (props) => {
                 <button className="font-bold bg-blue-600 hover:bg-blue-700 text-white rounded-md px-10 py-2 transition-colors w-full">{siteConfig('LANDING_PRICING_2_BUTTON', null, CONFIG)}</button>
             </Link>
         </div>
-        <div className="w-full md:w-1/3 md:max-w-none bg-white dark:bg-hexo-black-gray px-8 md:px-10 py-8 md:py-10 mb-3 mx-auto md:my-6 rounded-md shadow-lg shadow-gray-600 md:flex md:flex-col">
-            <div className="w-full flex-grow dark:text-gray-400">
+<div className="w-full md:w-1/3 md:max-w-none bg-white dark:bg-hexo-black-gray px-8 md:px-10 py-8 md:py-10 mb-3 mx-auto md:-mx-3 md:mb-0 rounded-md shadow-lg shadow-gray-600 md:relative md:z-20 md:flex md:flex-col">            <div className="w-full flex-grow dark:text-gray-400">
                 <h2 className="text-center font-bold uppercase mb-4">{siteConfig('LANDING_PRICING_3_TITLE', null, CONFIG)}</h2>
                 <h3 className="text-center font-bold text-4xl mb-5">{siteConfig('LANDING_PRICING_3_PRICE', null, CONFIG)}</h3>
                 <ul className="text-sm px-5 mb-8">

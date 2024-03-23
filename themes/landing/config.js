@@ -78,7 +78,7 @@ const CONFIG = {
   LANDING_PRICING_3_TITLE: 'Менторство',
   LANDING_PRICING_3_PRICE: '590$',
   LANDING_PRICING_3_CONTENT: 'Еженедельные созвоны, Обзор рынка, Личное ведение, Создание инвест портфеля, Сигналы',
-  LANDING_PRICING_3_BUTTON: 'Красная таблетка',
+  LANDING_PRICING_3_BUTTON: 'Хочу результат',
   LANDING_PRICING_3_URL: 'https://igotocrypto.online/vip',
 
   LANDING_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_LANDING_NEWSLETTER || false // Нужно ли включать подписку на почту Пожалуйста, сначала настройте функцию mailchimp https://docs.tangly1024.com/article/notion-next-mailchimp
