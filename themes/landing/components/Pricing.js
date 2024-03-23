@@ -28,7 +28,7 @@ export const Pricing = (props) => {
                     )}
                 </ul>
             </div>
-            <Link className="w-full" href={siteConfig('LANDING_PRICING_1_URL', null, CONFIG)}>
+            <Link className="w-full" target='_blank' href={siteConfig('LANDING_PRICING_1_URL', null, CONFIG)}>
                 <button className="font-bold bg-gray-600 hover:bg-gray-700 text-white rounded-md px-10 py-2 transition-colors w-full">{siteConfig('LANDING_PRICING_1_BUTTON', null, CONFIG)}</button>
             </Link>
         </div>
