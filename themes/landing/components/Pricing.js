@@ -17,6 +17,7 @@ export const Pricing = (props) => {
     <div className="text-center max-w-xl mx-auto">
         <h1 className="text-5xl md:text-5xl font-bold mb-5 dark:text-white">{siteConfig('LANDING_PRICING_TITLE', null, CONFIG)}</h1>
         <p className="text-lg text-gray-600 dark:text-gray-400 leading-relaxed" dangerouslySetInnerHTML={{ __html: siteConfig('LANDING_PRICING_P', null, CONFIG) }}></p>
+        <br/>
         {/* <p className="text-xl font-medium mb-10 dark:text-gray-400">{siteConfig('LANDING_PRICING_P', null, CONFIG)}</p> */}
     </div>
     <div className="max-w-4xl mx-auto md:flex">
