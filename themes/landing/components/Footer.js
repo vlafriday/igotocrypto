@@ -156,7 +156,7 @@ export default function Footer() {
                       </li>
                       <li className="ml-4">
                         <a href="https://www.twitter.com/igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Twitter">
-                          <img src="путь_к_изображению" alt="Twitter Logo" className="w-8 h-8 fill-current" />
+                          <img src="https://icons8.com/icon/8824/twitter" alt="Twitter Logo" className="w-8 h-8 fill-current" />
                         </a>
                       </li>
                       <li className="ml-4">
