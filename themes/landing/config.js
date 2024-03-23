@@ -34,7 +34,7 @@ const CONFIG = {
   LANDING_FEATURES_BLOCK_HEADER: 'Что же ты найдешь тут',
   LANDING_FEATURES_BLOCK_P: 'Тем очень много, поэтому я разбил их на тематические блоки',
   LANDING_FEATURES_BLOCK_1_TITLE: 'Трейдинг',
-  LANDING_FEATURES_BLOCK_1_P: 'Общедоступное имя и веб-сайт более убедительны',
+  LANDING_FEATURES_BLOCK_1_P: 'Заработок на покупке и продаже из-за изменений цены',
   LANDING_FEATURES_BLOCK_2_TITLE: 'Скальпинг',
   LANDING_FEATURES_BLOCK_2_P: 'Что это такое и как там заработать',
   LANDING_FEATURES_BLOCK_3_TITLE: 'IDO и ICO',
