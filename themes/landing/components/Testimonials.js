@@ -48,7 +48,7 @@ export default function Testimonials() {
                                     </svg>
                                     <LazyImage className="relative rounded-full w-20 h-20 object-cover" src={siteConfig('LANDING_TESTIMONIALS_AVATAR', null, CONFIG)} alt="Testimonial 01" />
                                 </div>
-                                <blockquote className="text-xl font-medium mb-4">
+                                <blockquote className="text-lg font-medium mb-4">
                                   Слова не имеют никакой ценности, самое главное - действия. <br />
                                   Только они меняют нашу реальность и позволяют двигаться вперёд.
                                 </blockquote>
