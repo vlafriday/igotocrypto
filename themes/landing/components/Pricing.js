@@ -42,7 +42,7 @@ export const Pricing = (props) => {
                 </ul>
             </div>
             <Link className="w-full" target='_blank' href={siteConfig('LANDING_PRICING_2_URL', null, CONFIG)}>
-                <button className="font-bold bg-green-600 hover:bg-green-700 text-white rounded-md px-10 py-2 transition-colors w-full">{siteConfig('LANDING_PRICING_2_BUTTON', null, CONFIG)}</button>
+                <button className="font-bold bg-gray-600 hover:bg-gray-700 text-white rounded-md px-10 py-2 transition-colors w-full">{siteConfig('LANDING_PRICING_2_BUTTON', null, CONFIG)}</button>
             </Link>
         </div>
         <div className="w-full md:w-1/3 md:max-w-none bg-white dark:bg-hexo-black-gray px-8 md:px-10 py-8 md:py-10 mb-3 mx-auto md:my-6 rounded-md shadow-lg shadow-gray-600 md:flex md:flex-col">

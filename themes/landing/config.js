@@ -8,7 +8,7 @@ const CONFIG = {
 
   // 首页大图英雄板块
   LANDING_HERO_TITLE_1: 'Идущий к крипте',
-  LANDING_HERO_P_1: 'Твой путь к заработку в крипте',
+  LANDING_HERO_P_1: 'Проснись... ты в матрице',
   LANDING_HERO_BUTTON_1_TEXT: 'База знаний',
   LANDING_HERO_BUTTON_1_LINK: '#features',
   LANDING_HERO_BUTTON_2_TEXT: 'Узнать больше',
@@ -19,7 +19,7 @@ const CONFIG = {
   LANDING_HERO_VIDEO_TIPS: 'Смотреть полное видео',
 
   // 特性介绍
-  LANDING_FEATURES_HEADER_1: 'Почему я занимаюсь этим?',
+  LANDING_FEATURES_HEADER_1: 'Знать путь и пройти его — не одно и тоже.',
   LANDING_FEATURES_HEADER_1_P: "Вместе всегда легче двигаться к цели, одному не справится.<br/>Сейчас я сам прохожу путь от <strong class='font-bold text-red-500'>0 к 1 млн $.</strong> <br/>И я обязательно дойду до финала.<br/> Другой вопрос: ты со мной или так и будешь просто смотреть? <br/>",
   LANDING_FEATURES_HEADER_2: 'А теперь чуть подробнее',
   LANDING_FEATURES_HEADER_2_P: 'Вообще, я все стараюсь структурировать, свои знания тоже. Т.к. тема крипты очень широкая, все в голове я не удержу, поэтому много полезных материалов ты найдешь на этом сайте',
@@ -60,8 +60,8 @@ const CONFIG = {
   LANDING_POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
   LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://blog.tangly1024.com', // 重定向网站地址
 
-  LANDING_PRICING_TITLE: 'Цены',
-  LANDING_PRICING_P: 'С моих бесплатных материалов уже можно зарабатывать в крипте, но для самый настойчивых есть предложения',
+  LANDING_PRICING_TITLE: 'Какую таблетку выберешь ты?',
+  LANDING_PRICING_P: 'Примешь синюю таблетку — и сказке конец. Ты проснешься в своей постели и поверишь, что это был сон. Примешь красную таблетку — войдешь в страну чудес. Я покажу тебе, глубока ли кроличья нора.',
 
   LANDING_PRICING_1_TITLE: 'Полная база',
   LANDING_PRICING_1_PRICE: 'БЕСПЛАТНО',
