@@ -44,7 +44,7 @@ export default function FeaturesBlocks() {
                   </svg>
                 </a>
                 <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">  {siteConfig('LANDING_FEATURES_BLOCK_1_TITLE', null, CONFIG)} </h4>
-                <p className="text-gray-600 text-center"><a href="https://igotocrypto.online/tag/%D0%A2%D1%80%D0%B5%D0%B9%D0%B4%D0%B8%D0%BD%D0%B3?theme=hexo" target="_blank" rel="noopener noreferrer">{siteConfig('LANDING_FEATURES_BLOCK_1_P', null, CONFIG)}</a></p>
+                <p className="text-gray-600 text-center"> {siteConfig('LANDING_FEATURES_BLOCK_1_P', null, CONFIG)}</p>
               </div>
              </a>
 
