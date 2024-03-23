@@ -155,32 +155,41 @@ export default function Footer() {
                         </div>
                       </li>
                       <li className="ml-4">
-                        <a href="https://www.twitter.com/igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Twitter">
-                          <img src="путь_к_изображению" alt="Twitter Logo" className="w-8 h-8 fill-current" viewBox="0 0 32 32" />
+                        <a href="https://www.twitter.com/igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="YouTube">
+                          <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="500" height="500" viewBox="0 0 50 50">
+                          <path d="M 50.0625 10.4375 C 48.214844 11.257813 46.234375 11.808594 44.152344 12.058594 C 46.277344 10.785156 47.910156 8.769531 48.675781 6.371094 C 46.691406 7.546875 44.484375 8.402344 42.144531 8.863281 C 40.269531 6.863281 37.597656 5.617188 34.640625 5.617188 C 28.960938 5.617188 24.355469 10.21875 24.355469 15.898438 C 24.355469 16.703125 24.449219 17.488281 24.625 18.242188 C 16.078125 17.8125 8.503906 13.71875 3.429688 7.496094 C 2.542969 9.019531 2.039063 10.785156 2.039063 12.667969 C 2.039063 16.234375 3.851563 19.382813 6.613281 21.230469 C 4.925781 21.175781 3.339844 20.710938 1.953125 19.941406 C 1.953125 19.984375 1.953125 20.027344 1.953125 20.070313 C 1.953125 25.054688 5.5 29.207031 10.199219 30.15625 C 9.339844 30.390625 8.429688 30.515625 7.492188 30.515625 C 6.828125 30.515625 6.183594 30.453125 5.554688 30.328125 C 6.867188 34.410156 10.664063 37.390625 15.160156 37.472656 C 11.644531 40.230469 7.210938 41.871094 2.390625 41.871094 C 1.558594 41.871094 0.742188 41.824219 -0.0585938 41.726563 C 4.488281 44.648438 9.894531 46.347656 15.703125 46.347656 C 34.617188 46.347656 44.960938 30.679688 44.960938 17.09375 C 44.960938 16.648438 44.949219 16.199219 44.933594 15.761719 C 46.941406 14.3125 48.683594 12.5 50.0625 10.4375 Z"></path>
+                          </svg>
                         </a>
                       </li>
                       <li className="ml-4">
-                        <a href="https://www.tiktok.com/@igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="TikTok">
-                          <img src="путь_к_изображению" alt="TikTok Logo" className="w-8 h-8 fill-current" viewBox="0 0 32 32" />
+                        <a href="https://www.tiktok.com/@igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Telegram">
+                          <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M7.75 2C5.678 2 4.403 3.275 4.403 5.348v13.305C4.403 20.725 5.678 22 7.75 22h8.5c2.071 0 3.347-1.275 3.347-3.348V5.348C19.597 3.275 18.322 2 16.25 2h-8.5zm8.5 1.5h.25c1.1 0 1.847.746 1.847 1.848v13.305a1.85 1.85 0 0 1-1.847 1.848h-.25V14.5a4 4 0 1 1-8.5 0v-9h8.5zM12 10.875a3.125 3.125 0 1 0 0 6.25 3.125 3.125 0 0 0 0-6.25zm4.5-2.625a.938.938 0 1 0 0 1.875.938.938 0 0 0 0-1.875z" />
+                          </svg>
                         </a>
                       </li>
                       <li className="ml-4">
-                        <a href="https://www.instagram.com/igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Instagram">
-                          <img src="путь_к_изображению" alt="Instagram Logo" className="w-8 h-8 fill-current" viewBox="0 0 32 32" />
+                        <a href="https://www.instagram.com/igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Facebook">
+                          <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M14.023 24L14 17h-3v-3h3v-2c0-2.7 1.672-4 4.08-4 1.153 0 2.144.086 2.433.124v2.821h-1.67c-1.31 0-1.563.623-1.563 1.536V14H21l-1 3h-2.72v7h-3.257z" />
+                          </svg>
                         </a>
                       </li>
-                      <li className="ml-4">
-                        <a href="https://www.youtube.com/@igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="YouTube">
-                          <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F76c3587d-2700-4001-879e-2de5535e70fb%2F84478022-e0c4-4dd1-a7c2-923ab79dc2bf%2Ficons8-youtube-500.png?table=block&id=bc2a7254-e687-4510-824c-77ff100dcd5e&t=bc2a7254-e687-4510-824c-77ff100dcd5e" alt="YouTube Logo" className="w-8 h-8 fill-current" viewBox="0 0 32 32" />
-                        </a>
-                      </li>
+                       <li className="ml-4">
+                         <a href="https://www.youtube.com/@igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="YouTube">
+                           <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                             <path d="M29.4,7.2C29.4,7.2,29.4,7.2,29.4,7.2c-0.2-0.9-0.9-1.6-1.8-1.8c-2-0.5-10-0.5-10-0.5s-8,0-10,0.5c-0.9,0.2-1.6,0.9-1.8,1.8C5,9.2,5,16,5,16s0,6.8,0.8,8.8c0.2,0.9,0.9,1.6,1.8,1.8c2,0.5,10,0.5,10,0.5s8,0,10-0.5c0.9-0.2,1.6-0.9,1.8-1.8c0.8-2,0.8-8.8,0.8-8.8S30.2,9.2,29.4,7.2z M12.6,20.4V11.6l8.7,4.4L12.6,20.4z" />
+                           </svg>
+                         </a>
+                       </li>
                       <li className="ml-4">
                         <a href="https://www.t.me/igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Telegram">
-                          <img src="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F76c3587d-2700-4001-879e-2de5535e70fb%2F6787a0b0-dd0d-4afc-8006-10592a481df7%2Fethereum.png?table=collection&id=0585b263-9d06-4851-99de-78c8238e6ac8&t=0585b263-9d06-4851-99de-78c8238e6ac8&width=800&cache=v2" alt="Telegram Logo" className="w-8 h-8 fill-current" viewBox="0 0 32 32" />
-                        </a>
-                      </li>
-                    </ul>
-
+                          <svg className="w-8 h-8 fill-current" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M27.333,4.667c-0.387-0.147-13.147-5.013-14.667-5.6c-2.347-0.907-2.373-0.87-2.773-0.847 c-0.133,0.007-0.267,0.033-0.373,0.093c-0.12,0.067-0.227,0.153-0.32,0.26c-0.093,0.107-0.16,0.233-0.2,0.373 c-0.173,0.613-4.187,14.867-4.507,15.947c-0.387,1.307-0.387,2.387,1.093,2.833c0.653,0.2,2.68,0.813,4,1.387 c2.4,1.053,2.373,1.067,3.173,1.707c1.173,0.94,1.667,0.933,2.667,0.667c0.547-0.147,11.013-4.4,11.947-4.8 c0.987-0.42,1.813-1.867,1.813-3.133c0-2.34-0.013-4.667-0.013-4.667C32,9.993,32,9.993,32,9.333 c0-0.507-0.093-0.968-0.267-1.4C31.64,7.707,28.893,5.44,27.333,4.667z M26.067,12.867l-11.4,5.467 c-0.373,0.18-0.687,0.173-0.947-0.127c-0.147-0.167-0.347-1.253-0.42-1.553c-0.08-0.333-0.32-0.48-0.587-0.313 l-3.027,1.92l-0.893-2.767l10.88-10.12c0.373-0.347,0.72-0.273,0.873,0.1L26.067,12.867z" />
+                           </svg>
+                          </a>
+                         </li>
+                       </ul>
 
 
 
