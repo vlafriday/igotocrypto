@@ -8,7 +8,7 @@ const CONFIG = {
 
   // 首页大图英雄板块
   LANDING_HERO_TITLE_1: 'Идущий к крипте',
-  LANDING_HERO_P_1: 'Проснись... ты в матрице',
+  LANDING_HERO_P_1: 'Знать путь и пройти его — не одно и тоже',
   LANDING_HERO_BUTTON_1_TEXT: 'База знаний',
   LANDING_HERO_BUTTON_1_LINK: '#features',
   LANDING_HERO_BUTTON_2_TEXT: 'Узнать больше',
@@ -48,7 +48,7 @@ const CONFIG = {
 
   // 感言
   LANDING_TESTIMONIALS_HEADER: 'И это все?',
-  LANDING_TESTIMONIALS_P: 'Вообще, я очень много даю бесплатных, но при это колосально полезных материалов (потому что я ими сам пользуюсь). Но если ты хочешь пойти за белым кроликом и глуже окунуться в кроличью нору, то пора освободить твой разум. Но я могу лишь указать дверь. Ты сам должен выйти на волю.. Призывать не буду, выбор твой.',
+  LANDING_TESTIMONIALS_P: 'Вообще, я очень много даю бесплатных, но при это колосально полезных материалов (потому что я ими сам пользуюсь). \nНо если ты хочешь пойти за белым кроликом и глуже окунуться в кроличью нору, то пора освободить твой разум. \nНо я могу лишь указать дверь. \nТы сам должен выйти на волю.. \nДействия за тобой.',
 
   LANDING_TESTIMONIALS_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F552435b8-f15d-41bf-b8a2-713cf6d238c5%2F768328da-b823-4c95-a7ae-c9c8ea399109%2Favatar.png?table=collection&id=6759dcbc-020c-4e68-a98f-b8d5c898467e&t=6759dcbc-020c-4e68-a98f-b8d5c898467e&width=800&cache=v2',
   LANDING_TESTIMONIALS_NICKNAME: '',
