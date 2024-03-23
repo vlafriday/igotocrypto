@@ -72,26 +72,26 @@ export default function Footer() {
                     </div>
 
                     {/* 3rd block */}
-                   {/*  <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+                    <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
                         <h6 className="text-gray-800 font-medium mb-2">Ресурс</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
                                 <a href="https://docs.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Технический документ</a>
                             </li>
                             <li className="mb-2">
-                                <a href="https://docs.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Учебное пособие</a>
+                              {/*  <a href="https://docs.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Учебное пособие</a> */}
                             </li>
                             <li className="mb-2">
-                                <a href="https://blog.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Блог</a>
+                              {/*  <a href="https://blog.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Блог</a> */}
                             </li>
                             <li className="mb-2">
-                                <a href="https://blog.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Центр поддержки</a>
+                               {/* <a href="https://blog.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Центр поддержки</a> */}
                             </li>
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Сотрудничающая сторона</a>
+                                {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Сотрудничающая сторона</a> */}
                             </li>
                         </ul>
-                    </div>*/}
+                    </div>
 
                     {/* 4th block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
