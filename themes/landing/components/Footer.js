@@ -176,7 +176,8 @@ export default function Footer() {
                       </li>
                       <li className="ml-4">
                         <a href="https://www.t.me/igotocrypto" className="flex justify-center items-center text-gray-600 hover:text-gray-900 bg-white hover:bg-white-100 rounded-full shadow transition duration-150 ease-in-out" aria-label="Telegram">
-                          <img src="путь_к_изображению" alt="Telegram Logo" className="w-8 h-8 fill-current" />
+                        <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                          <image xlinkHref="https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F76c3587d-2700-4001-879e-2de5535e70fb%2F6787a0b0-dd0d-4afc-8006-10592a481df7%2Fethereum.png?table=collection&id=0585b263-9d06-4851-99de-78c8238e6ac8&t=0585b263-9d06-4851-99de-78c8238e6ac8&width=800&cache=v2" width="32" height="32" />
                         </a>
                       </li>
                     </ul>
