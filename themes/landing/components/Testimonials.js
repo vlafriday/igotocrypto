@@ -49,8 +49,13 @@ export default function Testimonials() {
                                     <LazyImage className="relative rounded-full w-20 h-20 object-cover" src={siteConfig('LANDING_TESTIMONIALS_AVATAR', null, CONFIG)} alt="Testimonial 01" />
                                 </div>
                                 <blockquote className="text-lg font-medium mb-4">
-                                    {siteConfig('LANDING_TESTIMONIALS_WORD', null, CONFIG)}
+                                  Слова не имеют никакой ценности, самое главное - действия. <br />
+                                  Только они меняют нашу реальность и позволяют двигаться вперёд.
                                 </blockquote>
+
+                              {  /*<blockquote className="text-lg font-medium mb-4">
+                                    {siteConfig('LANDING_TESTIMONIALS_WORD', null, CONFIG)}
+                                </blockquote>*/ }
                                 <cite className="block font-bold text-lg not-italic mb-1">{siteConfig('LANDING_TESTIMONIALS_NICKNAME', null, CONFIG)}</cite>
                                 <div className="text-gray-600">
                                     <span>{siteConfig('LANDING_TESTIMONIALS_ID', null, CONFIG)}</span> <a className="text-blue-600 hover:underline" href={siteConfig('LANDING_TESTIMONIALS_SOCIAL_URL', null, CONFIG)}>{siteConfig('LANDING_TESTIMONIALS_SOCIAL_NAME', null, CONFIG)}</a>
