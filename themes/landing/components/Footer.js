@@ -45,17 +45,17 @@ export default function Footer() {
                             <Logo />
                         </div>
                         <div className="text-sm text-gray-600">
-                        	{/* <Link href="/disclaimer" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Отказ от ответственности</Link> */}
+                        	 <Link href="/disclaimer" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Отказ от ответственности</Link>
                         	{/* <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Политика конфиденциальности</Link> */}
                         </div>
                     </div>
 
                     {/* 2nd block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        { /*<p className="text-gray-800 font-medium mb-2"><a href="/disclaimer" target="_blank" rel="noopener noreferrer">Отказ от ответственности</a></p>*/ }
+                        <p className="text-gray-800 font-medium mb-2"><a href="#0" target="_blank" rel="noopener noreferrer">Зарабатывай</a></p>
                         <ul className="text-sm">
                             <li className="mb-2">
-                                <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Отказ от ответственности</a>
+                                {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Отказ от ответственности</a> */}
                             </li>
                             <li className="mb-2">
                                 {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Vercel</a> */}
@@ -74,7 +74,7 @@ export default function Footer() {
 
                     {/* 3rd block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 className="text-gray-800 font-medium mb-2">Ресурс</h6>
+                        <h6 className="text-gray-800 font-medium mb-2">Торгуй</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
                                 {/* <a href="https://docs.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Технический документ</a> */}
@@ -96,7 +96,7 @@ export default function Footer() {
 
                     {/* 4th block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 className="text-gray-800 font-medium mb-2">Корпорации</h6>
+                        <h6 className="text-gray-800 font-medium mb-2">Инвестируй</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
                              {/*   <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Домашняя страница</a> */}
