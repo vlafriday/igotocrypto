@@ -72,7 +72,7 @@ export default function Footer() {
                     </div>
 
                     {/* 3rd block */}
-                    <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
+                   {/*  <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
                         <h6 className="text-gray-800 font-medium mb-2">Ресурс</h6>
                         <ul className="text-sm">
                             <li className="mb-2">
@@ -91,7 +91,7 @@ export default function Footer() {
                                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Сотрудничающая сторона</a>
                             </li>
                         </ul>
-                    </div>
+                    </div>*/}
 
                     {/* 4th block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
@@ -115,7 +115,7 @@ export default function Footer() {
                         </ul>
                     </div>
 
-                    {/* 开启邮件收集 */}
+                    {/* Включить сбор почты */}
                     {JSON.parse(siteConfig('LANDING_NEWSLETTER', null, CONFIG)) && <>
                         {/* 5th block */}
                         <div className="sm:col-span-6 md:col-span-3 lg:col-span-3">
