@@ -48,7 +48,7 @@ export default function Testimonials() {
                                     </svg>
                                     <LazyImage className="relative rounded-full w-20 h-20 object-cover" src={siteConfig('LANDING_TESTIMONIALS_AVATAR', null, CONFIG)} alt="Testimonial 01" />
                                 </div>
-                                <blockquote className="text-xl font-medium mb-4">
+                                <blockquote className="text-lg font-medium mb-4">
                                     {siteConfig('LANDING_TESTIMONIALS_WORD', null, CONFIG)}
                                 </blockquote>
                                 <cite className="block font-bold text-lg not-italic mb-1">{siteConfig('LANDING_TESTIMONIALS_NICKNAME', null, CONFIG)}</cite>
