@@ -19,14 +19,14 @@ const NavPostList = (props) => {
     const categoryName = item?.category ? item?.category : '' // 将category转换为字符串
 
     let existingGroup = null
-    // 开启自动分组排序
-    if (siteConfig('GITBOOK_AUTO_SORT', true, CONFIG)) {
-      existingGroup = groups.find(group => group.category === categoryName) // 搜索同名的最后一个分组
+    // Включение автоматической сортировки групп
+    if (siteConfig('GITBOOK_AUTO_SORT', false, CONFIG)) {
+      existingGroup = groups.find(group => group.category === categoryName) // Поиск последней подгруппы с таким же названием
     } else {
-      existingGroup = groups[groups.length - 1] // 获取最后一个分组
+      existingGroup = groups[groups.length - 1] // Получите последнюю группировку
     }
 
-    // 添加数据
+    // Добавить данные
     if (existingGroup && existingGroup.category === categoryName) {
       existingGroup.items.push(item)
     } else {
@@ -48,7 +48,7 @@ const NavPostList = (props) => {
     return null
   })
 
-  // 如果都没有选中默认打开第一个
+  // Если ни один из них не отмечен, по умолчанию открывается первый.
   if (!selectedSth && groupedArray && groupedArray?.length > 0) {
     groupedArray[0].selected = true
   }
@@ -57,7 +57,7 @@ const NavPostList = (props) => {
     return <NavPostListEmpty />
   } else {
     return <div id='posts-wrapper' className='w-full flex-grow space-y-0.5 tracking-wider'>
-            {/* 文章列表 */}
+            {/* Список статей */}
             {groupedArray?.map((group, index) => <NavPostItem key={index} group={group} onHeightChange={props.onHeightChange}/>)}
         </div>
   }
