@@ -1,7 +1,7 @@
 const CONFIG = {
 
-  LANDING_HEADER_BUTTON_1_TITLE: 'Блог',
-  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.online/category/%D0%A1%D1%82%D0%B0%D1%82%D1%8C%D0%B8?theme=hexo',
+  LANDING_HEADER_BUTTON_1_TITLE: 'Новости',
+  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.online/category/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8?theme=hexo',
 
   LANDING_HEADER_BUTTON_2_TITLE: 'Сообщество',
   LANDING_HEADER_BUTTON_2_URL: 'https://t.me/igotocrypto',
@@ -43,7 +43,7 @@ const CONFIG = {
   LANDING_FEATURES_BLOCK_4_P: 'Подводные камни?',
   LANDING_FEATURES_BLOCK_5_TITLE: 'Инвестирование',
   LANDING_FEATURES_BLOCK_5_P: 'Купил и забыл?',
-  LANDING_FEATURES_BLOCK_6_TITLE: 'P2E. Airdrop',
+  LANDING_FEATURES_BLOCK_6_TITLE: 'Airdrop. P2E',
   LANDING_FEATURES_BLOCK_6_P: 'И многое другое тут',
 
   // 感言
