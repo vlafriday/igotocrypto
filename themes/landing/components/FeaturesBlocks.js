@@ -69,7 +69,7 @@ export default function FeaturesBlocks() {
               </a>
 
               {/* 3rd item */}
-              <a href="https://igotocrypto.online/tag/ido?theme=hexo" target="_blank" rel="noopener noreferrer">
+              <a href="https://igotocrypto.online/tag/IDO?theme=hexo" target="_blank" rel="noopener noreferrer">
               <div className="relative flex flex-col items-center p-6 bg-white rounded-md shadow-xl border">
                 <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <g fill="none" fillRule="evenodd">
@@ -88,7 +88,7 @@ export default function FeaturesBlocks() {
               </a>
 
               {/* 4th item */}
-              <a href="https://igotocrypto.online/tag/launchpad?theme=hexo" target="_blank" rel="noopener noreferrer">
+              <a href="https://igotocrypto.online/tag/Launchpad?theme=hexo" target="_blank" rel="noopener noreferrer">
               <div className="relative flex flex-col items-center p-6 bg-white rounded-md shadow-xl border">
                 <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <g fill="none" fillRule="evenodd">
@@ -107,7 +107,7 @@ export default function FeaturesBlocks() {
               </a>
 
               {/* 5th item */}
-              <a href="https://igotocrypto.online/tag/%D0%B8%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B8?theme=hexo" target="_blank" rel="noopener noreferrer">
+              <a href="https://igotocrypto.online/tag/%D0%98%D0%BD%D0%B2%D0%B5%D1%81%D1%82%D0%B8%D1%86%D0%B8%D0%B8?theme=hexo" target="_blank" rel="noopener noreferrer">
               <div className="relative flex flex-col items-center p-6 bg-white rounded-md shadow-xl border">
                 <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <g fill="none" fillRule="evenodd">
@@ -125,7 +125,7 @@ export default function FeaturesBlocks() {
               </a>
 
               {/* 6th item */}
-              <a href="https://igotocrypto.online/tag/airdrop?theme=hexo" target="_blank" rel="noopener noreferrer">
+              <a href="https://igotocrypto.online/tag/Airdrop?theme=hexo" target="_blank" rel="noopener noreferrer">
               <div className="relative flex flex-col items-center p-6 bg-white rounded-md shadow-xl border">
                 <svg className="w-16 h-16 p-1 -mt-1 mb-2" viewBox="0 0 64 64" xmlns="http://www.w3.org/2000/svg">
                   <g fill="none" fillRule="evenodd">
