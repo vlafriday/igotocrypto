@@ -45,7 +45,7 @@ export default function Footer() {
                             <Logo />
                         </div>
                         <div className="text-sm text-gray-600">
-                        	 <Link href="/disclaimer" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Отказ от ответственности</Link>
+                        	 <Link href="/disclaimer" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Отказ от ответственности</Link>
                         	{/* <Link href="/privacy-policy" className="text-gray-600 hover:text-gray-900 hover:underline transition duration-150 ease-in-out">Политика конфиденциальности</Link> */}
                         </div>
                     </div>
