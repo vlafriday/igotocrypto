@@ -20,7 +20,7 @@ const NavPostList = (props) => {
 
     let existingGroup = null
     // Включение автоматической сортировки групп
-    if (siteConfig('GITBOOK_AUTO_SORT', false, CONFIG)) {
+    if (siteConfig('GITBOOK_AUTO_SORT', true, CONFIG)) {
       existingGroup = groups.find(group => group.category === categoryName) // Поиск последней подгруппы с таким же названием
     } else {
       existingGroup = groups[groups.length - 1] // Получите последнюю группировку
