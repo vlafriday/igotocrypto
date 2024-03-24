@@ -56,10 +56,10 @@ export default function Footer() {
                      {/*    <h6 className="text-gray-800 font-medium mb-2">Инвестируй</h6> */}
                         <ul className="text-sm">
                             <li className="mb-2">
-                                 <a href="/about?theme=gitbook" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"> </a>
+                                 <a  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out"> </a>
                             </li>
                             <li className="mb-2">
-                                 <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Инвестируй</a>
+                                 <a href="/about?theme=gitbook" target="_blank" rel="noopener noreferrer" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Инвестируй</a>
                             </li>
                             <li className="mb-2">
                                 {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Github</a> */}
