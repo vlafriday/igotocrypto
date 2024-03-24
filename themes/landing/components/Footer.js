@@ -53,10 +53,10 @@ export default function Footer() {
                     {/* 2nd block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
                         {/* <p className="text-gray-800 font-medium mb-2"><a href="#0" target="_blank" rel="noopener noreferrer">Зарабатывай</a></p> */}
-                     {/*    <span className="text-gray-800 font-medium mb-2">Инвестируй</span> */}
+                     {/*    <h6 className="text-gray-800 font-medium mb-2">Инвестируй</h6> */}
                         <ul className="text-sm">
                             <li className="mb-2">
-                                 <a  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Отказ от ответственности</a>
+                                 <a  className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Инвестируй</a>
                             </li>
                             <li className="mb-2">
                                 {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Vercel</a> */}
@@ -75,10 +75,10 @@ export default function Footer() {
 
                     {/* 3rd block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 className="text-gray-800 font-medium mb-2">Торгуй</h6>
+                     {/*    <h6 className="text-gray-800 font-medium mb-2">Торгуй</h6> */}
                         <ul className="text-sm">
                             <li className="mb-2">
-                                {/* <a href="https://docs.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Технический документ</a> */}
+                                <a href="https://docs.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Торгуй</a>
                             </li>
                             <li className="mb-2">
                               {/*  <a href="https://docs.tangly1024.com" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Учебное пособие</a> */}
@@ -97,10 +97,10 @@ export default function Footer() {
 
                     {/* 4th block */}
                     <div className="sm:col-span-6 md:col-span-3 lg:col-span-2">
-                        <h6 className="text-gray-800 font-medium mb-2">Зарабатывай</h6>
+                        {/* <h6 className="text-gray-800 font-medium mb-2">Зарабатывай</h6> */}
                         <ul className="text-sm">
                             <li className="mb-2">
-                             {/*   <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Домашняя страница</a> */}
+                               <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">Зарабатывай</a>
                             </li>
                             <li className="mb-2">
                                {/* <a href="#0" className="text-gray-600 hover:text-gray-900 transition duration-150 ease-in-out">О нас</a> */}
