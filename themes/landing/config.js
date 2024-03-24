@@ -1,7 +1,7 @@
 const CONFIG = {
 
   LANDING_HEADER_BUTTON_1_TITLE: 'Новости',
-  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.online/category/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8?theme=hexo',
+  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.online/tag/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8?theme=hexo',
 
   LANDING_HEADER_BUTTON_2_TITLE: 'Сообщество',
   LANDING_HEADER_BUTTON_2_URL: 'https://t.me/igotocrypto',
@@ -11,7 +11,7 @@ const CONFIG = {
   LANDING_HERO_P_1: 'Знать путь и пройти его — не одно и тоже.',
   LANDING_HERO_BUTTON_1_TEXT: 'База знаний',
   LANDING_HERO_BUTTON_1_LINK: '#features',
-  LANDING_HERO_BUTTON_2_TEXT: 'Узнать больше',
+  LANDING_HERO_BUTTON_2_TEXT: 'Пройти путь',
   LANDING_HERO_BUTTON_2_LINK: '#pricing',
   LANDING_HERO_VIDEO_IMAGE: 'https://i.ytimg.com/vi/jwRgxGL1gic/maxresdefault.jpg',
      HERO_VIDEO_URL: 'https://www.youtube.com/watch?v=D8aGQW7ynsg',
@@ -27,7 +27,7 @@ const CONFIG = {
   LANDING_FEATURES_CARD_1_P: 'У вас есть шанс зайти в рынок крипты и заработать депозит на разных направлениях уже этой весной',
   LANDING_FEATURES_CARD_2_TITLE: 'Различные варианты заработка',
   LANDING_FEATURES_CARD_2_P: 'Можно торговать, инвестировать в новые проекты, заниматься майнингом или стейкингом и т.д.',
-  LANDING_FEATURES_CARD_3_TITLE: 'Тут нет потолка по заработку',
+  LANDING_FEATURES_CARD_3_TITLE: 'Нет потолка по заработку',
   LANDING_FEATURES_CARD_3_P: 'Всё зависит от тебя, способа заработка, вложений. Можно зарабатывать миллионы, а можно ничего.',
 
   // 特性介绍2
