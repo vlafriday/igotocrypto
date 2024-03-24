@@ -53,14 +53,17 @@ export default function Hero() {
                     </div>
 
                     {/* Hero image */}
-                    <ModalVideo
+                    <a href={siteConfig('HERO_VIDEO_URL', null, CONFIG)} target="_blank" rel="noopener noreferrer">
+                      <ModalVideo
                         thumb={siteConfig('LANDING_HERO_VIDEO_IMAGE', null, CONFIG)}
                         thumbWidth={768}
                         thumbHeight={432}
                         thumbAlt={siteConfig('HERO_HEADER_1', null, CONFIG)}
-                        video="https://youtu.be/D8aGQW7ynsg"
+                        video={siteConfig('HERO_VIDEO_URL', null, CONFIG)}
                         videoWidth={1920}
-                        videoHeight={1080} />
+                        videoHeight={1080}
+                      />
+                    </a>
 
                 </div>
 
