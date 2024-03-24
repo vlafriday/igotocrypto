@@ -58,7 +58,7 @@ export default function Hero() {
                         thumbWidth={768}
                         thumbHeight={432}
                         thumbAlt={siteConfig('HERO_HEADER_1', null, CONFIG)}
-                        video={siteConfig('HERO_VIDEO_URL', null, CONFIG)}
+                        video="https://youtu.be/D8aGQW7ynsg"
                         videoWidth={1920}
                         videoHeight={1080} />
 
