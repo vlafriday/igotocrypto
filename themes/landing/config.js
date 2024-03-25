@@ -71,13 +71,13 @@ const CONFIG = {
 
   LANDING_PRICING_2_TITLE: 'Криптовалюта с нуля',
   LANDING_PRICING_2_PRICE: '90$',
-  LANDING_PRICING_2_CONTENT: '⠀⠀⠀⠀⠀⠀⠀⠀+, Обущающие эфиры, Графика, Методички, Курсы, Закрытое сообщество',
+  LANDING_PRICING_2_CONTENT: '⠀⠀⠀⠀⠀⠀⠀⠀⠀+, Обущающие эфиры, Графика, Методички, Курсы, Закрытое сообщество',
   LANDING_PRICING_2_BUTTON: 'Хочу учиться',
   LANDING_PRICING_2_URL: 'https://igotocrypto.online/payment',
 
   LANDING_PRICING_3_TITLE: 'Менторство',
   LANDING_PRICING_3_PRICE: '590$',
-  LANDING_PRICING_3_CONTENT: '⠀⠀⠀⠀⠀⠀⠀⠀+⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀, Еженедельные созвоны, Обзоры рынка, Личное ведение, Создание инвест портфеля, Мои сделки',
+  LANDING_PRICING_3_CONTENT: '⠀⠀⠀⠀⠀⠀⠀⠀⠀+, Еженедельные созвоны, Обзоры рынка, Личное ведение, Создание инвест портфеля, Мои сделки',
   LANDING_PRICING_3_BUTTON: 'Хочу результат',
   LANDING_PRICING_3_URL: 'https://igotocrypto.online/vip',
 
