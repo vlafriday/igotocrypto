@@ -77,7 +77,7 @@ const CONFIG = {
 
   LANDING_PRICING_3_TITLE: 'Менторство',
   LANDING_PRICING_3_PRICE: '590$',
-  LANDING_PRICING_3_CONTENT: '+, Еженедельные созвоны, Обзоры рынка, Личное ведение, Создание инвест портфеля, Мои сделки',
+  LANDING_PRICING_3_CONTENT: '   +   , Еженедельные созвоны, Обзоры рынка, Личное ведение, Создание инвест портфеля, Мои сделки',
   LANDING_PRICING_3_BUTTON: 'Хочу результат',
   LANDING_PRICING_3_URL: 'https://igotocrypto.online/vip',
 
