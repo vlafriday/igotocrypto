@@ -1,4 +1,3 @@
-
 'use client'
 
 /**
@@ -22,6 +21,7 @@ import { isBrowser } from '@/lib/utils'
 import { siteConfig } from '@/lib/config'
 import { Pricing } from './components/Pricing'
 import { useEffect } from 'react'
+import { BackToTopButton } from './components/BackToTopButton'
 
 /**
  * 布局框架
@@ -105,6 +105,24 @@ const LayoutSlug = (props) => {
     </>
 }
 
+// Adding your desired code here
+const LayoutSlugWithThemeStarter = (props) => {
+  const { children } = props
+
+  return <div id='theme-starter' className={`${siteConfig('FONT_STYLE')} min-h-screen flex flex-col dark:bg-[#212b36] scroll-smooth`}>
+            <Style/>
+            <NavBar {...props}/>
+
+            {children}
+
+            <Footer {...props}/>
+
+            {/* 悬浮按钮 */}
+            <BackToTopButton/>
+            {/* <MadeWithButton/> */}
+        </div>
+}
+
 // 其他布局暂时留空
 const LayoutSearch = (props) => <><Hero /></>
 const LayoutArchive = (props) => <><Hero /></>
@@ -120,6 +138,7 @@ export {
   LayoutSearch,
   LayoutArchive,
   LayoutSlug,
+  LayoutSlugWithThemeStarter, // Include this in the export list
   Layout404,
   LayoutPostList,
   LayoutCategoryIndex,
