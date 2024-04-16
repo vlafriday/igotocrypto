@@ -5,8 +5,8 @@ const CONFIG = {
 
   // 首页顶部通知条滚动内容，如不需要可以留空 []
   HEO_NOTICE_BAR: [
-    { title: 'Добро пожаловать в мой блог', url: 'https://www.vlafriday.space/' },
-    { title: 'Добро пожаловать в мой мир', url: 'https://www.vlafriday.space/' }
+    { title: 'Добро пожаловать в мой блог', url: 'https://www.igotocrypto.com/' },
+    { title: 'Добро пожаловать в мой мир', url: 'https://www.igotocrypto.com/' }
   ],
 
   // Левый и правый компоненты области героя поменялись местами
@@ -20,7 +20,7 @@ const CONFIG = {
   HEO_HERO_TITLE_3: 'Тот самый Фрайдей',
   HEO_HERO_TITLE_4: 'Тут я просто показываю',
   HEO_HERO_TITLE_5: 'Мой путь',
-  HEO_HERO_TITLE_LINK: 'https://www.vlafriday.space/my-impossible-list',
+  HEO_HERO_TITLE_LINK: 'https://www.igotocrypto.com',
 
   // В разделе "Герои" отображаются три главные категории
   HEO_HERO_CATEGORY_1: { title: 'Жизнь', url: '/tag/Life' },
@@ -41,8 +41,8 @@ const CONFIG = {
     '🏃 Энтузиаст',
     '🤖️ Инвестор'
   ],
-  HEO_INFO_CARD_URL: 'https://www.youtube.com/@vlafriday', // Ссылка на кнопку внизу профиля
-  HEO_INFO_CARD_URL2: 'https://www.instagram.com/vlafriday', // Ссылка на кнопку внизу профиля
+  HEO_INFO_CARD_URL: 'https://www.youtube.com/@igotocrypto', // Ссылка на кнопку внизу профиля
+  HEO_INFO_CARD_URL2: 'https://www.instagram.com/igotocrypto', // Ссылка на кнопку внизу профиля
 
   // 用户技能图标
   HEO_GROUP_ICONS: [
@@ -108,7 +108,7 @@ const CONFIG = {
   HEO_SOCIAL_CARD_TITLE_1: 'канал связи',
   HEO_SOCIAL_CARD_TITLE_2: 'Присоединяйтесь к нашему сообществу, чтобы обсуждать и делиться',
   HEO_SOCIAL_CARD_TITLE_3: 'Нажмите, чтобы присоединиться к сообществу',
-  HEO_SOCIAL_CARD_URL: 'https://www.vlafriday.space',
+  HEO_SOCIAL_CARD_URL: 'https://www.igotocrypto.com',
 
   // *****  以下配置无效，只是预留开发 ****
   // 菜单配置

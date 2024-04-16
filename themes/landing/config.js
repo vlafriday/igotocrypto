@@ -53,8 +53,8 @@ const CONFIG = {
   LANDING_TESTIMONIALS_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F552435b8-f15d-41bf-b8a2-713cf6d238c5%2F768328da-b823-4c95-a7ae-c9c8ea399109%2Favatar.png?table=collection&id=6759dcbc-020c-4e68-a98f-b8d5c898467e&t=6759dcbc-020c-4e68-a98f-b8d5c898467e&width=800&cache=v2',
   LANDING_TESTIMONIALS_NICKNAME: '',
   LANDING_TESTIMONIALS_ID: 'Тот самый Фрайдей',
-  LANDING_TESTIMONIALS_SOCIAL_NAME: '@vlafriday',
-  LANDING_TESTIMONIALS_SOCIAL_URL: 'https://vlafriday.space',
+  LANDING_TESTIMONIALS_SOCIAL_NAME: '@igotocrypto',
+  LANDING_TESTIMONIALS_SOCIAL_URL: 'https://igotocrypto.com',
   LANDING_TESTIMONIALS_WORD: 'Слова не имеют никакой ценности, самое главное - действия. Только они меняют нашу реальность и позволяют двигаться вперёд.',
 
   LANDING_POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
