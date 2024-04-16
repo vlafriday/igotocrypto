@@ -19,7 +19,7 @@ const BLOG = {
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // Поддержка типа меню, начиная с версии 3.12.0, темы будут постепенно поддерживать гибкую конфигурацию вторичного меню, вместо оригинального типа страницы, эта конфигурация является тестовой функцией, по умолчанию выключена.
 
-  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'igotocrypto', // Ваш никнейм, например vlafriday.
+  AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'igotocrypto', // Ваш никнейм, например igotocrypto.
   BIO: process.env.NEXT_PUBLIC_BIO || 'Идущий к крипте', // об авторе
   LINK: process.env.NEXT_PUBLIC_LINK || 'https://igotocrypto.com', // адрес веб-сайта
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'igotocrypto, блог, Идущий к крипте, криптовалюта, инвестиции, заработок, крипта', // Ключевые слова сайта, разделенные английскими запятыми
