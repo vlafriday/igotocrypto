@@ -2,7 +2,7 @@ import Link from 'next/link'
 
 export default function Logo() {
   return (
-        <Link href="https://www.igotocrypto.online">
+        <Link href="https://www.igotocrypto.com">
               {/* Вместо текущего содержимого svg вставьте ваш логотип */}
               <svg className="w-8 h-8" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
                 {/* Здесь вставьте код вашего логотипа */}

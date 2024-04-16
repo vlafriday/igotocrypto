@@ -21,7 +21,7 @@ const BLOG = {
 
   AUTHOR: process.env.NEXT_PUBLIC_AUTHOR || 'igotocrypto', // Ваш никнейм, например vlafriday.
   BIO: process.env.NEXT_PUBLIC_BIO || 'Идущий к крипте', // об авторе
-  LINK: process.env.NEXT_PUBLIC_LINK || 'https://igotocrypto.online', // адрес веб-сайта
+  LINK: process.env.NEXT_PUBLIC_LINK || 'https://igotocrypto.com', // адрес веб-сайта
   KEYWORDS: process.env.NEXT_PUBLIC_KEYWORD || 'igotocrypto, блог, Идущий к крипте, криптовалюта, инвестиции, заработок, крипта', // Ключевые слова сайта, разделенные английскими запятыми
 
   // Социальная ссылка. Если она не требуется, оставьте ее пустой, например CONTACT_WEIBO:''

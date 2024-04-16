@@ -1,7 +1,7 @@
 const CONFIG = {
 
   LANDING_HEADER_BUTTON_1_TITLE: 'Новости',
-  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.online/tag/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8?theme=hexo',
+  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.com/tag/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8?theme=hexo',
 
   LANDING_HEADER_BUTTON_2_TITLE: 'Сообщество',
   LANDING_HEADER_BUTTON_2_URL: 'https://t.me/igotocrypto',
@@ -67,19 +67,19 @@ const CONFIG = {
   LANDING_PRICING_1_PRICE: 'БЕСПЛАТНО',
   LANDING_PRICING_1_CONTENT: 'Все мои материалы, Статьи, Видео, Книги, Открытый телеграм канал',
   LANDING_PRICING_1_BUTTON: 'Начало',
-  LANDING_PRICING_1_URL: 'https://igotocrypto.online/about?theme=gitbook',
+  LANDING_PRICING_1_URL: 'https://igotocrypto.com/about?theme=gitbook',
 
   LANDING_PRICING_2_TITLE: 'Криптовалюта с нуля',
   LANDING_PRICING_2_PRICE: '90$',
   LANDING_PRICING_2_CONTENT: '⠀⠀⠀⠀⠀⠀⠀⠀⠀+, Обущающие эфиры, Графика, Методички, Курсы, Закрытое сообщество',
   LANDING_PRICING_2_BUTTON: 'Хочу учиться',
-  LANDING_PRICING_2_URL: 'https://igotocrypto.online/payment',
+  LANDING_PRICING_2_URL: 'https://igotocrypto.com/payment',
 
   LANDING_PRICING_3_TITLE: 'Менторство',
   LANDING_PRICING_3_PRICE: '590$',
   LANDING_PRICING_3_CONTENT: '⠀⠀⠀⠀⠀⠀⠀⠀⠀+, Еженедельные созвоны, Обзоры рынка, Личное ведение, Создание инвест портфеля, Мои сделки',
   LANDING_PRICING_3_BUTTON: 'Хочу результат',
-  LANDING_PRICING_3_URL: 'https://igotocrypto.online/vip',
+  LANDING_PRICING_3_URL: 'https://igotocrypto.com/vip',
 
   LANDING_NEWSLETTER: process.env.NEXT_PUBLIC_THEME_LANDING_NEWSLETTER || false // Нужно ли включать подписку на почту Пожалуйста, сначала настройте функцию mailchimp https://docs.tangly1024.com/article/notion-next-mailchimp
 }
