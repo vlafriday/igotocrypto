@@ -13,7 +13,7 @@ const CONFIG = {
   LANDING_HERO_BUTTON_1_LINK: '#features',
   LANDING_HERO_BUTTON_2_TEXT: 'Пройти путь',
   LANDING_HERO_BUTTON_2_LINK: '#pricing',
-  LANDING_HERO_VIDEO_IMAGE: 'https://i.ytimg.com/vi/-pbs-MHWcTE/maxresdefault.jpg',
+  LANDING_HERO_VIDEO_IMAGE: 'https://i.ibb.co/rydnKJp/maxresdefault-1.jpg',
      // HERO_VIDEO_URL: 'https://youtu.be/LTvCJ5UG4pU',
   LANDING_HERO_VIDEO_IFRAME: 'https://www.youtube.com/embed/-pbs-MHWcTE',
   LANDING_HERO_VIDEO_TIPS: 'Смотреть полное видео',
