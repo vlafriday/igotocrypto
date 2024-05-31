@@ -1,7 +1,9 @@
 const CONFIG = {
 
-  LANDING_HEADER_BUTTON_1_TITLE: 'Новости',
-  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.com/tag/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8?theme=hexo',
+  LANDING_HEADER_BUTTON_1_TITLE: 'Листинг HAMSTER KOMBAT',
+  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.com/preparing-for-listing-hamster-kombat',
+//  LANDING_HEADER_BUTTON_1_TITLE: 'Новости',
+//  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.com/tag/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8?theme=hexo',
 
   LANDING_HEADER_BUTTON_2_TITLE: 'Сообщество',
   LANDING_HEADER_BUTTON_2_URL: 'https://t.me/igotocrypto',
