@@ -6,7 +6,7 @@ const CONFIG = {
 //  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.com/tag/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8?theme=hexo',
 
   LANDING_HEADER_BUTTON_2_TITLE: 'Сообщество',
-  LANDING_HEADER_BUTTON_2_URL: 'https://t.me/igotocrypto',
+  LANDING_HEADER_BUTTON_2_URL: 'https://t.me/+bpgBpFSD4R03OTIy',
 
   // 首页大图英雄板块
   LANDING_HERO_TITLE_1: 'Идущий к крипте',
@@ -52,18 +52,18 @@ const CONFIG = {
   LANDING_TESTIMONIALS_HEADER: 'И это все?',
   LANDING_TESTIMONIALS_P: 'Я очень много даю бесплатных, но при это колоссально полезных материалов<br/>(потому что я ими сам пользуюсь).<br/>Но если ты хочешь пойти за белым кроликом,<br/>глубже окунуться в кроличью нору,<br/>то пора освободить твой разум.<br/>Но я могу лишь указать дверь.<br/>Ты сам должен выйти на волю...',
 
-  LANDING_TESTIMONIALS_AVATAR: 'https://www.notion.so/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F552435b8-f15d-41bf-b8a2-713cf6d238c5%2F768328da-b823-4c95-a7ae-c9c8ea399109%2Favatar.png?table=collection&id=6759dcbc-020c-4e68-a98f-b8d5c898467e&t=6759dcbc-020c-4e68-a98f-b8d5c898467e&width=800&cache=v2',
+  LANDING_TESTIMONIALS_AVATAR: 'https://i.ibb.co/HKbXg57/image.png',
   LANDING_TESTIMONIALS_NICKNAME: '',
-  LANDING_TESTIMONIALS_ID: 'Тот самый Фрайдей',
-  LANDING_TESTIMONIALS_SOCIAL_NAME: '@igotocrypto',
-  LANDING_TESTIMONIALS_SOCIAL_URL: 'https://igotocrypto.com',
+  LANDING_TESTIMONIALS_ID: 'Арсен Маркарян',
+  LANDING_TESTIMONIALS_SOCIAL_NAME: '@arsenmarkarian',
+  LANDING_TESTIMONIALS_SOCIAL_URL: 'https://t.me/arsenmarkarian',
   LANDING_TESTIMONIALS_WORD: 'Слова не имеют никакой ценности, самое главное - действия. Только они меняют нашу реальность и позволяют двигаться вперёд.',
 
   LANDING_POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
   LANDING_POST_REDIRECT_URL: process.env.NEXT_PUBLIC_POST_REDIRECT_URL || 'https://igotocrypto.com', // 重定向网站地址
 
   LANDING_PRICING_TITLE: 'Что выберешь ты?',
-  LANDING_PRICING_P: "Примешь <strong class='font-bold text-blue-500'>синюю таблетку</strong> — получишь всю базу знаний.<br/>Но путь придется проходить самому в одиночку.<br/> Примешь <strong class='font-bold text-red-500'>красную таблетку</strong> — войдешь в страну чудес.<br/>Я покажу тебе, глубока ли кроличья нора 🐇<br/> ",
+  LANDING_PRICING_P: "Примешь <strong class='font-bold text-blue-500'>синюю таблетку</strong> — получишь всю базу знаний.<br/>Но путь придется проходить самому в одиночку.<br/> Примешь <strong class='font-bold text-red-500'>красную таблетку</strong> — войдешь в страну чудес.<br/>Я покажу тебе мир криптовалют, как там зарабатывать и насколько глубока кроличья нора 🐇<br/> ",
 
   LANDING_PRICING_1_TITLE: 'Полная база',
   LANDING_PRICING_1_PRICE: 'БЕСПЛАТНО',
@@ -73,13 +73,13 @@ const CONFIG = {
 
   LANDING_PRICING_2_TITLE: 'Криптовалюта с нуля',
   LANDING_PRICING_2_PRICE: '90$',
-  LANDING_PRICING_2_CONTENT: '⠀⠀⠀⠀⠀⠀⠀⠀⠀+, Обущающие эфиры, Графика, Методички, Курсы, Закрытое сообщество',
+  LANDING_PRICING_2_CONTENT: '⠀⠀⠀⠀⠀⠀⠀⠀⠀+, Обучающие эфиры, Инфографика, Методички, Слив курсов, Закрытое сообщество',
   LANDING_PRICING_2_BUTTON: 'Хочу учиться',
   LANDING_PRICING_2_URL: 'https://igotocrypto.com/payment',
 
   LANDING_PRICING_3_TITLE: 'Менторство',
   LANDING_PRICING_3_PRICE: '590$',
-  LANDING_PRICING_3_CONTENT: '⠀⠀⠀⠀⠀⠀⠀⠀⠀+, Еженедельные созвоны, Обзоры рынка, Личное ведение, Создание инвест портфеля, Мои сделки',
+  LANDING_PRICING_3_CONTENT: '⠀⠀⠀⠀⠀⠀⠀⠀⠀+, Еженедельные созвоны, Обзоры рынка, Личное ведение до результата, Создание инвест портфеля, Мои сделки',
   LANDING_PRICING_3_BUTTON: 'Хочу результат',
   LANDING_PRICING_3_URL: 'https://igotocrypto.com/vip',
 
