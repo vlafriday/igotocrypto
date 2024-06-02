@@ -68,7 +68,7 @@ const CONFIG = {
   LANDING_PRICING_1_TITLE: 'Полная база',
   LANDING_PRICING_1_PRICE: 'БЕСПЛАТНО',
   LANDING_PRICING_1_CONTENT: 'Все мои материалы, Статьи, Видео, Книги, Открытый телеграм канал',
-  LANDING_PRICING_1_BUTTON: 'Начало',
+  LANDING_PRICING_1_BUTTON: 'Начало пути',
   LANDING_PRICING_1_URL: 'https://igotocrypto.com/about?theme=gitbook',
 
   LANDING_PRICING_2_TITLE: 'Криптовалюта с нуля',
