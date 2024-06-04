@@ -56,7 +56,7 @@ const CONFIG = {
   LANDING_TESTIMONIALS_NICKNAME: '',
   LANDING_TESTIMONIALS_ID: 'Арсен Маркарян',
   LANDING_TESTIMONIALS_SOCIAL_NAME: '@arsenmarkarian',
-  LANDING_TESTIMONIALS_SOCIAL_URL: 'https://t.me/arsenmarkarian',
+  LANDING_TESTIMONIALS_SOCIAL_URL: 'https://t.me/arsenios_bot?start=NDI0MDkwOTc4',
   LANDING_TESTIMONIALS_WORD: 'Слова не имеют никакой ценности, самое главное - действия. Только они меняют нашу реальность и позволяют двигаться вперёд.',
 
   LANDING_POST_REDIRECT_ENABLE: process.env.NEXT_PUBLIC_POST_REDIRECT_ENABLE || false, // 是否开启文章地址重定向 ； 用于迁移旧网站域名
@@ -68,7 +68,7 @@ const CONFIG = {
   LANDING_PRICING_1_TITLE: 'Полная база',
   LANDING_PRICING_1_PRICE: 'БЕСПЛАТНО',
   LANDING_PRICING_1_CONTENT: 'Все мои материалы, Статьи, Видео, Книги, Открытый телеграм канал',
-  LANDING_PRICING_1_BUTTON: 'Начало пути',
+  LANDING_PRICING_1_BUTTON: 'В начало пути',
   LANDING_PRICING_1_URL: 'https://igotocrypto.com/about?theme=gitbook',
 
   LANDING_PRICING_2_TITLE: 'Криптовалюта с нуля',
