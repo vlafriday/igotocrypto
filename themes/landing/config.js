@@ -1,7 +1,7 @@
 const CONFIG = {
 
-  LANDING_HEADER_BUTTON_1_TITLE: 'Листинг HAMSTER KOMBAT',
-  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.com/preparing-for-listing-hamster-kombat',
+  LANDING_HEADER_BUTTON_1_TITLE: 'Подготовка к листингу',
+  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.com/preparing-for-listing',
 //  LANDING_HEADER_BUTTON_1_TITLE: 'Новости',
 //  LANDING_HEADER_BUTTON_1_URL: 'https://igotocrypto.com/tag/%D0%9D%D0%BE%D0%B2%D0%BE%D1%81%D1%82%D0%B8?theme=hexo',
 
@@ -15,9 +15,9 @@ const CONFIG = {
   LANDING_HERO_BUTTON_1_LINK: '#features',
   LANDING_HERO_BUTTON_2_TEXT: 'Пройти путь',
   LANDING_HERO_BUTTON_2_LINK: '#pricing',
-  LANDING_HERO_VIDEO_IMAGE: 'https://i.ibb.co/rydnKJp/maxresdefault-1.jpg',
+  LANDING_HERO_VIDEO_IMAGE: 'https://i.ibb.co/kxqdCnf/okxx-1.png',
      // HERO_VIDEO_URL: 'https://youtu.be/LTvCJ5UG4pU',
-  LANDING_HERO_VIDEO_IFRAME: 'https://www.youtube.com/embed/7eRl1UDHM9A',
+  LANDING_HERO_VIDEO_IFRAME: 'https://www.youtube.com/embed/ab9zvAzgElg',
   LANDING_HERO_VIDEO_TIPS: 'Смотреть полное видео',
 
   // 特性介绍
